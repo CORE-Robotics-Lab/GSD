@@ -1,0 +1,2860 @@
+logs_data/28hc/igabl/run_2023-09-11_23-50-57/run_947d5_00000_0_clip_discriminator=0,cns_cf=0.0000,dr_cc=0.7000,info_loss_type=bce,offset_reward=0,seed=1_2023-09-11_23-50-57/results_IL/HCCustom/INFOGSDR_PPO/0_HCCustom_v0_type1-INFOGSDR_PPO-100-100-relu_cr0_no0_es=n_sr0000_rc0.70_reg00_ds0.001_s1/09.11_23.51.54/models/ckpt_policy_T10000000.pt
+0_hccustom_v0_type1-infogsdr_ppo-100-100-relu_cr0_no0_es=n_sr0000_rc0.70_reg00_ds0.001_s1
+v_data: 0
+Inferred from ckptpath name:
+il_method: infogsdr
+rl_method: ppo
+activation: relu
+hidden_size: [100, 100]
+norm_obs: 0
+info_loss_type: None
+encode_sampling: normal
+normalize_code: 0
+tl_emb: 0
+TRAINED C_DATA: 1
+ARG C_DATA: 1
+Using (100, 100) relu networks.
+State dim: 17, action dim: 6, action bound 1
+args.encode_dim: 2
+Policy model is loaded from logs_data/28hc/igabl/run_2023-09-11_23-50-57/run_947d5_00000_0_clip_discriminator=0,cns_cf=0.0000,dr_cc=0.7000,info_loss_type=bce,offset_reward=0,seed=1_2023-09-11_23-50-57/results_IL/HCCustom/INFOGSDR_PPO/0_HCCustom_v0_type1-INFOGSDR_PPO-100-100-relu_cr0_no0_es=n_sr0000_rc0.70_reg00_ds0.001_s1/09.11_23.51.54/models/ckpt_policy_T10000000.pt
+***** Max Ep Steps: 1000 args.seed 1 test_seed 2 *****
+*** budgets = [10, 20, 30, 40, 50] NPARALLEL = 50 n_test_episodes = 5 ***
+***** num zs = 1500 *****
+***** args.encode_sampling = normal *****
+current_vel [0.97, 1.78, 2.88, 3.65, 4.87]
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+zvs shape 1500
+RT 975.5794666666668 96.97515230742816 1000.0 -236.4
+LR 0.9613333333333334 0.16032744271923285 1.0 -0.6
+VL-std-all 0.34515849554651895 0.0
+*** budget = 10
+VL10-1 0.1410442611024481 0.1393324350222477
+RT-VL10-1 974.4133333333332 126.2204751835278 999.2 135.2
+VL10-2 0.35078024596459384 0.15888646340330254
+RT-VL10-2 970.9680000000001 103.35952806909803 999.2 461.2
+VL10-3 0.13866359684957308 0.17294817935076662
+RT-VL10-3 986.4720000000001 49.41155751441155 1000.0 606.0
+VL10-4 0.1649403232645704 0.1805135166990091
+RT-VL10-4 984.8026666666668 40.626047386156365 1000.0 754.0
+VL10-5 0.4521261532928303 0.42037652545674287
+RT-VL10-5 982.1706666666665 36.74411253823151 1000.0 824.0
+VL10-all 0.24951091609480316 0.12846224357205568
+RT-VL10-all 979.7653333333334 6.036169499129619 986.4720000000001 970.9680000000001
+*** budget = 20
+VL20-1 0.07388372974013464 0.06607893321368095
+RT-VL20-1 986.8 84.35253009443957 998.8 261.2
+VL20-2 0.2630553813453508 0.10893181553023605
+RT-VL20-2 953.7386666666666 132.0040483150254 999.2 461.2
+VL20-3 0.06510531074340972 0.06544613246427783
+RT-VL20-3 988.5493333333335 53.83077774738991 1000.0 606.0
+VL20-4 0.07739604871634609 0.08987578414999467
+RT-VL20-4 989.2106666666667 38.4712102689213 1000.0 754.0
+VL20-5 0.21711941185433772 0.20052716232558404
+RT-VL20-5 992.1279999999999 20.740443968247167 1000.0 878.0
+VL20-all 0.13931197647991578 0.0836510538717004
+RT-VL20-all 982.0853333333334 14.277047438303066 992.1279999999999 953.7386666666666
+*** budget = 30
+VL30-1 0.05065913535370333 0.047129005755395
+RT-VL30-1 981.8240000000001 102.94912638774551 998.8 261.2
+VL30-2 0.22132903931969794 0.08668385035927628
+RT-VL30-2 941.9279999999999 143.6926651433538 999.2 461.2
+VL30-3 0.043471921055322216 0.044588452376298535
+RT-VL30-3 989.2639999999999 55.200832457491074 1000.0 606.0
+VL30-4 0.04988056217919917 0.0726680721039392
+RT-VL30-4 993.536 23.61523033976167 1000.0 834.0
+VL30-5 0.1444116353340625 0.11169242549639727
+RT-VL30-5 995.7360000000001 9.585525755012087 1000.0 950.8
+VL30-all 0.10195045864839702 0.0704499969784017
+RT-VL30-all 980.4576 19.84149116976851 995.7360000000001 941.9279999999999
+*** budget = 40
+VL40-1 0.03454869509862901 0.03303877078651855
+RT-VL40-1 976.7027027027029 119.25293239408113 998.8 261.2
+VL40-2 0.20848889948441873 0.08453133928259864
+RT-VL40-2 950.2162162162163 124.69023567292456 999.2 533.2
+VL40-3 0.03274236907436395 0.03420520899251279
+RT-VL40-3 986.216216216216 50.48963240386659 1000.0 737.6
+VL40-4 0.0304658030163248 0.03488692538521564
+RT-VL40-4 998.0216216216215 3.146781722360355 1000.0 980.4
+VL40-5 0.11734803346904017 0.09322496983950687
+RT-VL40-5 996.9729729729728 6.021611917115776 1000.0 968.8
+VL40-all 0.08471876002855533 0.07006522801282346
+RT-VL40-all 981.6259459459458 17.528430884201594 998.0216216216215 950.2162162162163
+*** budget = 50
+VL50-1 0.036195823356271015 0.04059741920259112
+RT-VL50-1 972.0533333333334 132.00459520621075 998.8 261.2
+VL50-2 0.19706065912196943 0.08079674477437705
+RT-VL50-2 930.8 153.2367579923303 999.2 506.4
+VL50-3 0.028256133617357047 0.030525249853000973
+RT-VL50-3 985.0533333333332 70.40783921000717 1000.0 606.0
+VL50-4 0.021149026991109418 0.022031776812297465
+RT-VL50-4 997.7600000000001 3.5154516068351795 1000.0 980.4
+VL50-5 0.09564606637725138 0.06172683679152088
+RT-VL50-5 998.2133333333333 1.53443438728702 1000.0 992.0
+VL50-all 0.07566154189279166 0.0662020495712395
+RT-VL50-all 976.7760000000001 24.917856729662773 998.2133333333333 930.8
+logs_data/28hc/igabl/run_2023-09-11_23-50-57/run_947d5_00072_72_clip_discriminator=0,cns_cf=0.0000,dr_cc=0.7000,info_loss_type=bce,offset_reward=0,seed=2_2023-09-11_23-51-03/results_IL/HCCustom/INFOGSDR_PPO/0_HCCustom_v0_type1-INFOGSDR_PPO-100-100-relu_cr0_no0_es=n_sr0000_rc0.70_reg00_ds0.001_s2/09.12_03.04.50/models/ckpt_policy_T10000000.pt
+0_hccustom_v0_type1-infogsdr_ppo-100-100-relu_cr0_no0_es=n_sr0000_rc0.70_reg00_ds0.001_s2
+v_data: 0
+Inferred from ckptpath name:
+il_method: infogsdr
+rl_method: ppo
+activation: relu
+hidden_size: [100, 100]
+norm_obs: 0
+info_loss_type: None
+encode_sampling: normal
+normalize_code: 0
+tl_emb: 0
+TRAINED C_DATA: 1
+ARG C_DATA: 1
+Using (100, 100) relu networks.
+State dim: 17, action dim: 6, action bound 1
+args.encode_dim: 2
+Policy model is loaded from logs_data/28hc/igabl/run_2023-09-11_23-50-57/run_947d5_00072_72_clip_discriminator=0,cns_cf=0.0000,dr_cc=0.7000,info_loss_type=bce,offset_reward=0,seed=2_2023-09-11_23-51-03/results_IL/HCCustom/INFOGSDR_PPO/0_HCCustom_v0_type1-INFOGSDR_PPO-100-100-relu_cr0_no0_es=n_sr0000_rc0.70_reg00_ds0.001_s2/09.12_03.04.50/models/ckpt_policy_T10000000.pt
+***** Max Ep Steps: 1000 args.seed 1 test_seed 2 *****
+*** budgets = [10, 20, 30, 40, 50] NPARALLEL = 50 n_test_episodes = 5 ***
+***** num zs = 1500 *****
+***** args.encode_sampling = normal *****
+current_vel [0.97, 1.78, 2.88, 3.65, 4.87]
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+zvs shape 1500
+RT 965.6136000000001 128.01705689102528 1000.0 -134.8
+LR 0.96 0.16685322891691368 1.0 -1.0
+VL-std-all 0.43388202377872825 0.0
+*** budget = 10
+VL10-1 0.10190544023195995 0.1059183022506711
+RT-VL10-1 965.9066666666666 140.1355337600789 999.6 256.4
+VL10-2 0.2187552565937519 0.16286486117291593
+RT-VL10-2 956.1866666666666 132.06472487214575 1000.0 432.8
+VL10-3 0.313222159981003 0.2696771578186164
+RT-VL10-3 958.4586666666665 80.42057961050074 1000.0 707.2
+VL10-4 0.2651890609343605 0.22139384894193057
+RT-VL10-4 973.4373333333334 56.018570190805676 1000.0 714.4
+VL10-5 0.5711172003872278 0.36211856182905605
+RT-VL10-5 990.4773333333331 36.42005884429928 1000.0 714.4
+VL10-all 0.2940378236256606 0.15527755056301612
+RT-VL10-all 968.8933333333332 12.375611629329654 990.4773333333331 956.1866666666666
+*** budget = 20
+VL20-1 0.050586730380351004 0.04588380721761774
+RT-VL20-1 968.0053333333333 140.49279354551328 999.6 256.4
+VL20-2 0.13024244146803754 0.11035282001051981
+RT-VL20-2 942.3413333333332 151.31105189274473 1000.0 432.8
+VL20-3 0.17156663490191457 0.16256293182906
+RT-VL20-3 957.2906666666667 79.78388337391344 1000.0 733.6
+VL20-4 0.156489569791295 0.14549696916118388
+RT-VL20-4 968.3893333333331 58.495628493836094 1000.0 778.4
+VL20-5 0.3925886934371521 0.18263920881700563
+RT-VL20-5 997.8346666666665 3.772797135047449 1000.0 969.6
+VL20-all 0.18029481399575004 0.11405348654121943
+RT-VL20-all 966.7722666666665 18.1976882810244 997.8346666666665 942.3413333333332
+*** budget = 30
+VL30-1 0.03706850051600353 0.03404276178980029
+RT-VL30-1 981.8240000000001 103.63765061019089 998.8 256.4
+VL30-2 0.09148950320800252 0.0807016038639602
+RT-VL30-2 951.232 140.88560670274308 1000.0 432.8
+VL30-3 0.13279849039126837 0.13049888002647433
+RT-VL30-3 946.2159999999999 89.55688998619816 1000.0 733.6
+VL30-4 0.10268861273140371 0.09193807491834083
+RT-VL30-4 971.096 57.44550447162946 1000.0 800.0
+VL30-5 0.3188690045756332 0.14996804326877342
+RT-VL30-5 998.0160000000002 4.163045039391237 1000.0 969.6
+VL30-all 0.13658282228446228 0.09625788126253584
+RT-VL30-all 969.6768 19.20051372646065 998.0160000000002 946.2159999999999
+*** budget = 40
+VL40-1 0.02876795710871266 0.023548233568916735
+RT-VL40-1 976.7783783783784 120.06801481308055 998.8 256.4
+VL40-2 0.07520285749373595 0.06776764800681878
+RT-VL40-2 946.7135135135136 147.74748758491708 1000.0 432.8
+VL40-3 0.09461045349890893 0.1022818981116999
+RT-VL40-3 945.654054054054 92.67583315585684 1000.0 733.6
+VL40-4 0.08454576704671296 0.07982234388193447
+RT-VL40-4 974.0972972972975 52.95173981515768 1000.0 800.0
+VL40-5 0.2802724870358359 0.14000749557416176
+RT-VL40-5 998.6486486486486 1.0202335772889977 1000.0 995.6
+VL40-all 0.11267990443678126 0.08677678541875142
+RT-VL40-all 968.3783783783783 20.026565264399757 998.6486486486486 945.654054054054
+*** budget = 50
+VL50-1 0.02367503520302592 0.019006666831637473
+RT-VL50-1 972.0266666666666 132.8935788098465 998.8 256.4
+VL50-2 0.05959640373613743 0.06118521827134874
+RT-VL50-2 964.0000000000001 127.07511689285722 999.6 432.8
+VL50-3 0.07590388709718537 0.07682963815063387
+RT-VL50-3 949.36 91.30255053027452 1000.0 733.6
+VL50-4 0.0564396359521393 0.05100932517808385
+RT-VL50-4 962.0133333333334 63.78559781713179 1000.0 800.0
+VL50-5 0.260966988660627 0.12386697845261928
+RT-VL50-5 998.2933333333333 1.1635959588944826 1000.0 994.8
+VL50-all 0.095316390129823 0.08454202416160878
+RT-VL50-all 969.1386666666667 16.28930359332634 998.2933333333333 949.36
+logs_data/28hc/igabl/run_2023-09-11_23-50-57/run_947d5_00144_144_clip_discriminator=0,cns_cf=0.0000,dr_cc=0.7000,info_loss_type=bce,offset_reward=0,seed=3_2023-09-12_07-09-13/results_IL/HCCustom/INFOGSDR_PPO/0_HCCustom_v0_type1-INFOGSDR_PPO-100-100-relu_cr0_no0_es=n_sr0000_rc0.70_reg00_ds0.001_s3/09.12_07.10.05/models/ckpt_policy_T10000000.pt
+0_hccustom_v0_type1-infogsdr_ppo-100-100-relu_cr0_no0_es=n_sr0000_rc0.70_reg00_ds0.001_s3
+v_data: 0
+Inferred from ckptpath name:
+il_method: infogsdr
+rl_method: ppo
+activation: relu
+hidden_size: [100, 100]
+norm_obs: 0
+info_loss_type: None
+encode_sampling: normal
+normalize_code: 0
+tl_emb: 0
+TRAINED C_DATA: 1
+ARG C_DATA: 1
+Using (100, 100) relu networks.
+State dim: 17, action dim: 6, action bound 1
+args.encode_dim: 2
+Policy model is loaded from logs_data/28hc/igabl/run_2023-09-11_23-50-57/run_947d5_00144_144_clip_discriminator=0,cns_cf=0.0000,dr_cc=0.7000,info_loss_type=bce,offset_reward=0,seed=3_2023-09-12_07-09-13/results_IL/HCCustom/INFOGSDR_PPO/0_HCCustom_v0_type1-INFOGSDR_PPO-100-100-relu_cr0_no0_es=n_sr0000_rc0.70_reg00_ds0.001_s3/09.12_07.10.05/models/ckpt_policy_T10000000.pt
+***** Max Ep Steps: 1000 args.seed 1 test_seed 2 *****
+*** budgets = [10, 20, 30, 40, 50] NPARALLEL = 50 n_test_episodes = 5 ***
+***** num zs = 1500 *****
+***** args.encode_sampling = normal *****
+current_vel [0.97, 1.78, 2.88, 3.65, 4.87]
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+zvs shape 1500
+RT 937.1778666666667 208.74724554697457 1000.0 -144.0
+LR 0.9301333333333333 0.25845434585026594 1.0 -1.0
+VL-std-all 0.4442402817335919 0.0
+*** budget = 10
+VL10-1 0.14667086354030803 0.16518471236115156
+RT-VL10-1 986.1519999999999 88.30832857664106 1000.0 107.6
+VL10-2 0.21373584070981386 0.19551085975618307
+RT-VL10-2 942.1306666666665 138.8921998993784 1000.0 424.4
+VL10-3 0.1505965233639325 0.17276272112002863
+RT-VL10-3 968.2479999999999 76.1445456308811 1000.0 612.0
+VL10-4 0.2269603416813887 0.21710512968616252
+RT-VL10-4 989.0266666666666 40.46314317444401 1000.0 612.0
+VL10-5 0.5771781715192477 0.5127833383510367
+RT-VL10-5 991.1279999999999 37.11885256847253 1000.0 612.0
+VL10-all 0.26302834816293813 0.16037502508352713
+RT-VL10-all 975.3370666666666 18.475071712265027 991.1279999999999 942.1306666666665
+*** budget = 20
+VL20-1 0.0650650309394725 0.05843203729531249
+RT-VL20-1 975.9199999999998 124.04109426583862 999.2 107.6
+VL20-2 0.10953614568829782 0.11386198708998137
+RT-VL20-2 931.1786666666663 149.3822856908483 1000.0 443.2
+VL20-3 0.07025558437445571 0.0667185504602845
+RT-VL20-3 973.0186666666666 66.34411442036303 1000.0 765.2
+VL20-4 0.104640825495759 0.08611125066361561
+RT-VL20-4 993.4080000000001 17.812697793053886 1000.0 872.4
+VL20-5 0.3110690626711946 0.2840173580565434
+RT-VL20-5 996.3466666666667 2.679170684289368 1000.0 976.4
+VL20-all 0.13211332983383592 0.09122661575642128
+RT-VL20-all 973.9743999999998 23.299599575386267 996.3466666666667 931.1786666666663
+*** budget = 30
+VL30-1 0.04378820530207331 0.03748226808787229
+RT-VL30-1 983.528 87.99333392933808 998.0 367.6
+VL30-2 0.08383148601671563 0.10367038474343897
+RT-VL30-2 920.704 172.74853974491361 999.6 424.4
+VL30-3 0.047743237290140926 0.05218162842839714
+RT-VL30-3 972.1759999999999 68.79265821292269 1000.0 765.2
+VL30-4 0.0833704671503263 0.0887046550498789
+RT-VL30-4 992.72 20.382109802471383 999.6 872.4
+VL30-5 0.18996491075068378 0.20025541463105848
+RT-VL30-5 995.9759999999999 2.940922304312033 999.2 976.4
+VL30-all 0.08973966130198799 0.05290710677156955
+RT-VL30-all 973.0207999999999 27.434147294202536 995.9759999999999 920.704
+*** budget = 40
+VL40-1 0.02759648114312101 0.020895095309634137
+RT-VL40-1 979.0162162162162 101.90558829732312 997.2 367.6
+VL40-2 0.053713072365023866 0.06639892316582248
+RT-VL40-2 953.5135135135135 133.39294961344152 999.6 443.2
+VL40-3 0.02882063224469874 0.02224222141549483
+RT-VL40-3 973.0702702702703 68.41710259104795 998.8 765.2
+VL40-4 0.050855559153427585 0.04155577226274147
+RT-VL40-4 993.3297297297298 20.2347421979833 999.6 872.4
+VL40-5 0.15718757074550652 0.18681836538643368
+RT-VL40-5 996.4000000000001 0.9438277442472174 998.8 994.8
+VL40-all 0.06363466313035555 0.04800970171219422
+RT-VL40-all 979.065945945946 15.445402946167107 996.4000000000001 953.5135135135135
+*** budget = 50
+VL50-1 0.02652847495764168 0.021900038057100203
+RT-VL50-1 975.1600000000001 112.82318201504513 997.2 367.6
+VL50-2 0.0400669319954756 0.05749444357004068
+RT-VL50-2 950.16 143.62215613662582 999.6 443.2
+VL50-3 0.027743595015227874 0.02841465610975164
+RT-VL50-3 968.0 73.33575753568877 1000.0 779.6
+VL50-4 0.048931106323769166 0.04065146673945402
+RT-VL50-4 992.3199999999999 22.352664270730685 999.6 872.4
+VL50-5 0.10341045592820822 0.10585852548849654
+RT-VL50-5 996.1599999999999 0.7906115776199112 998.0 994.8
+VL50-all 0.04933611284406451 0.028272040945123957
+RT-VL50-all 976.36 16.760257754581183 996.1599999999999 950.16
+logs_data/28hc/igabl/run_2023-09-11_23-50-57/run_947d5_00216_216_clip_discriminator=0,cns_cf=0.0000,dr_cc=0.7000,info_loss_type=bce,offset_reward=0,seed=4_2023-09-12_13-21-11/results_IL/HCCustom/INFOGSDR_PPO/0_HCCustom_v0_type1-INFOGSDR_PPO-100-100-relu_cr0_no0_es=n_sr0000_rc0.70_reg00_ds0.001_s4/09.12_13.22.52/models/ckpt_policy_T10000000.pt
+0_hccustom_v0_type1-infogsdr_ppo-100-100-relu_cr0_no0_es=n_sr0000_rc0.70_reg00_ds0.001_s4
+v_data: 0
+Inferred from ckptpath name:
+il_method: infogsdr
+rl_method: ppo
+activation: relu
+hidden_size: [100, 100]
+norm_obs: 0
+info_loss_type: None
+encode_sampling: normal
+normalize_code: 0
+tl_emb: 0
+TRAINED C_DATA: 1
+ARG C_DATA: 1
+Using (100, 100) relu networks.
+State dim: 17, action dim: 6, action bound 1
+args.encode_dim: 2
+Policy model is loaded from logs_data/28hc/igabl/run_2023-09-11_23-50-57/run_947d5_00216_216_clip_discriminator=0,cns_cf=0.0000,dr_cc=0.7000,info_loss_type=bce,offset_reward=0,seed=4_2023-09-12_13-21-11/results_IL/HCCustom/INFOGSDR_PPO/0_HCCustom_v0_type1-INFOGSDR_PPO-100-100-relu_cr0_no0_es=n_sr0000_rc0.70_reg00_ds0.001_s4/09.12_13.22.52/models/ckpt_policy_T10000000.pt
+***** Max Ep Steps: 1000 args.seed 1 test_seed 2 *****
+*** budgets = [10, 20, 30, 40, 50] NPARALLEL = 50 n_test_episodes = 5 ***
+***** num zs = 1500 *****
+***** args.encode_sampling = normal *****
+current_vel [0.97, 1.78, 2.88, 3.65, 4.87]
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+zvs shape 1500
+RT 958.4266666666666 154.91384249173979 1000.0 -352.4
+LR 0.9530666666666666 0.19632607796441326 1.0 -0.6
+VL-std-all 0.4241987249092031 0.0
+*** budget = 10
+VL10-1 0.11994994961952266 0.1240592388502233
+RT-VL10-1 965.1360000000002 145.0638559531629 1000.0 156.8
+VL10-2 0.2764542891497053 0.17956515977614634
+RT-VL10-2 928.7759999999997 163.638614709365 1000.0 318.4
+VL10-3 0.1356882850803468 0.15928718174432696
+RT-VL10-3 985.5013333333334 49.07635273960589 1000.0 783.6
+VL10-4 0.2902688230892458 0.2222756832413327
+RT-VL10-4 991.7333333333333 33.11354741223329 1000.0 778.0
+VL10-5 0.40203326975135145 0.4234829433689003
+RT-VL10-5 997.8133333333334 6.740392339388625 1000.0 921.2
+VL10-all 0.2448789233380344 0.10515187043476165
+RT-VL10-all 973.792 25.049514869553963 997.8133333333334 928.7759999999997
+*** budget = 20
+VL20-1 0.060918361637560293 0.06027249614518123
+RT-VL20-1 967.2266666666667 145.54025636304968 998.8 156.8
+VL20-2 0.17857893140967568 0.11865531639376935
+RT-VL20-2 892.5919999999999 190.75602970635904 1000.0 472.4
+VL20-3 0.06233682182548629 0.08562704220661424
+RT-VL20-3 992.1173333333334 34.38820097391287 1000.0 783.6
+VL20-4 0.1617434907877122 0.14905414885834092
+RT-VL20-4 990.9440000000001 36.55528138769189 1000.0 778.0
+VL20-5 0.18745835839735658 0.14036115345866929
+RT-VL20-5 998.0639999999999 3.2305475284126857 1000.0 983.2
+VL20-all 0.1302071928115582 0.05660280651915363
+RT-VL20-all 968.1887999999999 39.239529253943836 998.0639999999999 892.5919999999999
+*** budget = 30
+VL30-1 0.03574031164076391 0.030589150233887707
+RT-VL30-1 982.6239999999999 99.17893840932157 998.8 288.4
+VL30-2 0.1370672075849241 0.09265975055963843
+RT-VL30-2 869.8960000000001 207.03925517640369 1000.0 472.4
+VL30-3 0.042416595921445095 0.04686333362202141
+RT-VL30-3 993.832 29.71965975579129 1000.0 786.8
+VL30-4 0.09543023382569527 0.09797532992206114
+RT-VL30-4 988.2080000000001 44.04464934586266 1000.0 778.0
+VL30-5 0.14646967357012997 0.08120157773131047
+RT-VL30-5 998.24 3.1759093186046714 1000.0 983.6
+VL30-all 0.09142480450859167 0.04611242194347861
+RT-VL30-all 966.5600000000001 48.61687213303626 998.24 869.8960000000001
+*** budget = 40
+VL40-1 0.028467053426824106 0.023601204229085494
+RT-VL40-1 996.8864864864863 0.8878038991415346 998.4 994.4
+VL40-2 0.12121299809016549 0.08069575581188836
+RT-VL40-2 827.0918918918919 220.69665910399277 1000.0 472.4
+VL40-3 0.02971936373095774 0.029053439179043673
+RT-VL40-3 986.3567567567567 48.1939131546407 1000.0 783.6
+VL40-4 0.07471576797590351 0.07376404594073692
+RT-VL40-4 990.2054054054054 37.73633954337574 1000.0 778.0
+VL40-5 0.12747093823619673 0.07036353870656666
+RT-VL40-5 998.3351351351351 2.9179978526765544 1000.0 983.6
+VL40-all 0.07631722429200952 0.042651839534177144
+RT-VL40-all 959.775135135135 66.48541643612656 998.3351351351351 827.0918918918919
+*** budget = 50
+VL50-1 0.02078741310485508 0.017278949612155543
+RT-VL50-1 996.9066666666669 0.8258060035841175 998.4 994.8
+VL50-2 0.10094972612542824 0.0654685598881938
+RT-VL50-2 816.3333333333334 224.56980107653735 1000.0 472.4
+VL50-3 0.02580433973734415 0.026569493565807196
+RT-VL50-3 983.0 52.99064068304893 1000.0 783.6
+VL50-4 0.06307931207202727 0.06024345095493483
+RT-VL50-4 983.8133333333333 54.54830112437559 1000.0 778.0
+VL50-5 0.10894292705122612 0.049540896703827296
+RT-VL50-5 998.2933333333334 3.2181706328630604 1000.0 983.6
+VL50-all 0.06391274361817617 0.036639308616911795
+RT-VL50-all 955.6693333333333 69.95840765610505 998.2933333333334 816.3333333333334
+logs_data/28hc/igabl/run_2023-09-11_23-50-57/run_947d5_00288_288_clip_discriminator=0,cns_cf=0.0000,dr_cc=0.7000,info_loss_type=bce,offset_reward=0,seed=5_2023-09-12_19-23-21/results_IL/HCCustom/INFOGSDR_PPO/0_HCCustom_v0_type1-INFOGSDR_PPO-100-100-relu_cr0_no0_es=n_sr0000_rc0.70_reg00_ds0.001_s5/09.12_19.24.45/models/ckpt_policy_T10000000.pt
+0_hccustom_v0_type1-infogsdr_ppo-100-100-relu_cr0_no0_es=n_sr0000_rc0.70_reg00_ds0.001_s5
+v_data: 0
+Inferred from ckptpath name:
+il_method: infogsdr
+rl_method: ppo
+activation: relu
+hidden_size: [100, 100]
+norm_obs: 0
+info_loss_type: None
+encode_sampling: normal
+normalize_code: 0
+tl_emb: 0
+TRAINED C_DATA: 1
+ARG C_DATA: 1
+Using (100, 100) relu networks.
+State dim: 17, action dim: 6, action bound 1
+args.encode_dim: 2
+Policy model is loaded from logs_data/28hc/igabl/run_2023-09-11_23-50-57/run_947d5_00288_288_clip_discriminator=0,cns_cf=0.0000,dr_cc=0.7000,info_loss_type=bce,offset_reward=0,seed=5_2023-09-12_19-23-21/results_IL/HCCustom/INFOGSDR_PPO/0_HCCustom_v0_type1-INFOGSDR_PPO-100-100-relu_cr0_no0_es=n_sr0000_rc0.70_reg00_ds0.001_s5/09.12_19.24.45/models/ckpt_policy_T10000000.pt
+***** Max Ep Steps: 1000 args.seed 1 test_seed 2 *****
+*** budgets = [10, 20, 30, 40, 50] NPARALLEL = 50 n_test_episodes = 5 ***
+***** num zs = 1500 *****
+***** args.encode_sampling = normal *****
+current_vel [0.97, 1.78, 2.88, 3.65, 4.87]
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+zvs shape 1500
+RT 996.1986666666667 18.80775721758327 1000.0 605.6
+LR 0.9981333333333332 0.02726136867844721 1.0 0.6
+VL-std-all 0.19623640897897696 0.0
+*** budget = 10
+VL10-1 0.14937490628057956 0.19807890307121104
+RT-VL10-1 997.0746666666668 1.1566726224630552 999.6 993.6
+VL10-2 0.3731301881158196 0.19338181011235964
+RT-VL10-2 995.352 23.15082927240405 1000.0 788.4
+VL10-3 0.06503840390019773 0.07533568884563042
+RT-VL10-3 997.9493333333335 5.761721347730112 1000.0 930.0
+VL10-4 0.2816246566948948 0.12121053017616955
+RT-VL10-4 998.8133333333335 1.1098748678217043 1000.0 994.0
+VL10-5 1.5011614455199094 0.12228115732712282
+RT-VL10-5 998.8133333333335 1.1098748678217043 1000.0 994.0
+VL10-all 0.4740659201022802 0.5243805190228557
+RT-VL10-all 997.6005333333335 1.2958292342915525 998.8133333333335 995.352
+*** budget = 20
+VL20-1 0.06249877699107419 0.05558494135007707
+RT-VL20-1 997.0079999999999 1.11304507246263 999.6 994.0
+VL20-2 0.2567789343824899 0.14722361956696603
+RT-VL20-2 995.4826666666667 22.193983408923142 1000.0 804.8
+VL20-3 0.03385189294550421 0.05353084100519542
+RT-VL20-3 998.4906666666667 1.4274614608535785 1000.0 993.2
+VL20-4 0.21118799976043381 0.08674479267097769
+RT-VL20-4 998.8960000000002 1.036589278997885 1000.0 995.6
+VL20-5 1.4302615774104628 0.08896684417921032
+RT-VL20-5 998.8960000000002 1.036589278997885 1000.0 995.6
+VL20-all 0.398915836297993 0.5226024871232099
+RT-VL20-all 997.7546666666667 1.3316512055840828 998.8960000000002 995.4826666666667
+*** budget = 30
+VL30-1 0.0437618673284765 0.03808776304298064
+RT-VL30-1 996.984 1.0528741615216948 999.6 994.0
+VL30-2 0.1958533771403536 0.12967702986475318
+RT-VL30-2 990.04 39.53799185593523 1000.0 788.4
+VL30-3 0.017407855750948782 0.021061353734573986
+RT-VL30-3 998.528 1.2810995277495123 1000.0 994.4
+VL30-4 0.18055108376032428 0.08140405077826923
+RT-VL30-4 998.6799999999998 1.2781236246936463 1000.0 994.4
+VL30-5 1.3991614502353675 0.08441852924387247
+RT-VL30-5 998.6799999999998 1.2781236246936463 1000.0 994.4
+VL30-all 0.3673471268430942 0.5207895120840254
+RT-VL30-all 996.5823999999999 3.333151397701557 998.6799999999998 990.04
+*** budget = 40
+VL40-1 0.03070993096600167 0.02393463933767782
+RT-VL40-1 996.7243243243246 0.8912200581848638 998.8 994.0
+VL40-2 0.1659247181861109 0.12467748814839759
+RT-VL40-2 992.8864864864863 31.371274191718445 1000.0 804.8
+VL40-3 0.013522620466267527 0.017394205015503487
+RT-VL40-3 998.5837837837837 1.0987741359802865 999.6 994.4
+VL40-4 0.16648389532450125 0.083904303201283
+RT-VL40-4 998.5945945945944 1.3592418288001578 1000.0 994.4
+VL40-5 1.3846060121826678 0.08753102450806619
+RT-VL40-5 998.5945945945944 1.3592418288001578 1000.0 994.4
+VL40-all 0.35224943542510984 0.5202132919904331
+RT-VL40-all 997.0767567567566 2.2163649257951654 998.5945945945944 992.8864864864863
+*** budget = 50
+VL50-1 0.02806743712101174 0.023762870892896103
+RT-VL50-1 996.8000000000001 0.8326663997864566 998.4 994.0
+VL50-2 0.147650257155829 0.11334135659975836
+RT-VL50-2 998.0533333333334 1.3053054133888466 1000.0 994.8
+VL50-3 0.008752428404273942 0.00922034150170426
+RT-VL50-3 998.6666666666665 1.1654279137819947 1000.0 994.4
+VL50-4 0.15501182160898472 0.08331379802831901
+RT-VL50-4 998.5733333333332 1.4410490006319183 1000.0 994.4
+VL50-5 1.3726957657340573 0.08748632411599665
+RT-VL50-5 998.5733333333332 1.4410490006319183 1000.0 994.4
+VL50-all 0.34243554200483134 0.5185897824735325
+RT-VL50-all 998.1333333333332 0.7008312524740247 998.6666666666665 996.8000000000001
+logs_data/28hc/igabl/run_2023-09-13_11-00-04/run_38c94_00036_36_clip_discriminator=10,cns_cf=0.0000,dr_cc=0.7000,info_loss_type=bce,offset_reward=1,seed=5_2023-09-13_11-00-05/results_IL/HCCustom/INFOGSDR_PPO/0_HCCustom_v0_type1-INFOGSDR_PPO-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg00_ds0.001_s5/09.13_11.01.01/models/ckpt_policy_T10000000.pt
+0_hccustom_v0_type1-infogsdr_ppo-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg00_ds0.001_s5
+v_data: 0
+Inferred from ckptpath name:
+il_method: infogsdr
+rl_method: ppo
+activation: relu
+hidden_size: [100, 100]
+norm_obs: 0
+info_loss_type: None
+encode_sampling: normal
+normalize_code: 0
+tl_emb: 0
+TRAINED C_DATA: 1
+ARG C_DATA: 1
+Using (100, 100) relu networks.
+State dim: 17, action dim: 6, action bound 1
+args.encode_dim: 2
+Policy model is loaded from logs_data/28hc/igabl/run_2023-09-13_11-00-04/run_38c94_00036_36_clip_discriminator=10,cns_cf=0.0000,dr_cc=0.7000,info_loss_type=bce,offset_reward=1,seed=5_2023-09-13_11-00-05/results_IL/HCCustom/INFOGSDR_PPO/0_HCCustom_v0_type1-INFOGSDR_PPO-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg00_ds0.001_s5/09.13_11.01.01/models/ckpt_policy_T10000000.pt
+***** Max Ep Steps: 1000 args.seed 1 test_seed 2 *****
+*** budgets = [10, 20, 30, 40, 50] NPARALLEL = 50 n_test_episodes = 5 ***
+***** num zs = 1500 *****
+***** args.encode_sampling = normal *****
+current_vel [0.97, 1.78, 2.88, 3.65, 4.87]
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+zvs shape 1500
+RT 970.6688000000001 100.63403724996164 1000.0 -274.0
+LR 0.9445333333333333 0.19789757171044037 1.0 -1.0
+VL-std-all 0.4631252335730493 0.0
+*** budget = 10
+VL10-1 0.10834194928596894 0.14032017033986946
+RT-VL10-1 992.0933333333334 57.002576160107786 998.8 296.4
+VL10-2 0.39726559886686763 0.1619831156597515
+RT-VL10-2 952.512 144.97676223910278 1000.0 296.4
+VL10-3 0.1533597117561524 0.1346800556694436
+RT-VL10-3 966.8293333333335 64.45235299213073 1000.0 723.2
+VL10-4 0.18321187610884265 0.13057318441304705
+RT-VL10-4 956.7706666666666 71.51467685882544 1000.0 704.0
+VL10-5 0.6394860175952473 0.448007061551833
+RT-VL10-5 976.2986666666666 47.224540211866774 1000.0 741.6
+VL10-all 0.2963330307226158 0.1982522473864857
+RT-VL10-all 968.9008 14.231274770104857 992.0933333333334 952.512
+*** budget = 20
+VL20-1 0.05250455298914878 0.048186226994096
+RT-VL20-1 996.7253333333333 1.0444894552948991 998.8 994.4
+VL20-2 0.30373973619208045 0.1356409237251896
+RT-VL20-2 936.3040000000001 167.32462137214992 999.6 298.8
+VL20-3 0.07618024288011337 0.06780732629533616
+RT-VL20-3 964.2720000000002 62.35578467685791 1000.0 778.4
+VL20-4 0.11115635009794118 0.0904783010856712
+RT-VL20-4 955.8613333333332 69.38675357411928 1000.0 744.4
+VL20-5 0.3766941770462868 0.26878929340421187
+RT-VL20-5 981.1413333333333 37.03390552213232 1000.0 832.8
+VL20-all 0.1840550118411141 0.1309129367941993
+RT-VL20-all 966.8608 20.771288655898687 996.7253333333333 936.3040000000001
+*** budget = 30
+VL30-1 0.037683585942370625 0.03467644227927134
+RT-VL30-1 996.6160000000001 1.0589353143606164 998.8 994.4
+VL30-2 0.2530872144096442 0.12853918611028445
+RT-VL30-2 945.6799999999998 155.63588275201835 999.6 454.8
+VL30-3 0.052443598981930156 0.04742983955872855
+RT-VL30-3 952.8639999999998 71.99446023132614 1000.0 771.2
+VL30-4 0.07782448678499806 0.06625264584787434
+RT-VL30-4 946.8559999999998 81.31829845735828 999.6 741.6
+VL30-5 0.27791877556551625 0.17674785699317827
+RT-VL30-5 988.9680000000001 27.98617830286944 1000.0 832.8
+VL30-all 0.13979153233689187 0.10374069193039874
+RT-VL30-all 966.1967999999999 21.98465128584045 996.6160000000001 945.6799999999998
+*** budget = 40
+VL40-1 0.033092536128852046 0.039477221912372934
+RT-VL40-1 996.8000000000002 0.9885834801863266 998.8 994.8
+VL40-2 0.22640511544611064 0.12059733314959258
+RT-VL40-2 929.5459459459458 172.3430435083668 999.6 454.8
+VL40-3 0.037889210416979714 0.032624262950723085
+RT-VL40-3 943.135135135135 74.02010032422791 1000.0 778.4
+VL40-4 0.0594524983227138 0.05224748105757098
+RT-VL40-4 937.8486486486487 81.42415347084744 998.8 744.4
+VL40-5 0.25383027850698753 0.17572545831376102
+RT-VL40-5 989.7405405405406 23.60581077638552 1000.0 892.8
+VL40-all 0.12213392776432874 0.09712972027311106
+RT-VL40-all 959.4140540540541 28.069836231492772 996.8000000000002 929.5459459459458
+*** budget = 50
+VL50-1 0.02514722697281454 0.023958830952490722
+RT-VL50-1 996.9733333333332 0.9276972686292796 998.8 994.8
+VL50-2 0.211792329588192 0.12283973361053968
+RT-VL50-2 928.1200000000001 176.24879838833888 999.6 454.8
+VL50-3 0.03126814077115599 0.02661150605317843
+RT-VL50-3 935.7733333333334 75.03824328671053 1000.0 778.4
+VL50-4 0.044640483845924006 0.04216020634586088
+RT-VL50-4 941.2 77.1483073912405 998.8 757.6
+VL50-5 0.2000219320235508 0.1206405524159655
+RT-VL50-5 994.4 15.493310384377729 1000.0 914.4
+VL50-all 0.10257402264032747 0.08468821170557393
+RT-VL50-all 959.2933333333333 30.01531697872486 996.9733333333332 928.1200000000001
+logs_data/28hc/igabl/run_2023-09-13_11-00-04/run_38c94_00027_27_clip_discriminator=10,cns_cf=0.0000,dr_cc=0.7000,info_loss_type=bce,offset_reward=1,seed=4_2023-09-13_11-00-05/results_IL/HCCustom/INFOGSDR_PPO/0_HCCustom_v0_type1-INFOGSDR_PPO-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg00_ds0.001_s4/09.13_11.01.03/models/ckpt_policy_T10000000.pt
+0_hccustom_v0_type1-infogsdr_ppo-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg00_ds0.001_s4
+v_data: 0
+Inferred from ckptpath name:
+il_method: infogsdr
+rl_method: ppo
+activation: relu
+hidden_size: [100, 100]
+norm_obs: 0
+info_loss_type: None
+encode_sampling: normal
+normalize_code: 0
+tl_emb: 0
+TRAINED C_DATA: 1
+ARG C_DATA: 1
+Using (100, 100) relu networks.
+State dim: 17, action dim: 6, action bound 1
+args.encode_dim: 2
+Policy model is loaded from logs_data/28hc/igabl/run_2023-09-13_11-00-04/run_38c94_00027_27_clip_discriminator=10,cns_cf=0.0000,dr_cc=0.7000,info_loss_type=bce,offset_reward=1,seed=4_2023-09-13_11-00-05/results_IL/HCCustom/INFOGSDR_PPO/0_HCCustom_v0_type1-INFOGSDR_PPO-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg00_ds0.001_s4/09.13_11.01.03/models/ckpt_policy_T10000000.pt
+***** Max Ep Steps: 1000 args.seed 1 test_seed 2 *****
+*** budgets = [10, 20, 30, 40, 50] NPARALLEL = 50 n_test_episodes = 5 ***
+***** num zs = 1500 *****
+***** args.encode_sampling = normal *****
+current_vel [0.97, 1.78, 2.88, 3.65, 4.87]
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+zvs shape 1500
+RT 935.8245333333332 197.33057674398958 1000.0 -446.8
+LR 0.9176000000000001 0.2683969200021988 1.0 -1.0
+VL-std-all 0.6561896373015397 0.0
+*** budget = 10
+VL10-1 0.0976839605296153 0.08899006176407237
+RT-VL10-1 954.5173333333336 191.96999513697156 999.2 -54.0
+VL10-2 0.38327587659038037 0.19925519903325686
+RT-VL10-2 875.112 255.45436798509957 999.6 62.0
+VL10-3 0.11905401977882953 0.14091796991440472
+RT-VL10-3 952.632 144.42737520751854 1000.0 414.4
+VL10-4 0.3781899724460404 0.23201347925467516
+RT-VL10-4 941.1253333333334 117.96012331103913 1000.0 486.0
+VL10-5 0.35686539325690075 0.518802078858624
+RT-VL10-5 971.1386666666666 86.30487030418517 1000.0 486.0
+VL10-all 0.26701384452035326 0.13001154693473663
+RT-VL10-all 938.9050666666666 33.30363787029214 971.1386666666666 875.112
+*** budget = 20
+VL20-1 0.053793490902981786 0.05480681760943786
+RT-VL20-1 958.0053333333334 191.08180997910003 998.8 -54.0
+VL20-2 0.2702704229355043 0.1708074676308703
+RT-VL20-2 825.2533333333333 293.20646711072993 999.2 109.2
+VL20-3 0.056406500854382896 0.045929584866528775
+RT-VL20-3 950.7573333333331 153.88833455752547 1000.0 414.4
+VL20-4 0.2319450113532466 0.1698015444301409
+RT-VL20-4 922.5333333333333 124.63677074692775 1000.0 615.2
+VL20-5 0.10122403241762767 0.17867801239069236
+RT-VL20-5 987.4560000000001 46.79959612361343 1000.0 709.6
+VL20-all 0.14272789169274866 0.09089562388933664
+RT-VL20-all 928.8010666666665 55.743673365543884 987.4560000000001 825.2533333333333
+*** budget = 30
+VL30-1 0.03492682015839396 0.035925341993798265
+RT-VL30-1 922.7280000000001 253.4494277286891 998.8 -54.0
+VL30-2 0.19470724315426005 0.1441528932175745
+RT-VL30-2 801.2640000000001 300.2357512089458 998.8 109.2
+VL30-3 0.04044712147044207 0.03204111793150108
+RT-VL30-3 941.1360000000001 168.94441897855046 999.6 428.4
+VL30-4 0.18968462591337143 0.16318245520596564
+RT-VL30-4 916.12 129.98826408564736 1000.0 615.2
+VL30-5 0.06548822261846934 0.1193726985630176
+RT-VL30-5 997.1200000000001 4.309617152369802 1000.0 968.0
+VL30-all 0.10505080666298736 0.07191295800515195
+RT-VL30-all 915.6736000000001 63.90832542196673 997.1200000000001 801.2640000000001
+*** budget = 40
+VL40-1 0.022412467701570234 0.017182510357040454
+RT-VL40-1 946.2810810810811 213.09873087734235 998.4 -54.0
+VL40-2 0.1701602180610455 0.130681352207521
+RT-VL40-2 762.0108108108109 331.8490765586912 998.4 109.2
+VL40-3 0.030154567162068425 0.025932398804509673
+RT-VL40-3 905.7945945945946 207.77367357353302 999.2 428.4
+VL40-4 0.15008068140441513 0.128391581009002
+RT-VL40-4 897.837837837838 139.04043229054372 1000.0 615.2
+VL40-5 0.033491997786395514 0.03838664949615087
+RT-VL40-5 996.9945945945947 4.962668525067992 1000.0 968.0
+VL40-all 0.08125998642309896 0.0648014109706178
+RT-VL40-all 901.7837837837839 78.24736293126809 996.9945945945947 762.0108108108109
+*** budget = 50
+VL50-1 0.020918858703928858 0.016933389716658927
+RT-VL50-1 867.5733333333334 330.9840831352603 998.4 -54.0
+VL50-2 0.1456389847911277 0.12306834424464935
+RT-VL50-2 807.3600000000002 297.5395565858989 998.8 148.4
+VL50-3 0.027264744025882325 0.02641473793774002
+RT-VL50-3 903.2266666666668 209.706943031354 998.8 428.4
+VL50-4 0.13013666475322383 0.12720043998548178
+RT-VL50-4 927.9866666666668 124.47999500142805 1000.0 615.2
+VL50-5 0.030218107975911224 0.030032626686967795
+RT-VL50-5 996.7333333333332 5.46024012495991 1000.0 968.0
+VL50-all 0.07083547205001478 0.05504914870778079
+RT-VL50-all 900.576 62.90151365075044 996.7333333333332 807.3600000000002
+logs_data/28hc/igabl/run_2023-09-13_11-00-04/run_38c94_00018_18_clip_discriminator=10,cns_cf=0.0000,dr_cc=0.7000,info_loss_type=bce,offset_reward=1,seed=3_2023-09-13_11-00-05/results_IL/HCCustom/INFOGSDR_PPO/0_HCCustom_v0_type1-INFOGSDR_PPO-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg00_ds0.001_s3/09.13_11.01.00/models/ckpt_policy_T10000000.pt
+0_hccustom_v0_type1-infogsdr_ppo-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg00_ds0.001_s3
+v_data: 0
+Inferred from ckptpath name:
+il_method: infogsdr
+rl_method: ppo
+activation: relu
+hidden_size: [100, 100]
+norm_obs: 0
+info_loss_type: None
+encode_sampling: normal
+normalize_code: 0
+tl_emb: 0
+TRAINED C_DATA: 1
+ARG C_DATA: 1
+Using (100, 100) relu networks.
+State dim: 17, action dim: 6, action bound 1
+args.encode_dim: 2
+Policy model is loaded from logs_data/28hc/igabl/run_2023-09-13_11-00-04/run_38c94_00018_18_clip_discriminator=10,cns_cf=0.0000,dr_cc=0.7000,info_loss_type=bce,offset_reward=1,seed=3_2023-09-13_11-00-05/results_IL/HCCustom/INFOGSDR_PPO/0_HCCustom_v0_type1-INFOGSDR_PPO-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg00_ds0.001_s3/09.13_11.01.00/models/ckpt_policy_T10000000.pt
+***** Max Ep Steps: 1000 args.seed 1 test_seed 2 *****
+*** budgets = [10, 20, 30, 40, 50] NPARALLEL = 50 n_test_episodes = 5 ***
+***** num zs = 1500 *****
+***** args.encode_sampling = normal *****
+current_vel [0.97, 1.78, 2.88, 3.65, 4.87]
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+zvs shape 1500
+RT 981.5975999999999 60.26994647063604 1000.0 123.6
+LR 0.9677333333333332 0.12701258030429724 1.0 -0.6
+VL-std-all 0.40203262076680696 0.0
+*** budget = 10
+VL10-1 0.13760783270136395 0.15332866646306215
+RT-VL10-1 993.1919999999999 52.99888743486351 1000.0 346.4
+VL10-2 0.3645346454645235 0.1841199249116219
+RT-VL10-2 985.0293333333335 75.9000514243714 1000.0 346.4
+VL10-3 0.13941821497834886 0.17355214285229403
+RT-VL10-3 984.4613333333334 53.217375341350895 1000.0 572.4
+VL10-4 0.25829656384056404 0.1910622004601168
+RT-VL10-4 966.7520000000001 66.29091312289088 1000.0 712.0
+VL10-5 0.3790428866935705 0.4197161289195494
+RT-VL10-5 987.6986666666668 30.381746683750023 1000.0 789.6
+VL10-all 0.2557800287356741 0.10443406664224801
+RT-VL10-all 983.4266666666666 8.891516216159184 993.1919999999999 966.7520000000001
+*** budget = 20
+VL20-1 0.06887103707323633 0.0704241581931538
+RT-VL20-1 997.4826666666667 1.052789733148182 1000.0 995.2
+VL20-2 0.2550994534099056 0.13986530552229212
+RT-VL20-2 984.0320000000002 71.27072921379903 1000.0 572.4
+VL20-3 0.06718423558189283 0.08665007690490366
+RT-VL20-3 988.8213333333332 39.19509592906859 1000.0 802.0
+VL20-4 0.15063641783276494 0.1260939727647833
+RT-VL20-4 960.5333333333332 70.2912594534737 1000.0 770.0
+VL20-5 0.1688300612997071 0.24662428241764853
+RT-VL20-5 994.3573333333331 15.910626833101889 1000.0 871.2
+VL20-all 0.14212424103950136 0.0700444043574899
+RT-VL20-all 985.0453333333332 13.095982352530038 997.4826666666667 960.5333333333332
+*** budget = 30
+VL30-1 0.046999011545120345 0.04691902479927133
+RT-VL30-1 997.552 1.007618975605362 1000.0 995.6
+VL30-2 0.19944289196377124 0.12171706603896515
+RT-VL30-2 985.48 64.27785932963232 1000.0 624.8
+VL30-3 0.036988220491516705 0.03826983222330708
+RT-VL30-3 995.08 27.362719163124122 1000.0 803.6
+VL30-4 0.1011503267352246 0.08341156532570118
+RT-VL30-4 959.3519999999999 70.21333844790462 1000.0 783.6
+VL30-5 0.0950649413193586 0.11261524012163701
+RT-VL30-5 996.512 5.415852287498237 1000.0 965.2
+VL30-all 0.0959290784109983 0.05763903874805413
+RT-VL30-all 986.7951999999999 14.377912482693777 997.552 959.3519999999999
+*** budget = 40
+VL40-1 0.04027726946496172 0.04058156062522236
+RT-VL40-1 997.5243243243243 1.055591394485115 1000.0 995.6
+VL40-2 0.17733645060440364 0.11298491869706827
+RT-VL40-2 998.627027027027 1.0461379808348583 1000.0 996.0
+VL40-3 0.027712242756822176 0.03334188295613829
+RT-VL40-3 999.0594594594596 0.6183934982086672 1000.0 998.0
+VL40-4 0.08082781051294947 0.07127297922527305
+RT-VL40-4 948.443243243243 77.95198986951205 1000.0 778.0
+VL40-5 0.07212765255280937 0.08640206514957417
+RT-VL40-5 996.3243243243242 6.263985666918001 1000.0 965.2
+VL40-all 0.07965628517838927 0.05262766937671842
+RT-VL40-all 987.9956756756758 19.79893627382227 999.0594594594596 948.443243243243
+*** budget = 50
+VL50-1 0.030842003485494835 0.03383407477893571
+RT-VL50-1 997.2666666666665 0.9242414306999147 999.2 996.0
+VL50-2 0.14605943006036445 0.09653476195357055
+RT-VL50-2 989.2800000000001 49.270886603212915 1000.0 724.0
+VL50-3 0.022442595879186806 0.018574703320384103
+RT-VL50-3 998.9600000000002 0.6740919818541198 1000.0 997.6
+VL50-4 0.07131039325704824 0.06446877901725968
+RT-VL50-4 964.9066666666669 70.68592945008379 1000.0 782.0
+VL50-5 0.05123969028404067 0.05507850777086956
+RT-VL50-5 996.4533333333333 6.461977681449806 1000.0 965.2
+VL50-all 0.06437882259322701 0.04421712440397401
+RT-VL50-all 989.3733333333333 12.672503918151044 998.9600000000002 964.9066666666669
+logs_data/28hc/igabl/run_2023-09-13_11-00-04/run_38c94_00009_9_clip_discriminator=10,cns_cf=0.0000,dr_cc=0.7000,info_loss_type=bce,offset_reward=1,seed=2_2023-09-13_11-00-05/results_IL/HCCustom/INFOGSDR_PPO/0_HCCustom_v0_type1-INFOGSDR_PPO-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg00_ds0.001_s2/09.13_11.00.47/models/ckpt_policy_T10000000.pt
+0_hccustom_v0_type1-infogsdr_ppo-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg00_ds0.001_s2
+v_data: 0
+Inferred from ckptpath name:
+il_method: infogsdr
+rl_method: ppo
+activation: relu
+hidden_size: [100, 100]
+norm_obs: 0
+info_loss_type: None
+encode_sampling: normal
+normalize_code: 0
+tl_emb: 0
+TRAINED C_DATA: 1
+ARG C_DATA: 1
+Using (100, 100) relu networks.
+State dim: 17, action dim: 6, action bound 1
+args.encode_dim: 2
+Policy model is loaded from logs_data/28hc/igabl/run_2023-09-13_11-00-04/run_38c94_00009_9_clip_discriminator=10,cns_cf=0.0000,dr_cc=0.7000,info_loss_type=bce,offset_reward=1,seed=2_2023-09-13_11-00-05/results_IL/HCCustom/INFOGSDR_PPO/0_HCCustom_v0_type1-INFOGSDR_PPO-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg00_ds0.001_s2/09.13_11.00.47/models/ckpt_policy_T10000000.pt
+***** Max Ep Steps: 1000 args.seed 1 test_seed 2 *****
+*** budgets = [10, 20, 30, 40, 50] NPARALLEL = 50 n_test_episodes = 5 ***
+***** num zs = 1500 *****
+***** args.encode_sampling = normal *****
+current_vel [0.97, 1.78, 2.88, 3.65, 4.87]
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+zvs shape 1500
+RT 982.0133333333333 98.23158179639694 1000.0 -209.6
+LR 0.9757333333333335 0.14876534841450442 1.0 -1.0
+VL-std-all 0.26880403975670186 0.0
+*** budget = 10
+VL10-1 0.09811201918536114 0.1063073638313915
+RT-VL10-1 978.1920000000001 120.1180549959081 1000.0 17.2
+VL10-2 0.32465963973599604 0.19503366697057054
+RT-VL10-2 961.6 119.43824066576556 1000.0 358.4
+VL10-3 0.05662760571295369 0.08585440927277095
+RT-VL10-3 997.768 13.38777711197792 1000.0 873.2
+VL10-4 0.3595800289563751 0.24972366172657226
+RT-VL10-4 994.3093333333335 20.516589536816845 1000.0 846.0
+VL10-5 0.8629346708985376 0.6737255329593387
+RT-VL10-5 992.1786666666668 22.515821360891007 1000.0 846.0
+VL10-all 0.3403827928978447 0.2873633068675494
+RT-VL10-all 984.8096000000002 13.378687300495704 997.768 961.6
+*** budget = 20
+VL20-1 0.04680260634852685 0.042522433916061225
+RT-VL20-1 980.4746666666667 104.34246574727962 999.6 331.2
+VL20-2 0.21644955272245497 0.13199900607537793
+RT-VL20-2 944.3573333333331 145.8005589137283 1000.0 358.4
+VL20-3 0.023697123670324866 0.03219740420043932
+RT-VL20-3 997.5733333333334 14.479680782239484 1000.0 873.2
+VL20-4 0.21781250826916837 0.18618861494591693
+RT-VL20-4 991.5733333333335 26.04573072288219 1000.0 846.0
+VL20-5 0.4683533560364906 0.4932187420288065
+RT-VL20-5 995.6693333333333 11.358943299835989 1000.0 934.4
+VL20-all 0.19462302940939313 0.15937941114944265
+RT-VL20-all 981.9296 19.699240141465214 997.5733333333334 944.3573333333331
+*** budget = 30
+VL30-1 0.03512714278443481 0.03174040106132207
+RT-VL30-1 985.2560000000002 87.95620764903407 999.6 369.6
+VL30-2 0.16921266123825165 0.10550870282588438
+RT-VL30-2 920.9760000000001 172.1354287298231 999.6 358.4
+VL30-3 0.012919806483755111 0.014035656767008289
+RT-VL30-3 999.2719999999998 0.602342095490602 1000.0 997.6
+VL30-4 0.13863172165303297 0.12076681928466983
+RT-VL30-4 996.4960000000001 10.05506757809216 1000.0 949.6
+VL30-5 0.2983756754942666 0.3822002374714086
+RT-VL30-5 995.8639999999999 9.927613207614407 1000.0 953.6
+VL30-all 0.13085340153074823 0.10263283762754963
+RT-VL30-all 979.5728000000001 29.684137544486557 999.2719999999998 920.9760000000001
+*** budget = 40
+VL40-1 0.026441521388922005 0.022026819917434017
+RT-VL40-1 997.8918918918921 0.9558859986246641 999.6 995.2
+VL40-2 0.14895934868358193 0.10601417286357707
+RT-VL40-2 911.2108108108109 171.66643926409392 999.2 468.4
+VL40-3 0.008864067168998754 0.00981002433972589
+RT-VL40-3 999.3297297297297 0.603084353772171 1000.0 997.6
+VL40-4 0.11343622850842439 0.11909196725327141
+RT-VL40-4 992.0756756756757 26.413074213508875 1000.0 846.0
+VL40-5 0.16626665269917534 0.27047015932541646
+RT-VL40-5 997.2972972972973 6.075848800072636 1000.0 968.0
+VL40-all 0.09279356368982049 0.06391519964311165
+RT-VL40-all 979.561081081081 34.26300040548074 999.3297297297297 911.2108108108109
+*** budget = 50
+VL50-1 0.02094123068607592 0.018742500622234416
+RT-VL50-1 976.9733333333332 112.79029193842685 999.6 369.6
+VL50-2 0.11907356963192085 0.07741627136206423
+RT-VL50-2 864.2666666666667 214.2267542166996 999.2 358.4
+VL50-3 0.006559351631432353 0.005100737164988981
+RT-VL50-3 999.2800000000001 0.6803920438492307 1000.0 997.6
+VL50-4 0.08454215060466647 0.07411613961729607
+RT-VL50-4 996.2000000000002 10.92312531589136 1000.0 949.6
+VL50-5 0.18268522546532986 0.2659273343907623
+RT-VL50-5 998.8000000000003 1.579873412650521 1000.0 991.6
+VL50-all 0.08276030560388509 0.06470703382986794
+RT-VL50-all 967.104 52.07577071067809 999.2800000000001 864.2666666666667
+logs_data/28hc/igabl/run_2023-09-13_11-00-04/run_38c94_00000_0_clip_discriminator=10,cns_cf=0.0000,dr_cc=0.7000,info_loss_type=bce,offset_reward=1,seed=1_2023-09-13_11-00-05/results_IL/HCCustom/INFOGSDR_PPO/0_HCCustom_v0_type1-INFOGSDR_PPO-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg00_ds0.001_s1/09.13_11.01.07/models/ckpt_policy_T10000000.pt
+0_hccustom_v0_type1-infogsdr_ppo-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg00_ds0.001_s1
+v_data: 0
+Inferred from ckptpath name:
+il_method: infogsdr
+rl_method: ppo
+activation: relu
+hidden_size: [100, 100]
+norm_obs: 0
+info_loss_type: None
+encode_sampling: normal
+normalize_code: 0
+tl_emb: 0
+TRAINED C_DATA: 1
+ARG C_DATA: 1
+Using (100, 100) relu networks.
+State dim: 17, action dim: 6, action bound 1
+args.encode_dim: 2
+Policy model is loaded from logs_data/28hc/igabl/run_2023-09-13_11-00-04/run_38c94_00000_0_clip_discriminator=10,cns_cf=0.0000,dr_cc=0.7000,info_loss_type=bce,offset_reward=1,seed=1_2023-09-13_11-00-05/results_IL/HCCustom/INFOGSDR_PPO/0_HCCustom_v0_type1-INFOGSDR_PPO-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg00_ds0.001_s1/09.13_11.01.07/models/ckpt_policy_T10000000.pt
+***** Max Ep Steps: 1000 args.seed 1 test_seed 2 *****
+*** budgets = [10, 20, 30, 40, 50] NPARALLEL = 50 n_test_episodes = 5 ***
+***** num zs = 1500 *****
+***** args.encode_sampling = normal *****
+current_vel [0.97, 1.78, 2.88, 3.65, 4.87]
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+zvs shape 1500
+RT 894.06 264.7770135541729 1000.0 -300.8
+LR 0.8701333333333332 0.3312823300784728 1.0 -1.0
+VL-std-all 0.5561467275982301 0.0
+*** budget = 10
+VL10-1 0.13261845902211042 0.12903075394038846
+RT-VL10-1 926.76 229.7969550131884 1000.0 52.4
+VL10-2 0.22722503549969852 0.16186463887805247
+RT-VL10-2 908.2853333333335 204.02022036607602 1000.0 259.2
+VL10-3 0.21267935931246504 0.24790168565423165
+RT-VL10-3 942.3653333333333 110.72175274784786 1000.0 314.0
+VL10-4 0.28311363477517193 0.24259348811594
+RT-VL10-4 950.368 81.13429880554011 1000.0 683.6
+VL10-5 0.519473209447648 0.563661296114139
+RT-VL10-5 973.1626666666668 53.11868164361344 999.6 719.6
+VL10-all 0.2750219396114188 0.13135584608239864
+RT-VL10-all 940.1882666666667 21.880553678145873 973.1626666666668 908.2853333333335
+*** budget = 20
+VL20-1 0.07287887004131932 0.05920730187814704
+RT-VL20-1 917.7653333333335 245.07663753383122 999.2 104.8
+VL20-2 0.13814859357305592 0.1134324947174605
+RT-VL20-2 896.2880000000001 214.633808433496 1000.0 314.8
+VL20-3 0.11325401090130892 0.16080953970761333
+RT-VL20-3 943.8293333333332 93.62422873499266 1000.0 635.6
+VL20-4 0.16564655011815488 0.1575640010681411
+RT-VL20-4 938.2453333333333 90.14862734149399 1000.0 696.4
+VL20-5 0.24456859958666366 0.36393189123552006
+RT-VL20-5 979.6746666666668 41.07529052308158 999.6 799.2
+VL20-all 0.14689932484410054 0.05758186496026686
+RT-VL20-all 935.1605333333333 27.856198526320426 979.6746666666668 896.2880000000001
+*** budget = 30
+VL30-1 0.05196871142104956 0.04817753049785266
+RT-VL30-1 962.408 166.42070044318405 999.2 136.0
+VL30-2 0.10098226932964571 0.08601082405931042
+RT-VL30-2 898.8480000000001 213.23184212495093 1000.0 320.4
+VL30-3 0.06729438097252531 0.05500878141212864
+RT-VL30-3 948.3439999999999 81.0233353053304 1000.0 722.4
+VL30-4 0.11332022013655464 0.12470772487755998
+RT-VL30-4 953.576 80.95084572751541 1000.0 719.6
+VL30-5 0.15222430952820726 0.2369277231628085
+RT-VL30-5 982.4400000000002 41.4908761054765 999.6 788.4
+VL30-all 0.0971579782775965 0.03533284133604853
+RT-VL30-all 949.1232 27.693051073509416 982.4400000000002 898.8480000000001
+*** budget = 40
+VL40-1 0.04045262734574403 0.037015378763496136
+RT-VL40-1 950.4108108108107 192.02338791081672 999.2 136.0
+VL40-2 0.08004286838871273 0.0747339022698162
+RT-VL40-2 896.5405405405405 210.79076273347908 1000.0 352.8
+VL40-3 0.05096537867489929 0.03596985831349315
+RT-VL40-3 927.8378378378378 99.8842772340487 1000.0 635.6
+VL40-4 0.07251424595016379 0.08225677323504639
+RT-VL40-4 961.2864864864866 72.90507030957733 1000.0 728.8
+VL40-5 0.0874940613072517 0.11019936051594915
+RT-VL40-5 991.275675675676 13.47633371838975 999.6 946.8
+VL40-all 0.06629383633335431 0.01777587473702732
+RT-VL40-all 945.4702702702704 31.867594592291073 991.275675675676 896.5405405405405
+*** budget = 50
+VL50-1 0.03240355451609392 0.03081078994797563
+RT-VL50-1 939.6666666666666 211.81687898329116 999.2 136.0
+VL50-2 0.06215827822880428 0.053751061246830045
+RT-VL50-2 850.4266666666666 247.02826684859815 1000.0 320.4
+VL50-3 0.05546396115731254 0.05252809233404742
+RT-VL50-3 941.1600000000001 85.46128012146788 1000.0 722.4
+VL50-4 0.05363705123057475 0.06702751183411018
+RT-VL50-4 960.7733333333333 77.87099987943023 1000.0 728.8
+VL50-5 0.0583588241419774 0.06617110841036433
+RT-VL50-5 994.8266666666666 6.629174575733813 999.2 973.2
+VL50-all 0.05240433385495258 0.01040680038192036
+RT-VL50-all 937.3706666666667 47.80746080314708 994.8266666666666 850.4266666666666
+logs_data/28hc/greg/sn/run_2023-09-14_14-28-34/run_8368a_00003_3_dl_scale=0.2000,dr_cc=0.7000,reg_dec=0,seed=1,sn_dec=1_2023-09-14_14-28-34/results_IL/HCCustom/INFOGSDR_PPO/0_HCCustom_v0_type1-INFOGSDR_PPO-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg10_ds0.200_s1/09.14_14.29.11/models/ckpt_policy_T10000000.pt
+0_hccustom_v0_type1-infogsdr_ppo-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg10_ds0.200_s1
+v_data: 0
+Inferred from ckptpath name:
+il_method: infogsdr
+rl_method: ppo
+activation: relu
+hidden_size: [100, 100]
+norm_obs: 0
+info_loss_type: None
+encode_sampling: normal
+normalize_code: 0
+tl_emb: 0
+TRAINED C_DATA: 1
+ARG C_DATA: 1
+Using (100, 100) relu networks.
+State dim: 17, action dim: 6, action bound 1
+args.encode_dim: 2
+Policy model is loaded from logs_data/28hc/greg/sn/run_2023-09-14_14-28-34/run_8368a_00003_3_dl_scale=0.2000,dr_cc=0.7000,reg_dec=0,seed=1,sn_dec=1_2023-09-14_14-28-34/results_IL/HCCustom/INFOGSDR_PPO/0_HCCustom_v0_type1-INFOGSDR_PPO-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg10_ds0.200_s1/09.14_14.29.11/models/ckpt_policy_T10000000.pt
+***** Max Ep Steps: 1000 args.seed 1 test_seed 2 *****
+*** budgets = [10, 20, 30, 40, 50] NPARALLEL = 50 n_test_episodes = 5 ***
+***** num zs = 1500 *****
+***** args.encode_sampling = normal *****
+current_vel [0.97, 1.78, 2.88, 3.65, 4.87]
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+zvs shape 1500
+RT 993.4682666666666 20.815510394788678 1000.0 679.2
+LR 0.9944 0.04699617005671846 1.0 0.6
+VL-std-all 0.3827308184233839 0.0
+*** budget = 10
+VL10-1 0.11175036342821405 0.26387088223449534
+RT-VL10-1 997.2266666666667 0.9640654657346801 999.6 995.2
+VL10-2 0.5513020345167089 0.20524592421280824
+RT-VL10-2 997.36 1.0087616170334819 1000.0 994.8
+VL10-3 0.16707566976139263 0.12088843880104871
+RT-VL10-3 984.5173333333333 36.12979702252546 1000.0 826.8
+VL10-4 0.14986405992504315 0.12517759158859357
+RT-VL10-4 991.32 23.562535234279576 1000.0 842.8
+VL10-5 0.4813070686393971 0.3353558162799325
+RT-VL10-5 994.656 14.401057738930152 1000.0 886.8
+VL10-all 0.2922598392541512 0.18513401577774583
+RT-VL10-all 993.016 4.783166333902444 997.36 984.5173333333333
+*** budget = 20
+VL20-1 0.04516236988410192 0.041715838082710927
+RT-VL20-1 997.1306666666667 0.8525996846247533 999.6 995.2
+VL20-2 0.4518574310863375 0.18018568685122707
+RT-VL20-2 997.4879999999998 1.0256653125329627 1000.0 995.6
+VL20-3 0.1025327194670864 0.08943570290774347
+RT-VL20-3 980.2080000000001 42.95010984852076 999.2 826.8
+VL20-4 0.08456539664464062 0.07458528888965764
+RT-VL20-4 994.2719999999999 12.892691056046699 1000.0 927.2
+VL20-5 0.2788536047625009 0.18888517426805526
+RT-VL20-5 996.8693333333333 7.305997049608557 1000.0 946.8
+VL20-all 0.19259430436893346 0.15243066952864076
+RT-VL20-all 993.1936 6.591542076867169 997.4879999999998 980.2080000000001
+*** budget = 30
+VL30-1 0.030604378591387708 0.026664828069404505
+RT-VL30-1 997.1519999999999 0.9248221450635822 999.6 995.2
+VL30-2 0.4010884577236326 0.18526810505097047
+RT-VL30-2 997.584 1.0521140622575174 1000.0 995.6
+VL30-3 0.06721859603480974 0.06575843977890558
+RT-VL30-3 966.7280000000001 54.17262423032504 999.2 826.8
+VL30-4 0.058447354253584244 0.05944331801400582
+RT-VL30-4 993.6239999999999 12.824079850032124 1000.0 935.6
+VL30-5 0.21890921264345373 0.17240661858195894
+RT-VL30-5 996.7280000000001 7.331112875955469 1000.0 946.8
+VL30-all 0.15525359984937362 0.1393885603838793
+RT-VL30-all 990.3632 11.899528837731312 997.584 966.7280000000001
+*** budget = 40
+VL40-1 0.02180920990594994 0.019310872008316302
+RT-VL40-1 997.1243243243244 0.9522109138964182 998.8 995.2
+VL40-2 0.35446632067083506 0.18503727574771836
+RT-VL40-2 997.5351351351352 1.0664962123363058 1000.0 995.6
+VL40-3 0.03745811406257779 0.04080593432564598
+RT-VL40-3 973.4054054054054 51.52897870574642 999.2 826.8
+VL40-4 0.050003340827987935 0.049841747181646724
+RT-VL40-4 994.0972972972972 13.112537563112891 1000.0 927.2
+VL40-5 0.189788930234516 0.1571123195123503
+RT-VL40-5 996.7135135135136 8.37764600112035 1000.0 946.8
+VL40-all 0.13070518314037335 0.1269850952438871
+RT-VL40-all 991.7751351351351 9.263027727913476 997.5351351351352 973.4054054054054
+*** budget = 50
+VL50-1 0.019968733890368028 0.01763446592703287
+RT-VL50-1 997.2533333333334 0.9783432708183505 999.6 995.2
+VL50-2 0.3207318198196737 0.17436195040292995
+RT-VL50-2 997.6800000000001 1.0140348448976788 1000.0 995.6
+VL50-3 0.03781976266382639 0.04395348835310827
+RT-VL50-3 977.7866666666666 45.66752115988877 999.2 843.6
+VL50-4 0.035345080409269584 0.038904475115885816
+RT-VL50-4 992.7199999999998 15.553229032369233 1000.0 927.2
+VL50-5 0.1594162510181739 0.13322433955936738
+RT-VL50-5 996.4133333333334 9.256339569301808 1000.0 946.8
+VL50-all 0.11465632956026231 0.11456913308796735
+RT-VL50-all 992.3706666666667 7.499169257694895 997.6800000000001 977.7866666666666
+logs_data/28hc/greg/sn/run_2023-09-14_14-28-34/run_8368a_00015_15_dl_scale=0.2000,dr_cc=0.7000,reg_dec=0,seed=2,sn_dec=1_2023-09-14_14-28-34/results_IL/HCCustom/INFOGSDR_PPO/0_HCCustom_v0_type1-INFOGSDR_PPO-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg10_ds0.200_s2/09.15_01.33.00/models/ckpt_policy_T10000000.pt
+0_hccustom_v0_type1-infogsdr_ppo-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg10_ds0.200_s2
+v_data: 0
+Inferred from ckptpath name:
+il_method: infogsdr
+rl_method: ppo
+activation: relu
+hidden_size: [100, 100]
+norm_obs: 0
+info_loss_type: None
+encode_sampling: normal
+normalize_code: 0
+tl_emb: 0
+TRAINED C_DATA: 1
+ARG C_DATA: 1
+Using (100, 100) relu networks.
+State dim: 17, action dim: 6, action bound 1
+args.encode_dim: 2
+Policy model is loaded from logs_data/28hc/greg/sn/run_2023-09-14_14-28-34/run_8368a_00015_15_dl_scale=0.2000,dr_cc=0.7000,reg_dec=0,seed=2,sn_dec=1_2023-09-14_14-28-34/results_IL/HCCustom/INFOGSDR_PPO/0_HCCustom_v0_type1-INFOGSDR_PPO-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg10_ds0.200_s2/09.15_01.33.00/models/ckpt_policy_T10000000.pt
+***** Max Ep Steps: 1000 args.seed 1 test_seed 2 *****
+*** budgets = [10, 20, 30, 40, 50] NPARALLEL = 50 n_test_episodes = 5 ***
+***** num zs = 1500 *****
+***** args.encode_sampling = normal *****
+current_vel [0.97, 1.78, 2.88, 3.65, 4.87]
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+zvs shape 1500
+RT 989.9253333333334 38.099076080952706 1000.0 400.8
+LR 0.9925333333333333 0.06151624898259719 1.0 0.2
+VL-std-all 0.47625101945978027 0.0
+*** budget = 10
+VL10-1 0.0313182398954694 0.05855837838305639
+RT-VL10-1 996.7813333333335 3.576019885602181 1000.0 960.4
+VL10-2 0.38388529686289347 0.2509608178667402
+RT-VL10-2 982.0426666666666 57.80214799545851 999.6 574.0
+VL10-3 0.14527491703318854 0.19105903873044322
+RT-VL10-3 988.6720000000001 40.24833101301634 1000.0 782.0
+VL10-4 0.30320671551378825 0.2686675024805054
+RT-VL10-4 988.4773333333334 34.0084286546079 1000.0 747.6
+VL10-5 0.7230646350128257 0.5624924160175122
+RT-VL10-5 988.7786666666666 26.577575978423784 999.6 791.2
+VL10-all 0.31734996086363304 0.23691996338628993
+RT-VL10-all 988.9504000000001 4.676988083039068 996.7813333333335 982.0426666666666
+*** budget = 20
+VL20-1 0.014584712321285404 0.012438240987696862
+RT-VL20-1 996.9493333333335 2.564806598729987 999.6 977.6
+VL20-2 0.24276907645059664 0.19857724570189908
+RT-VL20-2 982.1386666666666 63.660650103148924 999.6 574.0
+VL20-3 0.0665570290366535 0.08752771198458455
+RT-VL20-3 986.4746666666667 46.23255734027939 1000.0 782.0
+VL20-4 0.1834963870298449 0.16305023879520403
+RT-VL20-4 992.4693333333335 15.596153143929081 999.6 902.8
+VL20-5 0.4315881692447695 0.3519333502260956
+RT-VL20-5 991.5893333333333 11.507210184150727 999.6 941.6
+VL20-all 0.18779907481663 0.1464077769816233
+RT-VL20-all 989.9242666666667 5.1208725923095635 996.9493333333335 982.1386666666666
+*** budget = 30
+VL30-1 0.00966723518753489 0.010020667191387025
+RT-VL30-1 997.2239999999999 1.2634175873399895 999.6 993.6
+VL30-2 0.2008421701821378 0.17666706576555657
+RT-VL30-2 981.88 66.43961468882854 999.6 574.0
+VL30-3 0.044629036681491534 0.051661666929869995
+RT-VL30-3 989.248 40.04522563302646 999.6 791.2
+VL30-4 0.11944063946658087 0.11989150716180053
+RT-VL30-4 991.7280000000002 15.899975345892837 999.6 916.8
+VL30-5 0.36661675907824187 0.3322254689948445
+RT-VL30-5 992.08 11.814567279422462 999.2 941.6
+VL30-all 0.1482391681191974 0.1274538687091301
+RT-VL30-all 990.432 5.001306709251087 997.2239999999999 981.88
+*** budget = 40
+VL40-1 0.007704673747474639 0.007523414906863991
+RT-VL40-1 997.2864864864863 1.085073708335102 999.2 993.6
+VL40-2 0.15224571900275094 0.14903296735230587
+RT-VL40-2 976.4648648648648 76.49661436145735 999.2 574.0
+VL40-3 0.033837689334961965 0.049212249563566395
+RT-VL40-3 992.3459459459458 33.55172364037831 1000.0 791.2
+VL40-4 0.10442418033382429 0.097445701038598
+RT-VL40-4 991.4270270270271 14.405866835062024 998.8 916.8
+VL40-5 0.2660164725240893 0.16996896378412035
+RT-VL40-5 987.9027027027028 14.856839111031448 999.2 941.6
+VL40-all 0.11284574698862022 0.09206679118683476
+RT-VL40-all 989.0854054054053 6.986399309404313 997.2864864864863 976.4648648648648
+*** budget = 50
+VL50-1 0.007386426183005609 0.006876607800959348
+RT-VL50-1 997.4000000000001 0.9223159256278032 999.2 995.2
+VL50-2 0.12427714893100848 0.11104509911737852
+RT-VL50-2 971.6399999999999 84.22663711676967 999.6 574.0
+VL50-3 0.020576887163900583 0.0214526215493768
+RT-VL50-3 990.9999999999999 37.12720476057055 999.6 791.2
+VL50-4 0.0872437042434827 0.09268475281771432
+RT-VL50-4 994.9066666666666 5.580856166893708 998.8 976.8
+VL50-5 0.27662977057005206 0.3027393581314826
+RT-VL50-5 990.7466666666667 11.231257968524963 999.2 954.4
+VL50-all 0.10322278741828987 0.09673009046546947
+RT-VL50-all 989.1386666666667 9.096955681252256 997.4000000000001 971.6399999999999
+logs_data/28hc/greg/sn/run_2023-09-14_14-28-34/run_8368a_00027_27_dl_scale=0.2000,dr_cc=0.7000,reg_dec=0,seed=3,sn_dec=1_2023-09-14_14-28-38/results_IL/HCCustom/INFOGSDR_PPO/0_HCCustom_v0_type1-INFOGSDR_PPO-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg10_ds0.200_s3/09.15_01.34.17/models/ckpt_policy_T10000000.pt
+0_hccustom_v0_type1-infogsdr_ppo-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg10_ds0.200_s3
+v_data: 0
+Inferred from ckptpath name:
+il_method: infogsdr
+rl_method: ppo
+activation: relu
+hidden_size: [100, 100]
+norm_obs: 0
+info_loss_type: None
+encode_sampling: normal
+normalize_code: 0
+tl_emb: 0
+TRAINED C_DATA: 1
+ARG C_DATA: 1
+Using (100, 100) relu networks.
+State dim: 17, action dim: 6, action bound 1
+args.encode_dim: 2
+Policy model is loaded from logs_data/28hc/greg/sn/run_2023-09-14_14-28-34/run_8368a_00027_27_dl_scale=0.2000,dr_cc=0.7000,reg_dec=0,seed=3,sn_dec=1_2023-09-14_14-28-38/results_IL/HCCustom/INFOGSDR_PPO/0_HCCustom_v0_type1-INFOGSDR_PPO-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg10_ds0.200_s3/09.15_01.34.17/models/ckpt_policy_T10000000.pt
+***** Max Ep Steps: 1000 args.seed 1 test_seed 2 *****
+*** budgets = [10, 20, 30, 40, 50] NPARALLEL = 50 n_test_episodes = 5 ***
+***** num zs = 1500 *****
+***** args.encode_sampling = normal *****
+current_vel [0.97, 1.78, 2.88, 3.65, 4.87]
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+zvs shape 1500
+RT 991.5365333333334 30.52420982295128 1000.0 662.8
+LR 0.9909333333333334 0.06130086096912144 1.0 0.2
+VL-std-all 0.4011997536557494 0.0
+*** budget = 10
+VL10-1 0.10717549708430944 0.24048036451480284
+RT-VL10-1 996.36 10.519391617389287 999.6 868.4
+VL10-2 0.4621214866399174 0.25020196046936344
+RT-VL10-2 983.8213333333334 56.672053767463055 999.6 662.8
+VL10-3 0.06718857526109973 0.08024382750011072
+RT-VL10-3 995.6986666666666 17.15037409374955 1000.0 822.4
+VL10-4 0.20389219116093402 0.15305614876833873
+RT-VL10-4 992.9439999999998 17.14131259073626 999.6 895.6
+VL10-5 1.1079794861336938 0.359685156492445
+RT-VL10-5 992.544 17.166496361614776 999.6 914.4
+VL10-all 0.3896714472559909 0.384585112429426
+RT-VL10-all 992.2736000000001 4.4809175568303665 996.36 983.8213333333334
+*** budget = 20
+VL20-1 0.0434778265424151 0.040244273393022445
+RT-VL20-1 997.12 0.6943582168688871 998.8 995.2
+VL20-2 0.3315939315860267 0.24001034085120926
+RT-VL20-2 986.4853333333334 56.173001090876 999.2 662.8
+VL20-3 0.034370328888621585 0.03719704935231179
+RT-VL20-3 995.7066666666668 13.47049450548206 999.6 910.4
+VL20-4 0.11467259731349633 0.09693024961118635
+RT-VL20-4 990.56 20.254276914600865 999.2 916.8
+VL20-5 0.8814355536436674 0.2825571835822111
+RT-VL20-5 991.0720000000001 19.646601470313723 999.2 914.4
+VL20-all 0.2811100475948455 0.3187445126998435
+RT-VL20-all 992.1888000000001 3.824183129041347 997.12 986.4853333333334
+*** budget = 30
+VL30-1 0.02981325364376284 0.023050063429603394
+RT-VL30-1 997.1360000000001 0.739123805596874 998.8 995.2
+VL30-2 0.24518813559518346 0.21366222558802347
+RT-VL30-2 971.72 81.46786360277285 999.6 662.8
+VL30-3 0.022356539153602847 0.0256343303573999
+RT-VL30-3 994.56 16.36503589974676 999.6 910.4
+VL30-4 0.0855198341921449 0.06945731160078131
+RT-VL30-4 992.72 16.692225735353567 999.2 923.2
+VL30-5 0.7818070019952812 0.23364533471566507
+RT-VL30-5 995.304 12.350562092471744 999.2 914.4
+VL30-all 0.23293695291599503 0.2859173226695281
+RT-VL30-all 990.2880000000001 9.391385329119442 997.1360000000001 971.72
+*** budget = 40
+VL40-1 0.02053446349335602 0.015357852358024325
+RT-VL40-1 997.0594594594594 0.7156397476080192 998.8 995.2
+VL40-2 0.19203759342848442 0.19936713759611055
+RT-VL40-2 975.0162162162162 78.32928938061528 999.2 662.8
+VL40-3 0.015265556998723163 0.013801396130629822
+RT-VL40-3 993.3081081081084 18.858367966679708 999.2 910.4
+VL40-4 0.0686456975709683 0.0688406240568992
+RT-VL40-4 992.345945945946 17.86899163195909 999.2 923.2
+VL40-5 0.7421801120679127 0.22029701732591467
+RT-VL40-5 994.5945945945948 14.27138406791804 999.2 914.4
+VL40-all 0.2077326847118889 0.27470433115163806
+RT-VL40-all 990.4648648648648 7.884498573161342 997.0594594594594 975.0162162162162
+*** budget = 50
+VL50-1 0.019575095358420284 0.020787502337908
+RT-VL50-1 997.0133333333335 0.7710310557227182 998.8 995.2
+VL50-2 0.14695376247635855 0.16346444049423192
+RT-VL50-2 975.64 82.07712470597396 999.2 662.8
+VL50-3 0.01283535264746507 0.010830380675729813
+RT-VL50-3 992.24 20.793229667370102 999.2 910.4
+VL50-4 0.06116952455626875 0.05420470161731007
+RT-VL50-4 992.2133333333331 18.4335153698064 999.2 924.0
+VL50-5 0.6991810455647444 0.21748365025455227
+RT-VL50-5 994.5866666666666 13.472632341982102 999.2 923.2
+VL50-all 0.18794295612065143 0.2600486148305496
+RT-VL50-all 990.3386666666665 7.560118047285324 997.0133333333335 975.64
+logs_data/28hc/greg/sn/run_2023-09-14_14-28-34/run_8368a_00039_39_dl_scale=0.2000,dr_cc=0.7000,reg_dec=0,seed=4,sn_dec=1_2023-09-14_18-12-46/results_IL/HCCustom/INFOGSDR_PPO/0_HCCustom_v0_type1-INFOGSDR_PPO-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg10_ds0.200_s4/09.15_01.36.18/models/ckpt_policy_T10000000.pt
+0_hccustom_v0_type1-infogsdr_ppo-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg10_ds0.200_s4
+v_data: 0
+Inferred from ckptpath name:
+il_method: infogsdr
+rl_method: ppo
+activation: relu
+hidden_size: [100, 100]
+norm_obs: 0
+info_loss_type: None
+encode_sampling: normal
+normalize_code: 0
+tl_emb: 0
+TRAINED C_DATA: 1
+ARG C_DATA: 1
+Using (100, 100) relu networks.
+State dim: 17, action dim: 6, action bound 1
+args.encode_dim: 2
+Policy model is loaded from logs_data/28hc/greg/sn/run_2023-09-14_14-28-34/run_8368a_00039_39_dl_scale=0.2000,dr_cc=0.7000,reg_dec=0,seed=4,sn_dec=1_2023-09-14_18-12-46/results_IL/HCCustom/INFOGSDR_PPO/0_HCCustom_v0_type1-INFOGSDR_PPO-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg10_ds0.200_s4/09.15_01.36.18/models/ckpt_policy_T10000000.pt
+***** Max Ep Steps: 1000 args.seed 1 test_seed 2 *****
+*** budgets = [10, 20, 30, 40, 50] NPARALLEL = 50 n_test_episodes = 5 ***
+***** num zs = 1500 *****
+***** args.encode_sampling = normal *****
+current_vel [0.97, 1.78, 2.88, 3.65, 4.87]
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+zvs shape 1500
+RT 992.8176 22.032274740480155 1000.0 763.2
+LR 0.9847999999999999 0.0805540812125618 1.0 0.2
+VL-std-all 0.5236751598372836 0.0
+*** budget = 10
+VL10-1 0.10951650839848845 0.2542289756535098
+RT-VL10-1 997.4186666666668 1.0719071269885725 1000.0 994.4
+VL10-2 0.39008625222469123 0.27653332285732474
+RT-VL10-2 997.4586666666665 1.9818572658549918 1000.0 982.4
+VL10-3 0.10209512752901174 0.1373042706186723
+RT-VL10-3 994.6266666666667 23.778417852236412 1000.0 763.2
+VL10-4 0.2517694406378053 0.18570194022422343
+RT-VL10-4 986.4533333333335 34.77748441480813 1000.0 764.0
+VL10-5 0.39516877981785703 0.477725497512947
+RT-VL10-5 990.32 22.044270608633585 999.6 850.0
+VL10-all 0.24972722172157075 0.12830616063899764
+RT-VL10-all 993.2554666666667 4.284047066864539 997.4586666666665 986.4533333333335
+*** budget = 20
+VL20-1 0.03628822989154407 0.03815457795087892
+RT-VL20-1 997.3226666666668 1.0572383311670532 1000.0 994.4
+VL20-2 0.23771444982577658 0.22035685158496945
+RT-VL20-2 997.2960000000002 1.8861912239572418 1000.0 983.2
+VL20-3 0.04740005630725464 0.038948355387254024
+RT-VL20-3 997.68 3.871537162420115 1000.0 965.6
+VL20-4 0.15552077497598857 0.13087556998903993
+RT-VL20-4 988.6719999999999 26.492859717289864 1000.0 862.0
+VL20-5 0.13532205927306726 0.14823515899630807
+RT-VL20-5 993.344 12.289944290625025 999.2 937.2
+VL20-all 0.12244911405472622 0.07429886154398728
+RT-VL20-all 994.8629333333334 3.47967757382465 997.68 988.6719999999999
+*** budget = 30
+VL30-1 0.022160249599961587 0.024253923915318366
+RT-VL30-1 997.2640000000001 1.0099029656358123 999.6 994.8
+VL30-2 0.16813163922034008 0.17451331646618298
+RT-VL30-2 997.448 0.9011636921225765 1000.0 995.6
+VL30-3 0.03320134228914167 0.024745827899778555
+RT-VL30-3 997.424 4.6772025827410975 1000.0 965.6
+VL30-4 0.10290400668958792 0.10084764448251259
+RT-VL30-4 988.456 30.0690416209097 1000.0 862.0
+VL30-5 0.09110728213243036 0.09706035296372806
+RT-VL30-5 994.5759999999999 8.793510334331785 999.6 965.2
+VL30-all 0.08350090398629233 0.05270563635274868
+RT-VL30-all 995.0336 3.463877688371811 997.448 988.456
+*** budget = 40
+VL40-1 0.01431460913336474 0.014344441999807604
+RT-VL40-1 997.156756756757 0.9699653213473745 999.2 994.8
+VL40-2 0.08588984053627934 0.07153111526032671
+RT-VL40-2 997.4486486486486 0.8179148246217404 999.6 996.0
+VL40-3 0.025790688588065172 0.020488358645198528
+RT-VL40-3 997.1243243243241 5.380917504674367 1000.0 965.6
+VL40-4 0.07151127375734595 0.080286423970952
+RT-VL40-4 988.464864864865 31.134166651603937 1000.0 862.0
+VL40-5 0.08004458600422319 0.1040263565662794
+RT-VL40-5 993.0054054054053 12.135316919122394 999.2 937.2
+VL40-all 0.055510199603855684 0.029533774166269778
+RT-VL40-all 994.6400000000001 3.498532051547402 997.4486486486486 988.464864864865
+*** budget = 50
+VL50-1 0.011194210408224341 0.01329781833702244
+RT-VL50-1 997.2933333333334 1.0207622424225806 999.6 994.8
+VL50-2 0.0835231535159668 0.08037565829150005
+RT-VL50-2 997.5599999999998 0.9083318042800624 1000.0 996.0
+VL50-3 0.022575410815093955 0.017483966572205682
+RT-VL50-3 997.0133333333334 5.928222517940956 1000.0 965.6
+VL50-4 0.06197296628948246 0.06868548088117298
+RT-VL50-4 985.2000000000002 35.08921961704669 1000.0 862.0
+VL50-5 0.06124298038880319 0.0820818503552476
+RT-VL50-5 994.4400000000002 8.630704876582591 999.2 965.2
+VL50-all 0.048101744283514145 0.026957517969662368
+RT-VL50-all 994.3013333333334 4.685710476188865 997.5599999999998 985.2000000000002
+logs_data/28hc/greg/sn/run_2023-09-14_14-28-34/run_8368a_00051_51_dl_scale=0.2000,dr_cc=0.7000,reg_dec=0,seed=5,sn_dec=1_2023-09-14_21-49-19/results_IL/HCCustom/INFOGSDR_PPO/0_HCCustom_v0_type1-INFOGSDR_PPO-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg10_ds0.200_s5/09.15_01.37.53/models/ckpt_policy_T10000000.pt
+0_hccustom_v0_type1-infogsdr_ppo-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg10_ds0.200_s5
+v_data: 0
+Inferred from ckptpath name:
+il_method: infogsdr
+rl_method: ppo
+activation: relu
+hidden_size: [100, 100]
+norm_obs: 0
+info_loss_type: None
+encode_sampling: normal
+normalize_code: 0
+tl_emb: 0
+TRAINED C_DATA: 1
+ARG C_DATA: 1
+Using (100, 100) relu networks.
+State dim: 17, action dim: 6, action bound 1
+args.encode_dim: 2
+Policy model is loaded from logs_data/28hc/greg/sn/run_2023-09-14_14-28-34/run_8368a_00051_51_dl_scale=0.2000,dr_cc=0.7000,reg_dec=0,seed=5,sn_dec=1_2023-09-14_21-49-19/results_IL/HCCustom/INFOGSDR_PPO/0_HCCustom_v0_type1-INFOGSDR_PPO-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg10_ds0.200_s5/09.15_01.37.53/models/ckpt_policy_T10000000.pt
+***** Max Ep Steps: 1000 args.seed 1 test_seed 2 *****
+*** budgets = [10, 20, 30, 40, 50] NPARALLEL = 50 n_test_episodes = 5 ***
+***** num zs = 1500 *****
+***** args.encode_sampling = normal *****
+current_vel [0.97, 1.78, 2.88, 3.65, 4.87]
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+zvs shape 1500
+RT 994.5421333333335 15.889993857211595 999.6 767.6
+LR 0.992 0.05787342510456189 1.0 0.2
+VL-std-all 0.4570027218720295 0.0
+*** budget = 10
+VL10-1 0.0404420462065817 0.036122392978687135
+RT-VL10-1 996.5573333333334 0.9829443298353996 999.6 994.0
+VL10-2 0.4840459789889108 0.21841729965016773
+RT-VL10-2 996.7386666666666 0.9892614529143535 999.6 993.6
+VL10-3 0.3435007865791954 0.29443708984560096
+RT-VL10-3 994.0773333333334 19.6244036738841 998.8 814.0
+VL10-4 0.15513420238624137 0.13707056443474597
+RT-VL10-4 989.6613333333335 32.34799898327904 998.8 767.6
+VL10-5 0.5063182549952523 0.32555163096676293
+RT-VL10-5 991.970666666667 19.94184059263894 999.2 871.2
+VL10-all 0.3058882538312363 0.18249138948951682
+RT-VL10-all 993.8010666666667 2.712584715727722 996.7386666666666 989.6613333333335
+*** budget = 20
+VL20-1 0.023806487571213612 0.024450154347241907
+RT-VL20-1 996.5546666666665 0.9619831368353383 999.2 994.4
+VL20-2 0.37382460797941236 0.20830025531608817
+RT-VL20-2 996.7573333333331 0.8041846111987523 998.8 995.2
+VL20-3 0.19716070973548636 0.15825891915720344
+RT-VL20-3 996.6826666666668 3.2058435534019596 998.8 970.4
+VL20-4 0.08442389976095012 0.06536624099769334
+RT-VL20-4 985.2426666666667 40.12421105627983 998.8 767.6
+VL20-5 0.3407419646161759 0.23241123429295973
+RT-VL20-5 994.8746666666669 6.902503764737996 998.8 960.0
+VL20-all 0.20399153393264768 0.13737080007425587
+RT-VL20-all 994.0224000000001 4.444757123223315 996.7573333333331 985.2426666666667
+*** budget = 30
+VL30-1 0.013751317888034898 0.011935111029933162
+RT-VL30-1 996.4559999999998 0.8836650949313303 998.8 994.4
+VL30-2 0.30768539662299554 0.18609702134007994
+RT-VL30-2 996.752 0.8376729672133388 998.4 995.2
+VL30-3 0.12868111857735479 0.10931318714107409
+RT-VL30-3 993.752 18.532719606145243 998.8 866.8
+VL30-4 0.06273959788181434 0.05065389832381747
+RT-VL30-4 982.4639999999999 46.46825049428911 998.8 767.6
+VL30-5 0.26585534093902935 0.18870603126200414
+RT-VL30-5 995.248 6.092954619886811 998.8 960.0
+VL30-all 0.1557425543818458 0.1138023159151829
+RT-VL30-all 992.9343999999999 5.340903054727721 996.752 982.4639999999999
+*** budget = 40
+VL40-1 0.011453558919536646 0.010568296177758495
+RT-VL40-1 996.4324324324324 0.8643241552997523 998.4 994.4
+VL40-2 0.26142463460717924 0.1671233678627761
+RT-VL40-2 996.9081081081079 0.770531013241321 998.4 995.2
+VL40-3 0.09310272846399792 0.08747469953273362
+RT-VL40-3 996.9405405405404 0.9309859520696673 998.8 994.4
+VL40-4 0.04812101504337507 0.03956660816621624
+RT-VL40-4 980.8 49.938340359265425 998.8 767.6
+VL40-5 0.19965841164586273 0.1301119901169205
+RT-VL40-5 993.6432432432433 8.687628374802328 998.8 960.0
+VL40-all 0.12275206973599033 0.09378795439316048
+RT-VL40-all 992.9448648648647 6.193889304691549 996.9405405405404 980.8
+*** budget = 50
+VL50-1 0.008743948100565746 0.006151219790324293
+RT-VL50-1 996.4533333333334 0.8373503182990705 998.4 994.8
+VL50-2 0.23496409983002367 0.1527015609128843
+RT-VL50-2 996.7733333333333 0.7792874237974683 998.0 995.2
+VL50-3 0.09009668762255772 0.08729940463072641
+RT-VL50-3 996.0533333333333 4.871394963343552 998.8 970.4
+VL50-4 0.04007539668466819 0.03486952418323741
+RT-VL50-4 978.64 49.23658260548418 998.8 814.0
+VL50-5 0.1933411885840919 0.1401927885917486
+RT-VL50-5 993.0 9.52848361493055 998.8 960.0
+VL50-all 0.11344426416438144 0.08722481896963566
+RT-VL50-all 992.184 6.904588619172038 996.7733333333333 978.64
+logs_data/28hc/greg/rr/run_2023-09-14_14-30-33/run_cabc7_00005_5_dl_l2m=1,dl_scale=0.1000,dr_cc=0.7000,reg_dec=1,seed=1,sn_dec=0_2023-09-14_14-30-34/results_IL/HCCustom/INFOGSDR_PPO/0_HCCustom_v0_type1-INFOGSDR_PPO-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg01_ds0.100_s1/09.14_14.31.17/models/ckpt_policy_T10000000.pt
+0_hccustom_v0_type1-infogsdr_ppo-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg01_ds0.100_s1
+v_data: 0
+Inferred from ckptpath name:
+il_method: infogsdr
+rl_method: ppo
+activation: relu
+hidden_size: [100, 100]
+norm_obs: 0
+info_loss_type: None
+encode_sampling: normal
+normalize_code: 0
+tl_emb: 0
+TRAINED C_DATA: 1
+ARG C_DATA: 1
+Using (100, 100) relu networks.
+State dim: 17, action dim: 6, action bound 1
+args.encode_dim: 2
+Policy model is loaded from logs_data/28hc/greg/rr/run_2023-09-14_14-30-33/run_cabc7_00005_5_dl_l2m=1,dl_scale=0.1000,dr_cc=0.7000,reg_dec=1,seed=1,sn_dec=0_2023-09-14_14-30-34/results_IL/HCCustom/INFOGSDR_PPO/0_HCCustom_v0_type1-INFOGSDR_PPO-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg01_ds0.100_s1/09.14_14.31.17/models/ckpt_policy_T10000000.pt
+***** Max Ep Steps: 1000 args.seed 1 test_seed 2 *****
+*** budgets = [10, 20, 30, 40, 50] NPARALLEL = 50 n_test_episodes = 5 ***
+***** num zs = 1500 *****
+***** args.encode_sampling = normal *****
+current_vel [0.97, 1.78, 2.88, 3.65, 4.87]
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+zvs shape 1500
+RT 976.1591999999998 84.36569375063934 1000.0 34.8
+LR 0.9602666666666667 0.15044798288962052 1.0 -0.6
+VL-std-all 0.4854039513111469 0.0
+*** budget = 10
+VL10-1 0.15780066037629295 0.19129506277302752
+RT-VL10-1 990.7280000000001 70.78145248580309 999.6 126.8
+VL10-2 0.22486268705294918 0.1878600846508254
+RT-VL10-2 976.1653333333335 98.93048534984328 1000.0 420.4
+VL10-3 0.2225585026779506 0.223462216445444
+RT-VL10-3 962.3226666666666 78.48308110386313 1000.0 613.6
+VL10-4 0.21620669340027046 0.23300826160548105
+RT-VL10-4 974.0826666666668 58.703926894960695 1000.0 668.4
+VL10-5 0.21465487918502638 0.2969343453824232
+RT-VL10-5 992.4933333333333 20.619235894884387 999.6 853.2
+VL10-all 0.2072166845384979 0.02499937291812768
+RT-VL10-all 979.1583999999999 11.223542444146412 992.4933333333333 962.3226666666666
+*** budget = 20
+VL20-1 0.06690407809347197 0.07555798024680388
+RT-VL20-1 996.3466666666667 0.7254117604658881 998.0 994.8
+VL20-2 0.12085441125458542 0.10377870560495109
+RT-VL20-2 978.9333333333333 93.20567269336252 1000.0 456.8
+VL20-3 0.11116784066325337 0.121281272002089
+RT-VL20-3 958.8906666666667 76.16430165256045 1000.0 787.2
+VL20-4 0.08830624192011323 0.10156496523155617
+RT-VL20-4 981.0933333333335 49.86939029995142 1000.0 800.4
+VL20-5 0.07251026172257362 0.08419514318540676
+RT-VL20-5 997.1146666666665 2.385103398643807 999.2 980.4
+VL20-all 0.09194856673079951 0.021086815695351317
+RT-VL20-all 982.4757333333333 13.981531803537564 997.1146666666665 958.8906666666667
+*** budget = 30
+VL30-1 0.04211309784528023 0.04309514905622325
+RT-VL30-1 996.36 0.7166589146867576 997.6 994.8
+VL30-2 0.08886066781710636 0.07859854751553473
+RT-VL30-2 978.3520000000001 96.34330747903562 1000.0 456.8
+VL30-3 0.06925624599763482 0.06753457865158531
+RT-VL30-3 960.1439999999999 76.49555323023685 1000.0 787.2
+VL30-4 0.04873266920544431 0.05412929178083942
+RT-VL30-4 990.4559999999999 36.34114010319434 1000.0 809.6
+VL30-5 0.05996305995323297 0.08077841215133956
+RT-VL30-5 997.192 2.5618618229717276 999.2 980.4
+VL30-all 0.061785148163739735 0.016429107361503787
+RT-VL30-all 984.5008 13.915696438195276 997.192 960.1439999999999
+*** budget = 40
+VL40-1 0.03167866802567495 0.026250730907164125
+RT-VL40-1 996.3243243243245 0.6227252248179272 997.6 994.8
+VL40-2 0.06668614258856442 0.05376642278500067
+RT-VL40-2 986.0864864864864 70.75794354093192 1000.0 561.6
+VL40-3 0.04688159533330562 0.04084307362593877
+RT-VL40-3 959.935135135135 78.59031030369067 1000.0 787.2
+VL40-4 0.03972901230096937 0.047094686647772784
+RT-VL40-4 991.6972972972972 37.184525163222354 1000.0 769.2
+VL40-5 0.03946756589012035 0.03615977435338416
+RT-VL40-5 997.2 2.902375541480428 999.2 980.4
+VL40-all 0.044888596827726945 0.011913153672387254
+RT-VL40-all 986.2486486486487 13.737295212895956 997.2 959.935135135135
+*** budget = 50
+VL50-1 0.026798365104695403 0.02355239930523376
+RT-VL50-1 996.3466666666668 0.6173779681488151 997.6 994.8
+VL50-2 0.05093283927127131 0.043355825991702825
+RT-VL50-2 978.72 103.68292176953092 1000.0 420.4
+VL50-3 0.03909163900436214 0.029221119085017365
+RT-VL50-3 952.5466666666667 82.17798461604882 1000.0 792.0
+VL50-4 0.024782223528178774 0.025527233684454222
+RT-VL50-4 997.8533333333332 3.0137167897612698 1000.0 984.8
+VL50-5 0.03575924719288439 0.03364906727164389
+RT-VL50-5 997.6800000000001 0.740450313435456 999.2 996.0
+VL50-all 0.03547286282027841 0.009399203243212256
+RT-VL50-all 984.6293333333335 17.588107901521273 997.8533333333332 952.5466666666667
+logs_data/28hc/greg/rr/run_2023-09-14_14-30-33/run_cabc7_00029_29_dl_l2m=1,dl_scale=0.1000,dr_cc=0.7000,reg_dec=1,seed=2,sn_dec=0_2023-09-14_14-30-34/results_IL/HCCustom/INFOGSDR_PPO/0_HCCustom_v0_type1-INFOGSDR_PPO-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg01_ds0.100_s2/09.14_14.31.14/models/ckpt_policy_T10000000.pt
+0_hccustom_v0_type1-infogsdr_ppo-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg01_ds0.100_s2
+v_data: 0
+Inferred from ckptpath name:
+il_method: infogsdr
+rl_method: ppo
+activation: relu
+hidden_size: [100, 100]
+norm_obs: 0
+info_loss_type: None
+encode_sampling: normal
+normalize_code: 0
+tl_emb: 0
+TRAINED C_DATA: 1
+ARG C_DATA: 1
+Using (100, 100) relu networks.
+State dim: 17, action dim: 6, action bound 1
+args.encode_dim: 2
+Policy model is loaded from logs_data/28hc/greg/rr/run_2023-09-14_14-30-33/run_cabc7_00029_29_dl_l2m=1,dl_scale=0.1000,dr_cc=0.7000,reg_dec=1,seed=2,sn_dec=0_2023-09-14_14-30-34/results_IL/HCCustom/INFOGSDR_PPO/0_HCCustom_v0_type1-INFOGSDR_PPO-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg01_ds0.100_s2/09.14_14.31.14/models/ckpt_policy_T10000000.pt
+***** Max Ep Steps: 1000 args.seed 1 test_seed 2 *****
+*** budgets = [10, 20, 30, 40, 50] NPARALLEL = 50 n_test_episodes = 5 ***
+***** num zs = 1500 *****
+***** args.encode_sampling = normal *****
+current_vel [0.97, 1.78, 2.88, 3.65, 4.87]
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+zvs shape 1500
+RT 977.9864000000001 65.14935396231236 1000.0 248.8
+LR 0.9543999999999999 0.15301625186016463 1.0 -0.6
+VL-std-all 0.4596192755698076 0.0
+*** budget = 10
+VL10-1 0.15172524424998482 0.18991967050423195
+RT-VL10-1 995.7119999999999 18.75222980519027 1000.0 767.2
+VL10-2 0.15431124059367823 0.19817456325493457
+RT-VL10-2 992.6266666666667 58.59496982582113 1000.0 277.6
+VL10-3 0.1149077218070701 0.12724054576476335
+RT-VL10-3 987.2346666666667 49.96143444253333 1000.0 593.6
+VL10-4 0.21746689958502718 0.16576950593189538
+RT-VL10-4 954.5066666666667 81.2181085445577 1000.0 623.6
+VL10-5 0.47650185985590177 0.4322117140415259
+RT-VL10-5 966.8666666666667 51.579063797457806 1000.0 782.4
+VL10-all 0.22298259321833241 0.13097784829242295
+RT-VL10-all 979.3893333333333 15.994811514293538 995.7119999999999 954.5066666666667
+*** budget = 20
+VL20-1 0.07641942785569805 0.07152827957903798
+RT-VL20-1 997.4240000000001 1.1652570531861173 999.6 993.2
+VL20-2 0.06852785732950684 0.10470522134065383
+RT-VL20-2 997.5466666666669 1.3279892904521358 1000.0 994.8
+VL20-3 0.0653778590487289 0.0762232622814576
+RT-VL20-3 992.5813333333334 28.465336549721112 1000.0 801.2
+VL20-4 0.11970331917313695 0.09250023172861842
+RT-VL20-4 953.7973333333334 82.29026669593975 1000.0 718.4
+VL20-5 0.21234432919580237 0.2033106289107805
+RT-VL20-5 977.7226666666667 36.42598183836489 1000.0 833.6
+VL20-all 0.10847455852057461 0.05548983721236581
+RT-VL20-all 983.8144000000002 16.666067240420666 997.5466666666669 953.7973333333334
+*** budget = 30
+VL30-1 0.052776111915014336 0.04885192081119457
+RT-VL30-1 992.7920000000001 32.24600341127563 999.6 767.2
+VL30-2 0.034494600538453234 0.053648467589226735
+RT-VL30-2 997.584 1.3528281487313976 1000.0 994.8
+VL30-3 0.04134762529620237 0.0465043178633406
+RT-VL30-3 997.8559999999998 1.194011725235566 999.6 994.4
+VL30-4 0.0890755122751435 0.07731120878057508
+RT-VL30-4 943.464 91.77818860709772 1000.0 718.4
+VL30-5 0.15360252840002173 0.1640071786515443
+RT-VL30-5 981.2960000000002 32.22347566604199 1000.0 852.8
+VL30-all 0.07425927568496704 0.04391083024605154
+RT-VL30-all 982.5984000000001 20.466897933981052 997.8559999999998 943.464
+*** budget = 40
+VL40-1 0.038269635288796365 0.03152533910710439
+RT-VL40-1 997.4270270270271 1.2870768574981657 999.6 993.2
+VL40-2 0.025598612489230316 0.03613438673866732
+RT-VL40-2 997.4054054054056 1.5717000514928705 1000.0 992.4
+VL40-3 0.02997020324089661 0.028773849650429322
+RT-VL40-3 980.789189189189 75.88551755782035 999.6 567.6
+VL40-4 0.06248539773248199 0.04096597510263946
+RT-VL40-4 939.0918918918919 94.49361591013488 999.6 718.4
+VL40-5 0.11973245655735881 0.13952714291075918
+RT-VL40-5 986.3135135135135 25.66295218173953 1000.0 885.6
+VL40-all 0.05521126106175282 0.034689872792251865
+RT-VL40-all 980.2054054054054 21.542493044542063 997.4270270270271 939.0918918918919
+*** budget = 50
+VL50-1 0.030809802598277206 0.020389424146590156
+RT-VL50-1 997.4266666666666 1.185167592462013 999.6 993.2
+VL50-2 0.013773524496782227 0.010733540390911154
+RT-VL50-2 997.6133333333332 1.3797906443450882 1000.0 994.8
+VL50-3 0.025684322772985078 0.030661605149715773
+RT-VL50-3 993.0666666666668 26.214160719394055 999.6 852.0
+VL50-4 0.050027007286651874 0.035414179365675744
+RT-VL50-4 949.24 86.52702699157068 999.6 718.4
+VL50-5 0.1008329161079442 0.10226572665929459
+RT-VL50-5 983.5866666666666 28.957252785595678 1000.0 885.6
+VL50-all 0.04422551465252812 0.03062396462576551
+RT-VL50-all 984.1866666666665 18.199213658226483 997.6133333333332 949.24
+logs_data/28hc/greg/rr/run_2023-09-14_14-30-33/run_cabc7_00053_53_dl_l2m=1,dl_scale=0.1000,dr_cc=0.7000,reg_dec=1,seed=3,sn_dec=0_2023-09-14_14-30-39/results_IL/HCCustom/INFOGSDR_PPO/0_HCCustom_v0_type1-INFOGSDR_PPO-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg01_ds0.100_s3/09.15_01.48.30/models/ckpt_policy_T10000000.pt
+0_hccustom_v0_type1-infogsdr_ppo-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg01_ds0.100_s3
+v_data: 0
+Inferred from ckptpath name:
+il_method: infogsdr
+rl_method: ppo
+activation: relu
+hidden_size: [100, 100]
+norm_obs: 0
+info_loss_type: None
+encode_sampling: normal
+normalize_code: 0
+tl_emb: 0
+TRAINED C_DATA: 1
+ARG C_DATA: 1
+Using (100, 100) relu networks.
+State dim: 17, action dim: 6, action bound 1
+args.encode_dim: 2
+Policy model is loaded from logs_data/28hc/greg/rr/run_2023-09-14_14-30-33/run_cabc7_00053_53_dl_l2m=1,dl_scale=0.1000,dr_cc=0.7000,reg_dec=1,seed=3,sn_dec=0_2023-09-14_14-30-39/results_IL/HCCustom/INFOGSDR_PPO/0_HCCustom_v0_type1-INFOGSDR_PPO-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg01_ds0.100_s3/09.15_01.48.30/models/ckpt_policy_T10000000.pt
+***** Max Ep Steps: 1000 args.seed 1 test_seed 2 *****
+*** budgets = [10, 20, 30, 40, 50] NPARALLEL = 50 n_test_episodes = 5 ***
+***** num zs = 1500 *****
+***** args.encode_sampling = normal *****
+current_vel [0.97, 1.78, 2.88, 3.65, 4.87]
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+zvs shape 1500
+RT 974.6968000000002 107.9248613454132 1000.0 -62.4
+LR 0.9698666666666667 0.1554305275320421 1.0 -1.0
+VL-std-all 0.3816424164652738 0.0
+*** budget = 10
+VL10-1 0.1833712462517909 0.23018014046388874
+RT-VL10-1 961.0159999999997 139.99720858169516 999.6 307.2
+VL10-2 0.24959786732385236 0.24100764318380732
+RT-VL10-2 967.3679999999999 97.61376154347637 1000.0 512.0
+VL10-3 0.24401454470097736 0.16773444603846915
+RT-VL10-3 983.3466666666667 33.49005557209815 1000.0 842.0
+VL10-4 0.1927543263746373 0.11787277752953189
+RT-VL10-4 998.1653333333333 4.275620604725773 1000.0 963.2
+VL10-5 0.2578035293493739 0.3369992511856536
+RT-VL10-5 998.52 3.167754199218536 1000.0 965.2
+VL10-all 0.22550830280012635 0.031029419177103224
+RT-VL10-all 981.6831999999998 15.42701385031399 998.52 961.0159999999997
+*** budget = 20
+VL20-1 0.07770232928292459 0.06332716169020318
+RT-VL20-1 981.0133333333331 94.95145894379694 999.6 404.4
+VL20-2 0.13259249422767508 0.1474869695515876
+RT-VL20-2 980.2026666666665 77.81228347475452 1000.0 609.2
+VL20-3 0.15673503035436903 0.11783192671291758
+RT-VL20-3 975.6266666666669 39.53923058881591 1000.0 842.0
+VL20-4 0.11960674284157376 0.07251282672511544
+RT-VL20-4 997.8986666666666 4.796484638658701 1000.0 963.2
+VL20-5 0.11903181858507357 0.17053226007071826
+RT-VL20-5 999.0026666666666 0.9083278898919445 1000.0 995.6
+VL20-all 0.1211336830583232 0.025658496269897812
+RT-VL20-all 986.7488 9.73576976263874 999.0026666666666 975.6266666666669
+*** budget = 30
+VL30-1 0.05260445949774491 0.04029277502024029
+RT-VL30-1 984.3760000000001 87.25896758499954 999.2 373.6
+VL30-2 0.08557002950395699 0.10460616483649089
+RT-VL30-2 981.3360000000002 69.78415224103536 1000.0 667.6
+VL30-3 0.10610682752417425 0.09053747814857674
+RT-VL30-3 971.992 39.30031979513653 1000.0 874.4
+VL30-4 0.09713234612022138 0.07040968189368016
+RT-VL30-4 998.072 3.0280713333737794 1000.0 982.4
+VL30-5 0.08296431268499578 0.07557128116711817
+RT-VL30-5 999.0 0.9440338976964732 1000.0 995.6
+VL30-all 0.08487559506621865 0.018146925957260338
+RT-VL30-all 986.9552000000001 10.303256619147152 999.0 971.992
+*** budget = 40
+VL40-1 0.04260075287634411 0.03131037300703104
+RT-VL40-1 996.8756756756759 0.8515186450817364 998.8 995.2
+VL40-2 0.07135389829886221 0.0972043789729625
+RT-VL40-2 981.5027027027029 72.6880282588189 1000.0 667.6
+VL40-3 0.08456827662868853 0.07901060093717735
+RT-VL40-3 973.3081081081082 37.559684959522535 1000.0 874.4
+VL40-4 0.08402135564631079 0.06800027577519355
+RT-VL40-4 997.1027027027026 6.4500780002191895 1000.0 963.2
+VL40-5 0.05922627595270085 0.03613947719737125
+RT-VL40-5 999.0810810810809 0.9152869400439669 1000.0 995.6
+VL40-all 0.0683541118805813 0.015899140058357155
+RT-VL40-all 989.574054054054 10.296654814318519 999.0810810810809 973.3081081081082
+*** budget = 50
+VL50-1 0.03664047142770847 0.02432429627816987
+RT-VL50-1 975.92 111.85072909909887 998.8 373.6
+VL50-2 0.04450691786087961 0.04429572937830667
+RT-VL50-2 977.5866666666666 80.21973046299492 1000.0 667.6
+VL50-3 0.0724737279889899 0.07129043242516941
+RT-VL50-3 980.1733333333334 31.351373530073964 1000.0 892.4
+VL50-4 0.06714401116702576 0.060584801438498426
+RT-VL50-4 997.7733333333334 3.3509136399230384 1000.0 982.4
+VL50-5 0.05078405339467474 0.03516145580277522
+RT-VL50-5 999.0533333333333 0.9207726224330444 1000.0 995.6
+VL50-all 0.054309836367855704 0.013530541865102465
+RT-VL50-all 986.1013333333334 10.151750281492262 999.0533333333333 975.92
+logs_data/28hc/greg/rr/run_2023-09-14_14-30-33/run_cabc7_00077_77_dl_l2m=1,dl_scale=0.1000,dr_cc=0.7000,reg_dec=1,seed=4,sn_dec=0_2023-09-14_18-18-26/results_IL/HCCustom/INFOGSDR_PPO/0_HCCustom_v0_type1-INFOGSDR_PPO-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg01_ds0.100_s4/09.15_01.49.43/models/ckpt_policy_T10000000.pt
+0_hccustom_v0_type1-infogsdr_ppo-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg01_ds0.100_s4
+v_data: 0
+Inferred from ckptpath name:
+il_method: infogsdr
+rl_method: ppo
+activation: relu
+hidden_size: [100, 100]
+norm_obs: 0
+info_loss_type: None
+encode_sampling: normal
+normalize_code: 0
+tl_emb: 0
+TRAINED C_DATA: 1
+ARG C_DATA: 1
+Using (100, 100) relu networks.
+State dim: 17, action dim: 6, action bound 1
+args.encode_dim: 2
+Policy model is loaded from logs_data/28hc/greg/rr/run_2023-09-14_14-30-33/run_cabc7_00077_77_dl_l2m=1,dl_scale=0.1000,dr_cc=0.7000,reg_dec=1,seed=4,sn_dec=0_2023-09-14_18-18-26/results_IL/HCCustom/INFOGSDR_PPO/0_HCCustom_v0_type1-INFOGSDR_PPO-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg01_ds0.100_s4/09.15_01.49.43/models/ckpt_policy_T10000000.pt
+***** Max Ep Steps: 1000 args.seed 1 test_seed 2 *****
+*** budgets = [10, 20, 30, 40, 50] NPARALLEL = 50 n_test_episodes = 5 ***
+***** num zs = 1500 *****
+***** args.encode_sampling = normal *****
+current_vel [0.97, 1.78, 2.88, 3.65, 4.87]
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+zvs shape 1500
+RT 935.1095999999999 192.56678852069308 1000.0 -231.2
+LR 0.9037333333333333 0.28698326703059807 1.0 -1.0
+VL-std-all 0.5093742650622568 0.0
+*** budget = 10
+VL10-1 0.1241930301948764 0.14841724620937194
+RT-VL10-1 943.3493333333333 197.61207815538222 998.8 -96.4
+VL10-2 0.35414414816672096 0.19968856855563913
+RT-VL10-2 903.0906666666667 208.8028193764528 998.8 219.6
+VL10-3 0.13877479996924977 0.20655513996126285
+RT-VL10-3 972.1413333333334 69.31989823676572 1000.0 603.2
+VL10-4 0.2705616211659474 0.2001558770308318
+RT-VL10-4 952.4693333333333 72.18195891556898 1000.0 708.4
+VL10-5 0.32690338734412305 0.40424015765593807
+RT-VL10-5 979.5280000000001 43.66373494484105 1000.0 708.4
+VL10-all 0.24291539736818352 0.09500567946024918
+RT-VL10-all 950.1157333333334 26.880807215392768 979.5280000000001 903.0906666666667
+*** budget = 20
+VL20-1 0.05957494840830757 0.0533475471181898
+RT-VL20-1 953.6053333333334 176.6459720407522 997.6 172.4
+VL20-2 0.2442159286961703 0.1519893724249746
+RT-VL20-2 908.1226666666669 196.18119486728474 998.8 342.4
+VL20-3 0.05392470536733779 0.08325734151098035
+RT-VL20-3 979.6693333333335 61.12339862569453 1000.0 658.0
+VL20-4 0.14998685797550265 0.12421986360928783
+RT-VL20-4 948.5173333333333 80.48373147965302 1000.0 708.4
+VL20-5 0.13034057091328918 0.18661629187786738
+RT-VL20-5 987.2320000000003 32.97273281566655 999.2 780.0
+VL20-all 0.1276086022721215 0.06951749891629148
+RT-VL20-all 955.4293333333335 27.885518242350205 987.2320000000003 908.1226666666669
+*** budget = 30
+VL30-1 0.03991327157198988 0.03698305541843885
+RT-VL30-1 963.008 159.4362516368219 997.6 172.4
+VL30-2 0.1901855333420289 0.1186184280357228
+RT-VL30-2 919.44 178.0326262233976 998.8 450.4
+VL30-3 0.027701906218221096 0.035603132413497676
+RT-VL30-3 984.4240000000001 47.947465251043255 1000.0 798.8
+VL30-4 0.10350290511179805 0.08694200700739328
+RT-VL30-4 958.128 64.43469574693435 1000.0 780.0
+VL30-5 0.07014542847357101 0.08179646359571746
+RT-VL30-5 992.8079999999999 16.28161957545993 999.2 902.4
+VL30-all 0.08628980894352178 0.05819721438878289
+RT-VL30-all 963.5616 25.56222883552994 992.8079999999999 919.44
+*** budget = 40
+VL40-1 0.03533606447851641 0.04154847596476189
+RT-VL40-1 973.8270270270272 130.37401633149403 997.6 191.6
+VL40-2 0.1532141746868535 0.09810073743304887
+RT-VL40-2 904.2162162162163 192.20312666342474 998.8 450.4
+VL40-3 0.015030323812826795 0.016450651571372404
+RT-VL40-3 998.345945945946 1.1769393643465387 1000.0 996.0
+VL40-4 0.08029260609459299 0.05784422790758386
+RT-VL40-4 961.5027027027027 64.39542742909995 1000.0 780.0
+VL40-5 0.05172980460785864 0.057438033348050414
+RT-VL40-5 991.7189189189189 15.500546421717008 999.2 929.2
+VL40-all 0.06712059473612966 0.04805441811382565
+RT-VL40-all 965.9221621621622 33.48556909940287 998.345945945946 904.2162162162163
+*** budget = 50
+VL50-1 0.022232367799178414 0.022471458066451233
+RT-VL50-1 968.6266666666668 144.29254296586348 996.8 191.6
+VL50-2 0.13324655845655017 0.08873612505924938
+RT-VL50-2 895.6399999999999 202.74764215645024 998.8 450.4
+VL50-3 0.014421154772972648 0.01875404580083895
+RT-VL50-3 993.64 24.548259951912407 1000.0 861.6
+VL50-4 0.06746669377027595 0.04780859866047018
+RT-VL50-4 958.0666666666667 65.23917705046732 1000.0 780.0
+VL50-5 0.0454281873542139 0.049040341962911
+RT-VL50-5 995.9066666666666 8.269902592466792 999.2 952.4
+VL50-all 0.05655899243063822 0.04260931840383184
+RT-VL50-all 962.376 36.36778295873061 995.9066666666666 895.6399999999999
+logs_data/28hc/greg/rr/run_2023-09-14_14-30-33/run_cabc7_00101_101_dl_l2m=1,dl_scale=0.1000,dr_cc=0.7000,reg_dec=1,seed=5,sn_dec=0_2023-09-14_21-58-43/results_IL/HCCustom/INFOGSDR_PPO/0_HCCustom_v0_type1-INFOGSDR_PPO-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg01_ds0.100_s5/09.15_01.49.43/models/ckpt_policy_T10000000.pt
+0_hccustom_v0_type1-infogsdr_ppo-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg01_ds0.100_s5
+v_data: 0
+Inferred from ckptpath name:
+il_method: infogsdr
+rl_method: ppo
+activation: relu
+hidden_size: [100, 100]
+norm_obs: 0
+info_loss_type: None
+encode_sampling: normal
+normalize_code: 0
+tl_emb: 0
+TRAINED C_DATA: 1
+ARG C_DATA: 1
+Using (100, 100) relu networks.
+State dim: 17, action dim: 6, action bound 1
+args.encode_dim: 2
+Policy model is loaded from logs_data/28hc/greg/rr/run_2023-09-14_14-30-33/run_cabc7_00101_101_dl_l2m=1,dl_scale=0.1000,dr_cc=0.7000,reg_dec=1,seed=5,sn_dec=0_2023-09-14_21-58-43/results_IL/HCCustom/INFOGSDR_PPO/0_HCCustom_v0_type1-INFOGSDR_PPO-100-100-relu_cr10_no0_es=n_sr0001_rc0.70_reg01_ds0.100_s5/09.15_01.49.43/models/ckpt_policy_T10000000.pt
+***** Max Ep Steps: 1000 args.seed 1 test_seed 2 *****
+*** budgets = [10, 20, 30, 40, 50] NPARALLEL = 50 n_test_episodes = 5 ***
+***** num zs = 1500 *****
+***** args.encode_sampling = normal *****
+current_vel [0.97, 1.78, 2.88, 3.65, 4.87]
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+State dim: 17, action dim: 6, action bound 1
+zvs shape 1500
+RT 909.5149333333334 268.8998356581788 1000.0 -465.6
+LR 0.9021333333333332 0.3138079809196842 1.0 -1.0
+VL-std-all 0.5765212945624439 0.0
+*** budget = 10
+VL10-1 0.15842581588546173 0.22405276462923987
+RT-VL10-1 955.9146666666668 173.4059842822297 999.2 5.6
+VL10-2 0.29127748584405244 0.19619769809311158
+RT-VL10-2 898.2133333333334 211.04851469639758 1000.0 269.6
+VL10-3 0.14934479154851232 0.14245807163016316
+RT-VL10-3 932.0320000000002 108.8453485884139 1000.0 548.0
+VL10-4 0.1324648067482454 0.1566655702299958
+RT-VL10-4 990.5973333333332 35.10519799434583 1000.0 767.2
+VL10-5 0.4371422542597362 0.46596293669268024
+RT-VL10-5 990.2079999999999 29.177405687734932 1000.0 767.2
+VL10-all 0.23373103085720165 0.11639113473075015
+RT-VL10-all 953.3930666666668 35.34672086906434 990.5973333333332 898.2133333333334
+*** budget = 20
+VL20-1 0.06326546417280127 0.05836614989597695
+RT-VL20-1 964.5546666666665 158.3835128568908 999.2 142.4
+VL20-2 0.16885703509215544 0.12830931614526925
+RT-VL20-2 846.1439999999999 246.53654779227628 1000.0 291.2
+VL20-3 0.06692486710536881 0.0531367732627541
+RT-VL20-3 927.9413333333332 113.17405013910604 1000.0 548.0
+VL20-4 0.05361188544365025 0.06621476938283265
+RT-VL20-4 994.1706666666665 27.23262148396457 1000.0 767.2
+VL20-5 0.1988749966389211 0.27079873074353417
+RT-VL20-5 991.7866666666666 20.78351483481293 1000.0 888.4
+VL20-all 0.11030684969057938 0.06096170634068291
+RT-VL20-all 944.9194666666665 54.86821674343395 994.1706666666665 846.1439999999999
+*** budget = 30
+VL30-1 0.04596834809884596 0.050384742259694484
+RT-VL30-1 997.0000000000001 0.9303762679690404 999.2 995.6
+VL30-2 0.12414649101688255 0.10594531252810142
+RT-VL30-2 830.8960000000001 258.65265122167216 1000.0 291.2
+VL30-3 0.04704599199393245 0.040553713632941996
+RT-VL30-3 933.6720000000001 113.8498292313168 1000.0 548.0
+VL30-4 0.03226405411154839 0.038282110218964015
+RT-VL30-4 994.2400000000001 32.46580970806056 1000.0 767.2
+VL30-5 0.10457544485658213 0.16067581676541534
+RT-VL30-5 996.9759999999999 8.753023706125788 1000.0 939.6
+VL30-all 0.0708000660155583 0.03647605169714135
+RT-VL30-all 950.5568000000001 64.53485638753679 997.0000000000001 830.8960000000001
+*** budget = 40
+VL40-1 0.02869302309752701 0.028212151157811872
+RT-VL40-1 996.8756756756757 0.9476586811161563 999.2 995.6
+VL40-2 0.09877288347306357 0.07828933175425509
+RT-VL40-2 850.6486486486486 243.8438197783979 1000.0 336.4
+VL40-3 0.03216724777019498 0.027414904763326708
+RT-VL40-3 930.6054054054052 117.34901039655963 1000.0 548.0
+VL40-4 0.02280207765449979 0.023420378963439487
+RT-VL40-4 992.1513513513513 37.60395049417606 1000.0 767.2
+VL40-5 0.06218601172329696 0.08301528734885323
+RT-VL40-5 997.6972972972972 3.511101042869035 1000.0 978.8
+VL40-all 0.04892424874371646 0.028401507484267043
+RT-VL40-all 953.5956756756757 57.32590070337852 997.6972972972972 850.6486486486486
+*** budget = 50
+VL50-1 0.02947214954440404 0.02984987936389297
+RT-VL50-1 996.9333333333333 0.9371351141762992 999.2 995.6
+VL50-2 0.07057996739830293 0.04855800783970352
+RT-VL50-2 817.8399999999999 255.49134049252368 1000.0 410.4
+VL50-3 0.029198500716668643 0.02817236870045379
+RT-VL50-3 937.68 101.9349021026001 1000.0 755.2
+VL50-4 0.019512458367947808 0.017976116410761737
+RT-VL50-4 991.1866666666667 41.60518984720803 1000.0 767.2
+VL50-5 0.05970420698839345 0.08244351141971078
+RT-VL50-5 997.7866666666667 3.7788652029706347 1000.0 978.8
+VL50-all 0.04169345660314337 0.019780286079313137
+RT-VL50-all 948.2853333333333 68.97244723962045 997.7866666666667 817.8399999999999

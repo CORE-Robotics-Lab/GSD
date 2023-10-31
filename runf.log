@@ -1,0 +1,3880 @@
+logs_data/28fetchv2/igabl/run_2023-09-30_02-24-42/run_0a6d0_00000_0_clip_discriminator=0,dr_cc=0.9000,seed=1_2023-09-30_02-24-42/results_IL/FetchPickPlaceWide/INFOGSDR_PPOBC/0_FetchPickPlaceWide_v0_type1-INFOGSDR_PPOBC-32-32-tanh_cr0_no1_es=n_sr0000_rc0.90_reg00_ds0.001_s1/09.30_02.25.15/models/ckpt_policy_T10000000.pt
+0_fetchpickplacewide_v0_type1-infogsdr_ppobc-32-32-tanh_cr0_no1_es=n_sr0000_rc0.90_reg00_ds0.001_s1
+v_data: 0
+Inferred from ckptpath name:
+il_method: infogsdr
+rl_method: ppobc
+activation: tanh
+hidden_size: [32, 32]
+norm_obs: 1
+info_loss_type: None
+encode_sampling: normal
+normalize_code: 0
+tl_emb: 0
+TRAINED C_DATA: 1
+ARG C_DATA: 1
+Using (32, 32) tanh networks.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+args.encode_dim: 2
+Policy model is loaded from logs_data/28fetchv2/igabl/run_2023-09-30_02-24-42/run_0a6d0_00000_0_clip_discriminator=0,dr_cc=0.9000,seed=1_2023-09-30_02-24-42/results_IL/FetchPickPlaceWide/INFOGSDR_PPOBC/0_FetchPickPlaceWide_v0_type1-INFOGSDR_PPOBC-32-32-tanh_cr0_no1_es=n_sr0000_rc0.90_reg00_ds0.001_s1/09.30_02.25.15/models/ckpt_policy_T10000000.pt
+***** Max Ep Steps: 1000 args.seed 1 test_seed 2 *****
+*** budgets = [10, 20, 30, 40, 50] NPARALLEL = 50 n_test_episodes = 1 ***
+***** num zs = 1500 *****
+***** args.encode_sampling = normal *****
+obj_pos_y [0.43 0.59 0.75 0.91 1.07]
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+zvs shape 1500
+RT -9.845602762854085 3.925907796499009 -6.176493551504295 -33.043619596613496
+LR -0.03643046565653392 0.05969438539520729 -1.0571537241155227e-05 -0.46494462514549384
+VL-std-all 0.0 0.0
+*** budget = 10
+VL10-1 0.09685680387628466 0.0334519865729957
+RT-VL10-1 -8.232826698647068 1.1454489446094398 -6.869970807107128 -14.756192258381818
+VL10-2 0.0182581128431724 0.01722562154573335
+RT-VL10-2 -9.000500729920562 1.7906212519238187 -7.2958569580709005 -24.633517803739228
+VL10-3 0.01343923906115004 0.02138036664826534
+RT-VL10-3 -15.302574628571262 5.849573902253107 -6.866727679251455 -28.46666598375402
+VL10-4 0.02831681257036858 0.030672160936545196
+RT-VL10-4 -8.667460905506701 2.4894928085006662 -6.943530099155911 -25.801314671922587
+VL10-5 0.10888755436476695 0.05928009592855779
+RT-VL10-5 -8.107192654800382 2.009314507842171 -6.176493551504295 -25.801314671922587
+VL10-all 0.05315170454314853 0.04105614492068273
+RT-VL10-all -9.862111123489194 2.7387044868893464 -8.107192654800382 -15.302574628571262
+*** budget = 20
+VL20-1 0.07676406627982525 0.01801014978900239
+RT-VL20-1 -8.150173943191685 1.3333368597639517 -6.869970807107128 -14.756192258381818
+VL20-2 0.009750806724437375 0.009573487154655782
+RT-VL20-2 -9.241178094790587 2.2063277440920674 -7.2958569580709005 -24.633517803739228
+VL20-3 0.0033156892896737946 0.006205235033919175
+RT-VL20-3 -17.679736938506494 4.85392281835479 -7.388754920108341 -28.092259734492664
+VL20-4 0.013449123754789589 0.013672734184560997
+RT-VL20-4 -8.267835061943332 0.9640380882891215 -7.186447227554044 -12.288833498051648
+VL20-5 0.07694354278270477 0.0370523775375985
+RT-VL20-5 -7.738608165811377 0.8511600329513195 -6.176493551504295 -11.436094330387336
+VL20-all 0.03604464576628615 0.033478050011004845
+RT-VL20-all -10.215506440848696 3.764521213622397 -7.738608165811377 -17.679736938506494
+*** budget = 30
+VL30-1 0.07151046231470855 0.017287609465109682
+RT-VL30-1 -8.242472091251509 1.5747419588142537 -6.869970807107128 -14.756192258381818
+VL30-2 0.006465247005666792 0.0064112897760538155
+RT-VL30-2 -9.46926726189548 2.5919480299885147 -7.2958569580709005 -24.633517803739228
+VL30-3 0.0016984313152553577 0.0034608804327478913
+RT-VL30-3 -18.01532463229561 4.3034162939430045 -7.388754920108341 -20.253064939536717
+VL30-4 0.008166651238030086 0.008027998207600725
+RT-VL30-4 -8.315268227571359 1.0844639496150468 -7.324747151085014 -12.288833498051648
+VL30-5 0.06413182376473445 0.030758923255351543
+RT-VL30-5 -7.833134707156177 0.9165894208843046 -6.665045059652004 -11.436094330387336
+VL30-all 0.030394523127679048 0.03072093793906615
+RT-VL30-all -10.375093384034027 3.8586568040975533 -7.833134707156177 -18.01532463229561
+*** budget = 40
+VL40-1 0.06727487730633987 0.015136934781750136
+RT-VL40-1 -8.191149058838835 1.3600676451293927 -6.869970807107128 -14.044285076966446
+VL40-2 0.004483832102810001 0.00480348804154177
+RT-VL40-2 -9.745405837419256 2.899233929807741 -7.2958569580709005 -24.633517803739228
+VL40-3 0.0008047888163721643 0.00022323859475503112
+RT-VL40-3 -18.590815341072478 3.648851288068573 -7.5546788622929855 -20.253064939536717
+VL40-4 0.006165047646410337 0.006000341996694307
+RT-VL40-4 -8.36284931000115 1.1471455631183207 -7.324747151085014 -12.288833498051648
+VL40-5 0.0556540042710105 0.027673108503543997
+RT-VL40-5 -7.910034476426941 0.9852928147393935 -6.665045059652004 -11.436094330387336
+VL40-all 0.026876510028588575 0.02853174933033123
+RT-VL40-all -10.560050804751734 4.064942850553706 -7.910034476426941 -18.590815341072478
+*** budget = 50
+VL50-1 0.0638840248977143 0.01448070129324129
+RT-VL50-1 -8.428894368631601 1.9032691440684972 -6.869970807107128 -14.756192258381818
+VL50-2 0.00349960093073098 0.003386019460592651
+RT-VL50-2 -9.9564092202351 3.1945306165375733 -7.2958569580709005 -24.633517803739228
+VL50-3 0.0013372594294139542 0.0023064694811633637
+RT-VL50-3 -17.488251713823786 4.648838061970662 -7.388754920108341 -20.253064939536717
+VL50-4 0.0046832016433443185 0.005444807595966907
+RT-VL50-4 -8.368645475593304 1.2366865011637989 -7.324747151085014 -12.288833498051648
+VL50-5 0.050903680303724726 0.026561142868790848
+RT-VL50-5 -7.839300885892381 1.0534334016452174 -6.665045059652004 -11.436094330387336
+VL50-all 0.024861553440985656 0.02689920800019516
+RT-VL50-all -10.416300332835235 3.6057619222848554 -7.839300885892381 -17.488251713823786
+logs_data/28fetchv2/igabl/run_2023-09-30_02-24-42/run_0a6d0_00006_6_clip_discriminator=0,dr_cc=0.9000,seed=2_2023-09-30_02-24-42/results_IL/FetchPickPlaceWide/INFOGSDR_PPOBC/0_FetchPickPlaceWide_v0_type1-INFOGSDR_PPOBC-32-32-tanh_cr0_no1_es=n_sr0000_rc0.90_reg00_ds0.001_s2/09.30_02.25.13/models/ckpt_policy_T10000000.pt
+0_fetchpickplacewide_v0_type1-infogsdr_ppobc-32-32-tanh_cr0_no1_es=n_sr0000_rc0.90_reg00_ds0.001_s2
+v_data: 0
+Inferred from ckptpath name:
+il_method: infogsdr
+rl_method: ppobc
+activation: tanh
+hidden_size: [32, 32]
+norm_obs: 1
+info_loss_type: None
+encode_sampling: normal
+normalize_code: 0
+tl_emb: 0
+TRAINED C_DATA: 1
+ARG C_DATA: 1
+Using (32, 32) tanh networks.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+args.encode_dim: 2
+Policy model is loaded from logs_data/28fetchv2/igabl/run_2023-09-30_02-24-42/run_0a6d0_00006_6_clip_discriminator=0,dr_cc=0.9000,seed=2_2023-09-30_02-24-42/results_IL/FetchPickPlaceWide/INFOGSDR_PPOBC/0_FetchPickPlaceWide_v0_type1-INFOGSDR_PPOBC-32-32-tanh_cr0_no1_es=n_sr0000_rc0.90_reg00_ds0.001_s2/09.30_02.25.13/models/ckpt_policy_T10000000.pt
+***** Max Ep Steps: 1000 args.seed 1 test_seed 2 *****
+*** budgets = [10, 20, 30, 40, 50] NPARALLEL = 50 n_test_episodes = 1 ***
+***** num zs = 1500 *****
+***** args.encode_sampling = normal *****
+obj_pos_y [0.43 0.59 0.75 0.91 1.07]
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+zvs shape 1500
+RT -12.549393150994666 6.008187439685263 -5.577776194498089 -39.595898816045356
+LR -0.08461798268427567 0.09229352266820583 -1.431723664824247e-05 -0.5898460508765299
+VL-std-all 0.0 0.0
+*** budget = 10
+VL10-1 0.12469497287956438 0.061148652724234434
+RT-VL10-1 -8.334685492911671 3.588536053820979 -5.7779879248373085 -39.595898816045356
+VL10-2 0.03312405998879712 0.03409342043632891
+RT-VL10-2 -9.06763247838798 2.4074819760964754 -6.196676990784713 -20.000024138165212
+VL10-3 0.0018107832588103792 0.010443169564409266
+RT-VL10-3 -19.750983234391303 1.7287714137411234 -7.002584427049885 -20.00504508004115
+VL10-4 0.04531637107159316 0.03954960810131621
+RT-VL10-4 -8.662145501960634 2.667427978480311 -6.288404991173233 -21.176707347242992
+VL10-5 0.07956187984443262 0.07422785316596936
+RT-VL10-5 -7.78315561022778 2.9470914547268228 -5.577776194498089 -30.919351464935886
+VL10-all 0.05690161340863953 0.042057143784460786
+RT-VL10-all -10.719720463575873 4.535163097799139 -7.78315561022778 -19.750983234391303
+*** budget = 20
+VL20-1 0.09619989034024644 0.03971895345431344
+RT-VL20-1 -7.550017780830628 1.667166666492658 -5.7779879248373085 -17.581430275131904
+VL20-2 0.018423169893524664 0.02222966251944063
+RT-VL20-2 -8.873572309321359 1.4814013795501098 -7.380001821733819 -17.581430275131904
+VL20-3 0.0008712492646605681 0.00012966651452289273
+RT-VL20-3 -19.834034057591712 1.3893218835857013 -7.886471335326238 -20.00504508004115
+VL20-4 0.022452323745757948 0.022511128332878255
+RT-VL20-4 -8.25607034532836 1.2806791679785285 -7.07273167797684 -16.454617854241924
+VL20-5 0.04311254265473196 0.030496733601143983
+RT-VL20-5 -7.409836655880234 2.9007931263867084 -5.577776194498089 -30.919351464935886
+VL20-all 0.03621183517978431 0.032866105050593904
+RT-VL20-all -10.384706229790458 4.753729492428325 -7.409836655880234 -19.834034057591712
+*** budget = 30
+VL30-1 0.08440055754547426 0.028362787629308064
+RT-VL30-1 -7.176425079983679 0.8899953468688927 -5.7779879248373085 -11.351955515075982
+VL30-2 0.011654428445157176 0.011229731460021666
+RT-VL30-2 -8.61880926921684 0.9249049989779509 -7.621091604470351 -12.747472792666914
+VL30-3 0.0008568866557999666 0.00015684786859541776
+RT-VL30-3 -19.75103901730497 1.6954817646257898 -7.886471335326238 -20.00504508004115
+VL30-4 0.014020193207230969 0.014751805162612926
+RT-VL30-4 -8.122528989802142 0.39889387105796725 -7.338100088617301 -9.659689326053492
+VL30-5 0.030813045522177517 0.024494600024075133
+RT-VL30-5 -7.1636967191093 1.1276536469973304 -5.577776194498089 -10.131648855022744
+VL30-all 0.02834902227516798 0.029623262289089996
+RT-VL30-all -10.166499815083387 4.824809381394482 -7.1636967191093 -19.75103901730497
+*** budget = 40
+VL40-1 0.07517627711885767 0.016738490468627572
+RT-VL40-1 -6.946505674393536 0.8535169914095321 -5.7779879248373085 -11.351955515075982
+VL40-2 0.007429473507830273 0.005687135711677254
+RT-VL40-2 -8.52182757836341 0.7832976832192915 -7.36875057145987 -11.3508442561003
+VL40-3 0.0008417750560664903 0.0001799072057800112
+RT-VL40-3 -19.66355791702491 1.9634762888509212 -7.886471335326238 -20.00504508004115
+VL40-4 0.009524690188280033 0.011473171893511266
+RT-VL40-4 -8.14908712076196 0.3002012010888385 -7.576573898269836 -9.002054023208027
+VL40-5 0.02413383774006245 0.019851820681376756
+RT-VL40-5 -7.3257324365187015 1.1964070461654328 -5.577776194498089 -10.131648855022744
+VL40-all 0.023421210722219383 0.026973225954910217
+RT-VL40-all -10.121342145412502 4.804105303313897 -6.946505674393536 -19.66355791702491
+*** budget = 50
+VL50-1 0.0733046021859078 0.017335331464515935
+RT-VL50-1 -6.91634243925999 0.9259604938456464 -5.7779879248373085 -11.351955515075982
+VL50-2 0.007059498910057105 0.005888311366962829
+RT-VL50-2 -8.604641907220296 0.6679715447929072 -7.769539322042517 -10.316094755626025
+VL50-3 0.0008285277280788613 0.00019745301733012244
+RT-VL50-3 -19.585064772211133 2.173068964559431 -7.886471335326238 -20.00504508004115
+VL50-4 0.007000411471179088 0.008208176429851489
+RT-VL50-4 -8.083431902003632 0.27463150334697045 -7.517767682457656 -9.002054023208027
+VL50-5 0.01897065031721247 0.015053628717694896
+RT-VL50-5 -7.393740572118379 1.3324891642025989 -5.577776194498089 -10.131648855022744
+VL50-all 0.021432738122487065 0.0265938628325398
+RT-VL50-all -10.116644318562686 4.769218528037737 -6.91634243925999 -19.585064772211133
+logs_data/28fetchv2/igabl/run_2023-09-30_02-24-42/run_0a6d0_00012_12_clip_discriminator=0,dr_cc=0.9000,seed=3_2023-09-30_02-24-42/results_IL/FetchPickPlaceWide/INFOGSDR_PPOBC/0_FetchPickPlaceWide_v0_type1-INFOGSDR_PPOBC-32-32-tanh_cr0_no1_es=n_sr0000_rc0.90_reg00_ds0.001_s3/09.30_02.25.15/models/ckpt_policy_T10000000.pt
+0_fetchpickplacewide_v0_type1-infogsdr_ppobc-32-32-tanh_cr0_no1_es=n_sr0000_rc0.90_reg00_ds0.001_s3
+v_data: 0
+Inferred from ckptpath name:
+il_method: infogsdr
+rl_method: ppobc
+activation: tanh
+hidden_size: [32, 32]
+norm_obs: 1
+info_loss_type: None
+encode_sampling: normal
+normalize_code: 0
+tl_emb: 0
+TRAINED C_DATA: 1
+ARG C_DATA: 1
+Using (32, 32) tanh networks.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+args.encode_dim: 2
+Policy model is loaded from logs_data/28fetchv2/igabl/run_2023-09-30_02-24-42/run_0a6d0_00012_12_clip_discriminator=0,dr_cc=0.9000,seed=3_2023-09-30_02-24-42/results_IL/FetchPickPlaceWide/INFOGSDR_PPOBC/0_FetchPickPlaceWide_v0_type1-INFOGSDR_PPOBC-32-32-tanh_cr0_no1_es=n_sr0000_rc0.90_reg00_ds0.001_s3/09.30_02.25.15/models/ckpt_policy_T10000000.pt
+***** Max Ep Steps: 1000 args.seed 1 test_seed 2 *****
+*** budgets = [10, 20, 30, 40, 50] NPARALLEL = 50 n_test_episodes = 1 ***
+***** num zs = 1500 *****
+***** args.encode_sampling = normal *****
+obj_pos_y [0.43 0.59 0.75 0.91 1.07]
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+zvs shape 1500
+RT -14.13690809108916 5.629812201401497 -5.485730875259475 -34.42111751408225
+LR -0.09760009372303982 0.09141934964556216 -3.397666250348763e-05 -0.43023914638874394
+VL-std-all 0.0 0.0
+*** budget = 10
+VL10-1 0.12396272633992651 0.08914661810995106
+RT-VL10-1 -10.137473708175396 5.939936674207949 -5.6062764046384554 -34.42111751408225
+VL10-2 0.05531756170654496 0.045528731139350576
+RT-VL10-2 -11.070543944813398 5.83723750552779 -5.734483581719972 -34.42111751408225
+VL10-3 0.000969499525748961 0.0010656076713903755
+RT-VL10-3 -19.811150761447735 1.183446209512933 -10.490324213627419 -20.000024138165212
+VL10-4 0.03390078615778527 0.034094675876421024
+RT-VL10-4 -9.937876927305263 2.723153650062421 -6.488604143906403 -29.889796305969917
+VL10-5 0.09794178386868879 0.0737511869340181
+RT-VL10-5 -9.31059146262892 2.111039149919838 -6.3483991516915985 -20.000024138165212
+VL10-all 0.062418471519738894 0.044021036969407935
+RT-VL10-all -12.053527360874142 3.9196406192491717 -9.31059146262892 -19.811150761447735
+*** budget = 20
+VL20-1 0.07103143657940866 0.05239572034055372
+RT-VL20-1 -7.813190995553752 3.3070363222520465 -5.6062764046384554 -29.0997675699142
+VL20-2 0.029783820990498942 0.026005653603863903
+RT-VL20-2 -10.756494015745094 5.850837903648706 -5.734511174570369 -34.42111751408225
+VL20-3 0.0008654553208789414 0.00014157688522209986
+RT-VL20-3 -19.67457613955489 1.6004320619668364 -10.490324213627419 -20.000024138165212
+VL20-4 0.017433427437964676 0.019378794591972236
+RT-VL20-4 -9.721205654985317 1.9097543685746838 -7.1093905206337915 -16.51310506822406
+VL20-5 0.059562716678875985 0.05517481176445299
+RT-VL20-5 -9.137520152107914 1.8658308019534768 -6.40224039848219 -16.51310506822406
+VL20-all 0.03573537140152544 0.026076225772220553
+RT-VL20-all -11.420597391589393 4.235161232531987 -7.813190995553752 -19.67457613955489
+*** budget = 30
+VL30-1 0.05031297201387675 0.030057556810545803
+RT-VL30-1 -7.511112321818777 3.5228447316503386 -5.6513245712244835 -29.0997675699142
+VL30-2 0.023117255486767626 0.01991742429695095
+RT-VL30-2 -10.417253171478757 5.559275449912525 -6.525579384651696 -33.76664510428637
+VL30-3 0.0008481957401275353 0.00017079912839544742
+RT-VL30-3 -19.51185214024974 1.9397517566965965 -10.490324213627419 -20.000024138165212
+VL30-4 0.010064098524913554 0.008895534519094174
+RT-VL30-4 -9.820441276825134 1.895484578287164 -7.1093905206337915 -14.747981300683147
+VL30-5 0.041438033925843706 0.03668915107294638
+RT-VL30-5 -9.2815420424315 1.6217685097498666 -6.581468706752892 -14.516584402610466
+VL30-all 0.025156111138305837 0.01855138370509203
+RT-VL30-all -11.308440190560782 4.215028771720852 -7.511112321818777 -19.51185214024974
+*** budget = 40
+VL40-1 0.04224083979680884 0.027099042683056872
+RT-VL40-1 -7.589213773429123 3.956791259091839 -5.6513245712244835 -29.0997675699142
+VL40-2 0.018777784716137967 0.016180571901991264
+RT-VL40-2 -10.363822488880098 5.501283270038185 -6.723747566434077 -33.76664510428637
+VL40-3 0.0008300032090652481 0.0001953180216281337
+RT-VL40-3 -19.34033224909025 2.229684764307822 -10.490324213627419 -20.000024138165212
+VL40-4 0.007409596488325191 0.00703722570718522
+RT-VL40-4 -9.80773430208854 1.963638262810139 -7.1093905206337915 -14.747981300683147
+VL40-5 0.029394378454638197 0.02390033830474094
+RT-VL40-5 -9.322979582644065 1.7385412005575442 -6.3565355049601076 -14.516584402610466
+VL40-all 0.01973052053299509 0.014899980223154313
+RT-VL40-all -11.284816479226416 4.1334639075401505 -7.589213773429123 -19.34033224909025
+*** budget = 50
+VL50-1 0.03905180420751223 0.02238852050611739
+RT-VL50-1 -7.569703319985455 4.266408664518884 -5.6513245712244835 -29.0997675699142
+VL50-2 0.01596883098673463 0.016231225842617273
+RT-VL50-2 -9.53379085646724 4.196602590302309 -6.723747566434077 -29.648978156669656
+VL50-3 0.0008136765786247224 0.00021363903940353307
+RT-VL50-3 -19.186404141639418 2.450769361482342 -10.490324213627419 -20.000024138165212
+VL50-4 0.007457729834304168 0.00766361459210125
+RT-VL50-4 -10.247840444707254 1.9615210159869811 -7.2651467604727635 -14.747981300683147
+VL50-5 0.023848274030059107 0.017499360677564486
+RT-VL50-5 -9.56023091163625 1.735514086282338 -6.723989036549718 -14.516584402610466
+VL50-all 0.017428063127446974 0.013314503604282414
+RT-VL50-all -11.219593934887124 4.082437724668408 -7.569703319985455 -19.186404141639418
+logs_data/28fetchv2/igabl/run_2023-09-30_02-24-42/run_0a6d0_00018_18_clip_discriminator=0,dr_cc=0.9000,seed=4_2023-09-30_02-24-42/results_IL/FetchPickPlaceWide/INFOGSDR_PPOBC/0_FetchPickPlaceWide_v0_type1-INFOGSDR_PPOBC-32-32-tanh_cr0_no1_es=n_sr0000_rc0.90_reg00_ds0.001_s4/09.30_02.25.12/models/ckpt_policy_T10000000.pt
+0_fetchpickplacewide_v0_type1-infogsdr_ppobc-32-32-tanh_cr0_no1_es=n_sr0000_rc0.90_reg00_ds0.001_s4
+v_data: 0
+Inferred from ckptpath name:
+il_method: infogsdr
+rl_method: ppobc
+activation: tanh
+hidden_size: [32, 32]
+norm_obs: 1
+info_loss_type: None
+encode_sampling: normal
+normalize_code: 0
+tl_emb: 0
+TRAINED C_DATA: 1
+ARG C_DATA: 1
+Using (32, 32) tanh networks.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+args.encode_dim: 2
+Policy model is loaded from logs_data/28fetchv2/igabl/run_2023-09-30_02-24-42/run_0a6d0_00018_18_clip_discriminator=0,dr_cc=0.9000,seed=4_2023-09-30_02-24-42/results_IL/FetchPickPlaceWide/INFOGSDR_PPOBC/0_FetchPickPlaceWide_v0_type1-INFOGSDR_PPOBC-32-32-tanh_cr0_no1_es=n_sr0000_rc0.90_reg00_ds0.001_s4/09.30_02.25.12/models/ckpt_policy_T10000000.pt
+***** Max Ep Steps: 1000 args.seed 1 test_seed 2 *****
+*** budgets = [10, 20, 30, 40, 50] NPARALLEL = 50 n_test_episodes = 1 ***
+***** num zs = 1500 *****
+***** args.encode_sampling = normal *****
+obj_pos_y [0.43 0.59 0.75 0.91 1.07]
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+zvs shape 1500
+RT -15.032244502586737 6.3351247326069515 -6.609788378992833 -78.8056831462348
+LR -0.11360403216652086 0.10096987298308935 -1.1401330042959401e-05 -0.8747995980965743
+VL-std-all 0.0 0.0
+*** budget = 10
+VL10-1 0.07204164441380888 0.04928611074063049
+RT-VL10-1 -8.395592478314141 2.3248570016306678 -6.747818682163161 -28.01066376707942
+VL10-2 0.02816268781068183 0.028673788256624862
+RT-VL10-2 -9.689888690373763 3.4904776889726397 -7.700536332407506 -39.27262190308066
+VL10-3 0.0008959515306998715 4.796504255872247e-05
+RT-VL10-3 -19.991039566093892 0.1097833442689583 -18.650963764163027 -20.00139870146991
+VL10-4 0.09688916564282209 0.06559987877654201
+RT-VL10-4 -14.12653946227016 5.888842330528254 -6.609788378992833 -29.07980308740436
+VL10-5 0.22666409448699493 0.09656985353124381
+RT-VL10-5 -14.259725245155884 7.066283564498703 -6.609788378992833 -60.712308328901145
+VL10-all 0.08493070877700151 0.0783350929347318
+RT-VL10-all -13.292557088441566 4.085586624364023 -8.395592478314141 -19.991039566093892
+*** budget = 20
+VL20-1 0.04521277211600328 0.028664357248772497
+RT-VL20-1 -7.949778615597705 0.8270544131965109 -6.747818682163161 -11.971051914806422
+VL20-2 0.012519680153971391 0.012342517947867941
+RT-VL20-2 -9.742803773236284 3.768960725987972 -7.700536332407506 -39.27262190308066
+VL20-3 0.0008919285790179716 6.759380396789576e-05
+RT-VL20-3 -19.982054994022572 0.15473629272780146 -18.650963764163027 -20.00139870146991
+VL20-4 0.06282590522865833 0.06029524606982534
+RT-VL20-4 -11.179667507802883 4.893775543989602 -6.609788378992833 -22.104386849677425
+VL20-5 0.17411823575367386 0.08981036243426876
+RT-VL20-5 -11.63761033453834 7.559634240332342 -6.609788378992833 -60.712308328901145
+VL20-all 0.059113704366264966 0.06163414128617822
+RT-VL20-all -12.098383045039558 4.146523979094252 -7.949778615597705 -19.982054994022572
+*** budget = 30
+VL30-1 0.03539486411633136 0.023957301185234207
+RT-VL30-1 -7.783936123494036 0.7774864428866258 -6.747818682163161 -11.971051914806422
+VL30-2 0.007525198188070665 0.007554923167301995
+RT-VL30-2 -10.151401627410747 4.576186928942006 -7.980861797756819 -39.27262190308066
+VL30-3 0.0008879056273360719 8.249140004613074e-05
+RT-VL30-3 -19.973070421951267 0.18887247767952256 -18.650963764163027 -20.00139870146991
+VL30-4 0.047199377138128634 0.054594455972721216
+RT-VL30-4 -10.26235359783775 4.1664928469945846 -6.609788378992833 -20.836584577675673
+VL30-5 0.14864432140238204 0.08225804555400948
+RT-VL30-5 -10.826696109584894 8.281056832719306 -6.609788378992833 -60.712308328901145
+VL30-all 0.047930333294449755 0.053191248582455955
+RT-VL30-all -11.79949157605574 4.217994817568174 -7.783936123494036 -19.973070421951267
+*** budget = 40
+VL40-1 0.03010702304861448 0.020888932448115995
+RT-VL40-1 -7.816828652468061 0.8101280113750525 -7.057645880097562 -11.971051914806422
+VL40-2 0.005831637622914408 0.005589110909763205
+RT-VL40-2 -10.085313981303823 5.0618198575395414 -7.980861797756819 -39.27262190308066
+VL40-3 0.0008836652188065018 9.553302956267414e-05
+RT-VL40-3 -19.963600197335555 0.21877285232919869 -18.650963764163027 -20.00139870146991
+VL40-4 0.02530805011556796 0.03330242995144949
+RT-VL40-4 -9.017048133346789 2.3242211736137 -6.609788378992833 -20.836584577675673
+VL40-5 0.1199113324990822 0.05403085270534867
+RT-VL40-5 -9.787186810053006 8.764610919695645 -6.609788378992833 -60.712308328901145
+VL40-all 0.03640834170099711 0.043203263843622844
+RT-VL40-all -11.333995554901447 4.385444279065093 -7.816828652468061 -19.963600197335555
+*** budget = 50
+VL50-1 0.025125676821616393 0.017895852452440932
+RT-VL50-1 -7.784767051949823 0.8916383695240866 -6.747818682163161 -11.971051914806422
+VL50-2 0.004071620139652299 0.0029757592056242265
+RT-VL50-2 -10.510523221784883 5.5436200612202 -8.012708181568055 -39.27262190308066
+VL50-3 0.0008798597239722724 0.0001057333614976952
+RT-VL50-3 -19.955101277808634 0.24217238217494874 -18.650963764163027 -20.00139870146991
+VL50-4 0.026992168938085283 0.04065729850486301
+RT-VL50-4 -9.311333535596633 3.169257154658971 -6.609788378992833 -20.836584577675673
+VL50-5 0.11726956583455837 0.06101297920808419
+RT-VL50-5 -10.47041394250362 9.860541755263677 -6.609788378992833 -60.712308328901145
+VL50-all 0.034867778291576924 0.04254543528862983
+RT-VL50-all -11.60642780592872 4.291023927309812 -7.784767051949823 -19.955101277808634
+logs_data/28fetchv2/igabl/run_2023-09-30_02-24-42/run_0a6d0_00024_24_clip_discriminator=0,dr_cc=0.9000,seed=5_2023-09-30_02-24-45/results_IL/FetchPickPlaceWide/INFOGSDR_PPOBC/0_FetchPickPlaceWide_v0_type1-INFOGSDR_PPOBC-32-32-tanh_cr0_no1_es=n_sr0000_rc0.90_reg00_ds0.001_s5/09.30_13.24.47/models/ckpt_policy_T10000000.pt
+0_fetchpickplacewide_v0_type1-infogsdr_ppobc-32-32-tanh_cr0_no1_es=n_sr0000_rc0.90_reg00_ds0.001_s5
+v_data: 0
+Inferred from ckptpath name:
+il_method: infogsdr
+rl_method: ppobc
+activation: tanh
+hidden_size: [32, 32]
+norm_obs: 1
+info_loss_type: None
+encode_sampling: normal
+normalize_code: 0
+tl_emb: 0
+TRAINED C_DATA: 1
+ARG C_DATA: 1
+Using (32, 32) tanh networks.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+args.encode_dim: 2
+Policy model is loaded from logs_data/28fetchv2/igabl/run_2023-09-30_02-24-42/run_0a6d0_00024_24_clip_discriminator=0,dr_cc=0.9000,seed=5_2023-09-30_02-24-45/results_IL/FetchPickPlaceWide/INFOGSDR_PPOBC/0_FetchPickPlaceWide_v0_type1-INFOGSDR_PPOBC-32-32-tanh_cr0_no1_es=n_sr0000_rc0.90_reg00_ds0.001_s5/09.30_13.24.47/models/ckpt_policy_T10000000.pt
+***** Max Ep Steps: 1000 args.seed 1 test_seed 2 *****
+*** budgets = [10, 20, 30, 40, 50] NPARALLEL = 50 n_test_episodes = 1 ***
+***** num zs = 1500 *****
+***** args.encode_sampling = normal *****
+obj_pos_y [0.43 0.59 0.75 0.91 1.07]
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+zvs shape 1500
+RT -10.05240596017674 3.18157785700093 -5.640466785960219 -47.77619895344847
+LR -0.028758696234460708 0.04893498506488564 -2.731941493427925e-05 -0.5774614150315247
+VL-std-all 0.0 0.0
+*** budget = 10
+VL10-1 0.20944920322193825 0.061823337373337485
+RT-VL10-1 -9.656780494492212 2.787689194258655 -5.640466785960219 -34.03402519709383
+VL10-2 0.05879304493852747 0.05166854530521865
+RT-VL10-2 -9.558096807306416 1.9081673499486935 -8.093107120203884 -31.991502625324088
+VL10-3 0.010024335944173504 0.011117927277352665
+RT-VL10-3 -12.296401569078247 4.605144817047785 -8.79031139651146 -23.691777070624624
+VL10-4 0.017773620690471947 0.017434867906581733
+RT-VL10-4 -9.105156294261711 1.6592971587394738 -6.614447264726472 -14.950186510605521
+VL10-5 0.08093631426367068 0.04573148259213355
+RT-VL10-5 -9.163379795679845 2.0694943634814242 -7.0305553593321 -31.199963319910346
+VL10-all 0.07539530381175637 0.07193108861858181
+RT-VL10-all -9.955962992163688 1.1897496006151111 -9.105156294261711 -12.296401569078247
+*** budget = 20
+VL20-1 0.17419960174758164 0.04972707147892587
+RT-VL20-1 -9.587675232316583 2.705262593914793 -5.640466785960219 -31.991502625324088
+VL20-2 0.03094127004723114 0.03743830400171374
+RT-VL20-2 -9.697142551831032 2.645830105089663 -8.165660730538097 -31.991502625324088
+VL20-3 0.004978090124115672 0.005123808975503608
+RT-VL20-3 -12.492308099170035 4.738282629810995 -8.79031139651146 -21.39086616584345
+VL20-4 0.008369478251783767 0.007848018595857098
+RT-VL20-4 -9.208409553850935 1.888189336260377 -7.168696079203303 -14.950186510605521
+VL20-5 0.05625734716278564 0.030956151271860712
+RT-VL20-5 -9.434076673699181 2.6823299344608302 -7.625625603441314 -31.199963319910346
+VL20-all 0.05494915746669957 0.06239476350934603
+RT-VL20-all -10.083922422173552 1.2153192000551654 -9.208409553850935 -12.492308099170035
+*** budget = 30
+VL30-1 0.15617984052259545 0.03555556343513078
+RT-VL30-1 -9.71102173911366 3.2829513254074936 -5.640466785960219 -31.991502625324088
+VL30-2 0.016837847924403702 0.022718429862143265
+RT-VL30-2 -9.89229700573387 3.201510854053766 -8.249258025716877 -31.991502625324088
+VL30-3 0.0034795504098703357 0.0035093729639472746
+RT-VL30-3 -12.319565777588425 4.656364008665457 -8.79031139651146 -21.39086616584345
+VL30-4 0.0055581088746451445 0.0044166738834917315
+RT-VL30-4 -9.244931298357736 1.8249248574212047 -7.168696079203303 -14.760618757389874
+VL30-5 0.04638125803754322 0.02583344934641405
+RT-VL30-5 -9.780226126532718 3.218553227469395 -7.625625603441314 -31.199963319910346
+VL30-all 0.04568732115381157 0.057329259684376715
+RT-VL30-all -10.189608389465281 1.0875813863503396 -9.244931298357736 -12.319565777588425
+*** budget = 40
+VL40-1 0.1446027440260262 0.026843663629491532
+RT-VL40-1 -9.170734165768021 0.8940458695194516 -5.640466785960219 -10.487780048107501
+VL40-2 0.013077894471610646 0.012856340523960175
+RT-VL40-2 -10.00618533973776 3.702429648691996 -8.165660730538097 -31.991502625324088
+VL40-3 0.0027421011300782228 0.0027018450131549828
+RT-VL40-3 -12.295531694075873 4.527204209542905 -8.864754178415318 -21.219647668605244
+VL40-4 0.004642301422874281 0.003961013275177887
+RT-VL40-4 -9.07369695064814 1.671632575864342 -7.168696079203303 -14.913273651566417
+VL40-5 0.037116087105201354 0.018764675844437195
+RT-VL40-5 -10.145965105660682 3.6450283940831643 -7.7617057228188955 -31.199963319910346
+VL40-all 0.04043622563115814 0.05350180780180549
+RT-VL40-all -10.138422651178095 1.1610964507974524 -9.07369695064814 -12.295531694075873
+*** budget = 50
+VL50-1 0.14283402492741473 0.02753829195040725
+RT-VL50-1 -9.133304196875708 0.9477928784024776 -5.640466785960219 -10.487780048107501
+VL50-2 0.010424901943549907 0.011802831122839103
+RT-VL50-2 -10.270325572150192 4.061055919163009 -8.53495836181685 -31.991502625324088
+VL50-3 0.002008525306698809 0.0022942149089219873
+RT-VL50-3 -11.543292566341327 3.944821901592953 -8.881482560959576 -21.219647668605244
+VL50-4 0.004574485063534406 0.003955349469490581
+RT-VL50-4 -9.080370454346275 1.6429412562699377 -7.519838808918663 -14.58478639594176
+VL50-5 0.035472664290173476 0.019189477223297387
+RT-VL50-5 -10.239021957975316 4.00485939192986 -8.132713268872116 -31.199963319910346
+VL50-all 0.03906292030627427 0.05322395803127346
+RT-VL50-all -10.053262949537764 0.9049480387406018 -9.080370454346275 -11.543292566341327
+logs_data/28fetchv2/igabl/run_2023-09-30_02-24-42/run_0a6d0_00001_1_clip_discriminator=10,dr_cc=0.9000,seed=1_2023-09-30_02-24-42/results_IL/FetchPickPlaceWide/INFOGSDR_PPOBC/0_FetchPickPlaceWide_v0_type1-INFOGSDR_PPOBC-32-32-tanh_cr10_no1_es=n_sr0001_rc0.90_reg00_ds0.001_s1/09.30_02.25.14/models/ckpt_policy_T10000000.pt
+0_fetchpickplacewide_v0_type1-infogsdr_ppobc-32-32-tanh_cr10_no1_es=n_sr0001_rc0.90_reg00_ds0.001_s1
+v_data: 0
+Inferred from ckptpath name:
+il_method: infogsdr
+rl_method: ppobc
+activation: tanh
+hidden_size: [32, 32]
+norm_obs: 1
+info_loss_type: None
+encode_sampling: normal
+normalize_code: 0
+tl_emb: 0
+TRAINED C_DATA: 1
+ARG C_DATA: 1
+Using (32, 32) tanh networks.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+args.encode_dim: 2
+Policy model is loaded from logs_data/28fetchv2/igabl/run_2023-09-30_02-24-42/run_0a6d0_00001_1_clip_discriminator=10,dr_cc=0.9000,seed=1_2023-09-30_02-24-42/results_IL/FetchPickPlaceWide/INFOGSDR_PPOBC/0_FetchPickPlaceWide_v0_type1-INFOGSDR_PPOBC-32-32-tanh_cr10_no1_es=n_sr0001_rc0.90_reg00_ds0.001_s1/09.30_02.25.14/models/ckpt_policy_T10000000.pt
+***** Max Ep Steps: 1000 args.seed 1 test_seed 2 *****
+*** budgets = [10, 20, 30, 40, 50] NPARALLEL = 50 n_test_episodes = 1 ***
+***** num zs = 1500 *****
+***** args.encode_sampling = normal *****
+obj_pos_y [0.43 0.59 0.75 0.91 1.07]
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+zvs shape 1500
+RT -9.010429910962774 3.450610682085529 -5.335365628951704 -23.56667674323809
+LR -0.029054500394488144 0.04916651315876903 -1.2844544574619476e-06 -0.2977221417689808
+VL-std-all 0.0 0.0
+*** budget = 10
+VL10-1 0.11901572553505839 0.033070817716954
+RT-VL10-1 -8.506080692046872 0.580729152153497 -7.206803625799681 -12.043672011647626
+VL10-2 0.017162543578229644 0.017543057967221352
+RT-VL10-2 -8.45499010965741 0.5353019179186972 -7.0542863834284635 -12.043672011647626
+VL10-3 0.01102918276222495 0.018484194632618117
+RT-VL10-3 -14.276116333323417 6.186925455137427 -6.546708031164077 -20.000833417330234
+VL10-4 0.02917917668822773 0.031160670850847828
+RT-VL10-4 -7.462519498007673 1.0169605902059229 -6.300547956786901 -15.701568887590206
+VL10-5 0.08647135978877624 0.05031638767544492
+RT-VL10-5 -8.079475518605296 1.2049200899082246 -5.335365628951704 -15.166015323691223
+VL10-all 0.05257159767050339 0.04263987501597526
+RT-VL10-all -9.355836430328134 2.48823268265701 -7.462519498007673 -14.276116333323417
+*** budget = 20
+VL20-1 0.1035820545172208 0.018672635886793142
+RT-VL20-1 -8.47095470651982 0.5772112575302972 -7.206803625799681 -9.680439003324691
+VL20-2 0.008414930563762432 0.00773631252370671
+RT-VL20-2 -8.53234057535064 0.5695268982071902 -7.651261287546136 -12.043672011647626
+VL20-3 0.00241082164592971 0.005068881249013035
+RT-VL20-3 -17.25064487509915 5.262536945452608 -6.546708031164077 -20.000833417330234
+VL20-4 0.015316306475812032 0.018341945087478346
+RT-VL20-4 -7.312042566093027 0.48596568286191255 -6.300547956786901 -8.996750897890129
+VL20-5 0.06063478025294475 0.027475216763374846
+RT-VL20-5 -8.36060860213265 1.2319529142829784 -5.335365628951704 -15.166015323691223
+VL20-all 0.03807177869113394 0.03865159580731545
+RT-VL20-all -9.985318265039057 3.659931593794274 -7.312042566093027 -17.25064487509915
+*** budget = 30
+VL30-1 0.09596626492608562 0.01266313807138252
+RT-VL30-1 -8.616997722292718 0.6180971791557412 -7.275787752600219 -9.680439003324691
+VL30-2 0.00629955646449478 0.006662175263428466
+RT-VL30-2 -8.517651193754263 0.38031452620184447 -7.717624956493077 -10.321655601321972
+VL30-3 0.0016374414680106432 0.0030892507336568497
+RT-VL30-3 -17.67243038888572 4.94030944581826 -6.546708031164077 -20.000833417330234
+VL30-4 0.008059086824333293 0.0081289173610863
+RT-VL30-4 -7.252976414105458 0.4326775383799147 -6.647857006321026 -8.996750897890129
+VL30-5 0.05226823319897969 0.023611768147107526
+RT-VL30-5 -8.487164956189813 0.8733702313410134 -6.709829878336138 -10.826237348086435
+VL30-all 0.0328461165763808 0.036481419494074636
+RT-VL30-all -10.109444135045596 3.814476627627451 -7.252976414105458 -17.67243038888572
+*** budget = 40
+VL40-1 0.09347788526045223 0.013417319308708712
+RT-VL40-1 -8.553700218582021 0.6620507756597297 -7.275787752600219 -9.680439003324691
+VL40-2 0.004560180947532491 0.004442553789067051
+RT-VL40-2 -8.551408372141966 0.40901814248921636 -7.97101395701623 -10.321655601321972
+VL40-3 0.0009706062009479609 0.0005849586147838099
+RT-VL40-3 -18.262276202041733 4.397458199290948 -6.706458574582466 -20.000833417330234
+VL40-4 0.0058618293849311805 0.004669854985582698
+RT-VL40-4 -7.202637754238175 0.35840160674292393 -6.756909565890314 -8.969660717777144
+VL40-5 0.04331800574939549 0.019014629629479817
+RT-VL40-5 -8.522309289402132 1.032863784414498 -5.335365628951704 -10.826237348086435
+VL40-all 0.02963770150865187 0.03543641142017855
+RT-VL40-all -10.218466367281206 4.055257732941049 -7.202637754238175 -18.262276202041733
+*** budget = 50
+VL50-1 0.09091337602439299 0.012019326136777034
+RT-VL50-1 -8.737529464457197 0.6814098549554652 -7.450792475970208 -9.680439003324691
+VL50-2 0.0036645000848979812 0.003152134367843505
+RT-VL50-2 -8.552517570700893 0.3946237636389462 -7.97101395701623 -10.321655601321972
+VL50-3 0.0009979169335441703 0.0006338904178668107
+RT-VL50-3 -18.280332151964785 4.385825293120793 -6.706458574582466 -20.000833417330234
+VL50-4 0.004496706527581714 0.004129123670510921
+RT-VL50-4 -7.272051368735263 0.4887396026753728 -6.784041312967901 -8.996750897890129
+VL50-5 0.041364659526413064 0.018089708476254455
+RT-VL50-5 -8.546496205972282 0.813211724270112 -7.10859800452376 -10.333846672668788
+VL50-all 0.028287431819365983 0.03466995175043087
+RT-VL50-all -10.277785352366084 4.035380806992855 -7.272051368735263 -18.280332151964785
+logs_data/28fetchv2/igabl/run_2023-09-30_02-24-42/run_0a6d0_00007_7_clip_discriminator=10,dr_cc=0.9000,seed=2_2023-09-30_02-24-42/results_IL/FetchPickPlaceWide/INFOGSDR_PPOBC/0_FetchPickPlaceWide_v0_type1-INFOGSDR_PPOBC-32-32-tanh_cr10_no1_es=n_sr0001_rc0.90_reg00_ds0.001_s2/09.30_02.25.14/models/ckpt_policy_T10000000.pt
+0_fetchpickplacewide_v0_type1-infogsdr_ppobc-32-32-tanh_cr10_no1_es=n_sr0001_rc0.90_reg00_ds0.001_s2
+v_data: 0
+Inferred from ckptpath name:
+il_method: infogsdr
+rl_method: ppobc
+activation: tanh
+hidden_size: [32, 32]
+norm_obs: 1
+info_loss_type: None
+encode_sampling: normal
+normalize_code: 0
+tl_emb: 0
+TRAINED C_DATA: 1
+ARG C_DATA: 1
+Using (32, 32) tanh networks.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+args.encode_dim: 2
+Policy model is loaded from logs_data/28fetchv2/igabl/run_2023-09-30_02-24-42/run_0a6d0_00007_7_clip_discriminator=10,dr_cc=0.9000,seed=2_2023-09-30_02-24-42/results_IL/FetchPickPlaceWide/INFOGSDR_PPOBC/0_FetchPickPlaceWide_v0_type1-INFOGSDR_PPOBC-32-32-tanh_cr10_no1_es=n_sr0001_rc0.90_reg00_ds0.001_s2/09.30_02.25.14/models/ckpt_policy_T10000000.pt
+***** Max Ep Steps: 1000 args.seed 1 test_seed 2 *****
+*** budgets = [10, 20, 30, 40, 50] NPARALLEL = 50 n_test_episodes = 1 ***
+***** num zs = 1500 *****
+***** args.encode_sampling = normal *****
+obj_pos_y [0.43 0.59 0.75 0.91 1.07]
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+zvs shape 1500
+RT -11.659317709564018 5.2419625126338385 -6.552996777075447 -31.617448592984783
+LR -0.06692878695239123 0.08161395204469465 -9.52196577761466e-05 -0.5554781311375869
+VL-std-all 0.0 0.0
+*** budget = 10
+VL10-1 0.10965736515957777 0.043320849344810834
+RT-VL10-1 -8.033482002400303 1.878563540209182 -6.552996777075447 -20.000024138165212
+VL10-2 0.02413593063311872 0.0281334456829092
+RT-VL10-2 -8.994979462990486 1.962007109480835 -7.038978308878055 -20.000024138165212
+VL10-3 0.0037989996031763014 0.012441818975093387
+RT-VL10-3 -19.583237091766254 2.553488130307896 -7.453783439236847 -31.617448592984783
+VL10-4 0.0269805381927957 0.026277075177216943
+RT-VL10-4 -8.548405851947114 1.5524706876563805 -6.852868806128106 -16.81340472503372
+VL10-5 0.10982398866439572 0.0516642433944395
+RT-VL10-5 -8.600063601706673 1.3916223505823702 -7.039898898721336 -16.0264370224388
+VL10-all 0.054879364450612846 0.04550219334068835
+RT-VL10-all -10.752033602162166 4.426169162328114 -8.033482002400303 -19.583237091766254
+*** budget = 20
+VL20-1 0.09048986461649433 0.02159571617118709
+RT-VL20-1 -7.641804313916044 0.8370508311699238 -6.552996777075447 -11.542942008227294
+VL20-2 0.010908404023049255 0.012743983847277257
+RT-VL20-2 -8.989681590126912 1.134749977692603 -7.1400307052363665 -11.992843177615045
+VL20-3 0.0008764209061597494 0.00011676644041929705
+RT-VL20-3 -19.97684121117879 0.15200734114654582 -18.713330342043083 -20.000024138165212
+VL20-4 0.012989494203066559 0.010810954559687539
+RT-VL20-4 -8.424486387684345 1.3582533555117335 -6.992654120829158 -16.0264370224388
+VL20-5 0.08343752637082082 0.026067542749661
+RT-VL20-5 -8.649664318720795 1.2232582661686444 -7.074932575699631 -12.272780827070102
+VL20-all 0.03974034202391814 0.038838771442694354
+RT-VL20-all -10.736495564325377 4.641394440244049 -7.641804313916044 -19.97684121117879
+*** budget = 30
+VL30-1 0.0825309987007744 0.01880272668868696
+RT-VL30-1 -7.437855605221281 0.6475719077058596 -6.552996777075447 -10.746561606146322
+VL30-2 0.006090247908538626 0.005361900745630828
+RT-VL30-2 -9.060567601061702 1.1190600487520612 -7.977605302725575 -11.542942008227294
+VL30-3 0.0008646441180487386 0.0001415468975204152
+RT-VL30-3 -19.965249747685583 0.1850844714337761 -18.713330342043083 -20.000024138165212
+VL30-4 0.00911651851342889 0.008193656019237652
+RT-VL30-4 -8.589161713559786 1.9371507991766181 -6.992654120829158 -16.81340472503372
+VL30-5 0.07411956258301176 0.022708495425545955
+RT-VL30-5 -8.873651379731818 1.2715727220001285 -7.204290121113675 -12.272780827070102
+VL30-all 0.034544394364760485 0.035942868646639134
+RT-VL30-all -10.785297209452036 4.6244780681633335 -7.437855605221281 -19.965249747685583
+*** budget = 40
+VL40-1 0.07819743657168235 0.016806160285448523
+RT-VL40-1 -7.3817519858007055 0.7203613747636434 -6.552996777075447 -10.746561606146322
+VL40-2 0.0044390523144704624 0.0033941488225030804
+RT-VL40-2 -8.825131327756202 1.0399584956296428 -7.744741842250575 -11.542942008227294
+VL40-3 0.000852230746796592 0.00016273405293530468
+RT-VL40-3 -19.95303171859815 0.21381789123034634 -18.713330342043083 -20.000024138165212
+VL40-4 0.0075016097482479204 0.007013754951420765
+RT-VL40-4 -8.348149371965578 1.2860665666873916 -6.992654120829158 -11.95368661687911
+VL40-5 0.06876860986610414 0.018190379996886004
+RT-VL40-5 -8.875984638181325 1.262358369003659 -7.099804299693908 -12.272780827070102
+VL40-all 0.03195178784946029 0.03410596043780479
+RT-VL40-all -10.67680980846039 4.669047930769194 -7.3817519858007055 -19.95303171859815
+*** budget = 50
+VL50-1 0.07577987619512312 0.015335009759011451
+RT-VL50-1 -7.333143401236072 0.7531722641280852 -6.552996777075447 -10.746561606146322
+VL50-2 0.0039043582346805937 0.0031876454030395802
+RT-VL50-2 -8.950691405342779 1.1506983863532307 -7.977605302725575 -11.542942008227294
+VL50-3 0.0008410905418267167 0.00017890112617674714
+RT-VL50-3 -19.942066820699168 0.23611469462401008 -18.713330342043083 -20.000024138165212
+VL50-4 0.005506420676193484 0.004836446612590329
+RT-VL50-4 -8.254016691575561 1.2557005743641567 -6.992654120829158 -11.640618358609487
+VL50-5 0.06478482497288283 0.01589865383464437
+RT-VL50-5 -8.996685522959861 1.3790765042405386 -7.311568689343033 -12.272780827070102
+VL50-all 0.03016331412414135 0.032975165513897294
+RT-VL50-all -10.695320768362688 4.662523096157105 -7.333143401236072 -19.942066820699168
+logs_data/28fetchv2/igabl/run_2023-09-30_02-24-42/run_0a6d0_00013_13_clip_discriminator=10,dr_cc=0.9000,seed=3_2023-09-30_02-24-42/results_IL/FetchPickPlaceWide/INFOGSDR_PPOBC/0_FetchPickPlaceWide_v0_type1-INFOGSDR_PPOBC-32-32-tanh_cr10_no1_es=n_sr0001_rc0.90_reg00_ds0.001_s3/09.30_02.25.13/models/ckpt_policy_T10000000.pt
+0_fetchpickplacewide_v0_type1-infogsdr_ppobc-32-32-tanh_cr10_no1_es=n_sr0001_rc0.90_reg00_ds0.001_s3
+v_data: 0
+Inferred from ckptpath name:
+il_method: infogsdr
+rl_method: ppobc
+activation: tanh
+hidden_size: [32, 32]
+norm_obs: 1
+info_loss_type: None
+encode_sampling: normal
+normalize_code: 0
+tl_emb: 0
+TRAINED C_DATA: 1
+ARG C_DATA: 1
+Using (32, 32) tanh networks.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+args.encode_dim: 2
+Policy model is loaded from logs_data/28fetchv2/igabl/run_2023-09-30_02-24-42/run_0a6d0_00013_13_clip_discriminator=10,dr_cc=0.9000,seed=3_2023-09-30_02-24-42/results_IL/FetchPickPlaceWide/INFOGSDR_PPOBC/0_FetchPickPlaceWide_v0_type1-INFOGSDR_PPOBC-32-32-tanh_cr10_no1_es=n_sr0001_rc0.90_reg00_ds0.001_s3/09.30_02.25.13/models/ckpt_policy_T10000000.pt
+***** Max Ep Steps: 1000 args.seed 1 test_seed 2 *****
+*** budgets = [10, 20, 30, 40, 50] NPARALLEL = 50 n_test_episodes = 1 ***
+***** num zs = 1500 *****
+***** args.encode_sampling = normal *****
+obj_pos_y [0.43 0.59 0.75 0.91 1.07]
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+zvs shape 1500
+RT -10.46764407708707 4.377174436734361 -6.8185298124807305 -32.251446293776304
+LR -0.046079179067593345 0.0666757084911214 -8.813170191412922e-07 -0.42837633437939826
+VL-std-all 0.0 0.0
+*** budget = 10
+VL10-1 0.07577647588098434 0.06853312185864575
+RT-VL10-1 -9.39997778883474 2.5346408485389404 -6.914844787554011 -29.324374276392973
+VL10-2 0.03875425013420905 0.037163495416022624
+RT-VL10-2 -8.433726409282325 2.581306173625784 -6.8185298124807305 -29.324374276392973
+VL10-3 0.012665236404356345 0.027606795500498726
+RT-VL10-3 -17.37050828161076 4.828762793881035 -7.091733633113181 -20.000024138165212
+VL10-4 0.014296824392021179 0.021074706966569226
+RT-VL10-4 -8.712876064832086 1.9103317991480848 -7.16327868078933 -23.566363126250216
+VL10-5 0.11442937496341202 0.04000411352126699
+RT-VL10-5 -8.416245761544273 1.1970651252348017 -7.16327868078933 -17.175908190767355
+VL10-all 0.05118443235499659 0.038996473887472974
+RT-VL10-all -10.466666861220839 3.4702653402777193 -8.416245761544273 -17.37050828161076
+*** budget = 20
+VL20-1 0.0408902943646396 0.03263771016383477
+RT-VL20-1 -9.474008724939374 1.094972815051144 -7.243399916648908 -11.959321073409349
+VL20-2 0.018372301209552848 0.014385588288357747
+RT-VL20-2 -8.276831030233689 2.5999125272023003 -6.8185298124807305 -29.324374276392973
+VL20-3 0.003396511737125721 0.010629399137196278
+RT-VL20-3 -18.882026238024245 3.4204478522421526 -7.25840677522142 -20.000024138165212
+VL20-4 0.006830320009082728 0.007239677383982033
+RT-VL20-4 -8.495939600767166 1.3744870533599733 -7.254091508933147 -13.335110379965004
+VL20-5 0.09494120823479746 0.027026915156736546
+RT-VL20-5 -8.488566303289268 1.13933345665691 -7.30804556138797 -17.175908190767355
+VL20-all 0.03288612711103967 0.03368707000507525
+RT-VL20-all -10.723474379450748 4.100388318884966 -8.276831030233689 -18.882026238024245
+*** budget = 30
+VL30-1 0.03150408867525482 0.030583384813179862
+RT-VL30-1 -9.75619632083859 1.0966979918758488 -7.386599118802716 -11.959321073409349
+VL30-2 0.013983740634713655 0.01003630130524435
+RT-VL30-2 -8.343622118549142 3.0905942656177845 -6.8185298124807305 -29.324374276392973
+VL30-3 0.0012654614774042572 0.0027520897756793403
+RT-VL30-3 -19.30526206367153 2.764734006589217 -7.394116467890306 -20.000024138165212
+VL30-4 0.0043269518633291025 0.00352552462018816
+RT-VL30-4 -8.49484952296556 1.2674362765644784 -7.432915838733645 -13.335110379965004
+VL30-5 0.08610042076481106 0.0254980125901498
+RT-VL30-5 -8.579592583567697 1.3379166076195625 -7.30804556138797 -17.175908190767355
+VL30-all 0.027436132683102576 0.031170345148647558
+RT-VL30-all -10.895904521918505 4.234636716861073 -8.343622118549142 -19.30526206367153
+*** budget = 40
+VL40-1 0.022732466732650572 0.02137073532937071
+RT-VL40-1 -9.936089004751766 1.1313978781094667 -7.386599118802716 -11.959321073409349
+VL40-2 0.009731240286624405 0.007777057186019443
+RT-VL40-2 -7.989421727852108 0.796723629175163 -6.8185298124807305 -10.497816052910347
+VL40-3 0.0008638344390958695 0.00013934751886045688
+RT-VL40-3 -19.401856677235237 2.5157598156804055 -7.452986961680539 -20.000024138165212
+VL40-4 0.0031706197744443484 0.003046855335084876
+RT-VL40-4 -8.276403151960588 1.1030665314127468 -7.354676148319242 -11.509218382227894
+VL40-5 0.08101650909249299 0.023848371691932605
+RT-VL40-5 -8.717392241850774 1.5043792812211259 -7.30804556138797 -17.175908190767355
+VL40-all 0.023502934065061636 0.029745575530354687
+RT-VL40-all -10.864232560730095 4.320249940541059 -7.989421727852108 -19.401856677235237
+*** budget = 50
+VL50-1 0.020086625649112618 0.018946142538287213
+RT-VL50-1 -9.895798454792077 1.1553908762957932 -7.386599118802716 -11.959321073409349
+VL50-2 0.009021021738176593 0.006905313874779369
+RT-VL50-2 -8.032197483382896 0.8269518636850979 -6.8185298124807305 -10.497816052910347
+VL50-3 0.0008554017623291591 0.00015353392971809377
+RT-VL50-3 -19.26228426968491 2.7754021436506915 -7.452986961680539 -20.000024138165212
+VL50-4 0.0024859012893249915 0.0020550611302293516
+RT-VL50-4 -8.526724110289807 1.1439654483611128 -7.432915838733645 -11.509218382227894
+VL50-5 0.07533550270079217 0.022515861106404505
+RT-VL50-5 -8.840118164183849 1.6332189932826953 -7.30804556138797 -17.175908190767355
+VL50-all 0.021556890627947106 0.02772617204021573
+RT-VL50-all -10.911424496466708 4.219843818326467 -8.032197483382896 -19.26228426968491
+logs_data/28fetchv2/igabl/run_2023-09-30_02-24-42/run_0a6d0_00019_19_clip_discriminator=10,dr_cc=0.9000,seed=4_2023-09-30_02-24-42/results_IL/FetchPickPlaceWide/INFOGSDR_PPOBC/0_FetchPickPlaceWide_v0_type1-INFOGSDR_PPOBC-32-32-tanh_cr10_no1_es=n_sr0001_rc0.90_reg00_ds0.001_s4/09.30_02.25.13/models/ckpt_policy_T10000000.pt
+0_fetchpickplacewide_v0_type1-infogsdr_ppobc-32-32-tanh_cr10_no1_es=n_sr0001_rc0.90_reg00_ds0.001_s4
+v_data: 0
+Inferred from ckptpath name:
+il_method: infogsdr
+rl_method: ppobc
+activation: tanh
+hidden_size: [32, 32]
+norm_obs: 1
+info_loss_type: None
+encode_sampling: normal
+normalize_code: 0
+tl_emb: 0
+TRAINED C_DATA: 1
+ARG C_DATA: 1
+Using (32, 32) tanh networks.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+args.encode_dim: 2
+Policy model is loaded from logs_data/28fetchv2/igabl/run_2023-09-30_02-24-42/run_0a6d0_00019_19_clip_discriminator=10,dr_cc=0.9000,seed=4_2023-09-30_02-24-42/results_IL/FetchPickPlaceWide/INFOGSDR_PPOBC/0_FetchPickPlaceWide_v0_type1-INFOGSDR_PPOBC-32-32-tanh_cr10_no1_es=n_sr0001_rc0.90_reg00_ds0.001_s4/09.30_02.25.13/models/ckpt_policy_T10000000.pt
+***** Max Ep Steps: 1000 args.seed 1 test_seed 2 *****
+*** budgets = [10, 20, 30, 40, 50] NPARALLEL = 50 n_test_episodes = 1 ***
+***** num zs = 1500 *****
+***** args.encode_sampling = normal *****
+obj_pos_y [0.43 0.59 0.75 0.91 1.07]
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+zvs shape 1500
+RT -14.96792096336015 5.710267478317898 -5.344547073312962 -29.93572431686255
+LR -0.11589145595439 0.09253474026989363 -1.8646733981553254e-05 -0.3254322742260254
+VL-std-all 0.0 0.0
+*** budget = 10
+VL10-1 0.11246134461218217 0.07628891360491655
+RT-VL10-1 -8.65889295914096 3.419823743504548 -5.344547073312962 -24.69272278042406
+VL10-2 0.0393682831473766 0.03893981252301468
+RT-VL10-2 -10.03226217177437 3.9957250146701906 -6.543320774319268 -29.93572431686255
+VL10-3 0.0008922451015926348 7.165445065095847e-05
+RT-VL10-3 -19.916123428131428 0.8952087154621102 -9.120523348045626 -20.000024138165212
+VL10-4 0.044824262566993775 0.04455496631622911
+RT-VL10-4 -10.09557114758379 3.613188870523224 -6.72067075097582 -24.093586506567586
+VL10-5 0.14450352698276642 0.07260142553295024
+RT-VL10-5 -9.530666079102925 3.6816896268503325 -5.993109904828789 -24.093586506567586
+VL10-all 0.06840993248218233 0.05232418439942186
+RT-VL10-all -11.646703157146694 4.166542079938157 -8.65889295914096 -19.916123428131428
+*** budget = 20
+VL20-1 0.07311441250005532 0.04920926669633425
+RT-VL20-1 -7.259685821095157 0.9963782655795961 -5.344547073312962 -10.203948902490257
+VL20-2 0.018784243217116373 0.019943744986742992
+RT-VL20-2 -9.44561178116005 3.1306718006123595 -6.798312582046323 -24.999198856882032
+VL20-3 0.0008845157208035041 0.00010074340644138713
+RT-VL20-3 -19.83222271809765 1.2604438227030583 -9.120523348045626 -20.000024138165212
+VL20-4 0.021823506382877222 0.025630375517135234
+RT-VL20-4 -9.190280634806621 1.8900190132504129 -6.89922125216918 -20.000024138165212
+VL20-5 0.10291593681205655 0.04249258700793633
+RT-VL20-5 -8.209108910030208 1.8086795989702549 -5.993109904828789 -20.000024138165212
+VL20-all 0.04350452292658179 0.03822063678676134
+RT-VL20-all -10.787381973037936 4.588079253102496 -7.259685821095157 -19.83222271809765
+*** budget = 30
+VL30-1 0.05849588193670876 0.03754627384055433
+RT-VL30-1 -7.008278828935596 0.863369940818556 -5.344547073312962 -9.333311119825323
+VL30-2 0.01189526198681435 0.010771154165309408
+RT-VL30-2 -9.4132814818647 3.0513282408261144 -7.882987946045683 -24.999198856882032
+VL30-3 0.0008781399765575681 0.0001225314189801215
+RT-VL30-3 -19.965912023866267 0.23849430803330018 -18.296453057883227 -20.000024138165212
+VL30-4 0.015778598642539558 0.023351584963684942
+RT-VL30-4 -9.431144884385239 2.032342729405577 -6.98131261787195 -20.000024138165212
+VL30-5 0.09285466535899702 0.04378696308288658
+RT-VL30-5 -8.000211032969737 1.893921990396094 -5.993109904828789 -20.000024138165212
+VL30-all 0.03598050958032345 0.03453115780526822
+RT-VL30-all -10.763765650404308 4.690844249469162 -7.008278828935596 -19.965912023866267
+*** budget = 40
+VL40-1 0.046354913002923395 0.03469437121816748
+RT-VL40-1 -6.726460179318515 0.772514690916577 -5.344547073312962 -9.333311119825323
+VL40-2 0.007837641867644615 0.0064760773187483855
+RT-VL40-2 -8.748122698674731 1.035532243982839 -7.882987946045683 -14.021509423723863
+VL40-3 0.0008704683934301604 0.00014164307736686
+RT-VL40-3 -19.953926686409886 0.2762458016387808 -18.296453057883227 -20.000024138165212
+VL40-4 0.009822407290866928 0.009307873357286667
+RT-VL40-4 -8.981206923577497 1.4171344391715694 -6.98131261787195 -14.236588518975601
+VL40-5 0.0817941001241508 0.023208844586468172
+RT-VL40-5 -7.720545397761715 0.6599176575447226 -5.993109904828789 -8.808240331057672
+VL40-all 0.02933590613580318 0.030642264475204902
+RT-VL40-all -10.42605237714847 4.830945366891373 -6.726460179318515 -19.953926686409886
+*** budget = 50
+VL50-1 0.04024197414559388 0.030847941784251695
+RT-VL50-1 -6.570101480496703 0.6093447899700531 -5.344547073312962 -7.623865716138381
+VL50-2 0.007379742845036615 0.00682747266536678
+RT-VL50-2 -8.845382373380112 1.1696087458886337 -7.951779522871156 -14.021509423723863
+VL50-3 0.0008613275784361366 0.00015645106245336743
+RT-VL50-3 -19.58052058799632 1.9662671838570567 -9.120523348045626 -20.000024138165212
+VL50-4 0.009820848080319381 0.009687918353441346
+RT-VL50-4 -8.802873164670528 1.097057322653193 -6.98131261787195 -11.388696711825506
+VL50-5 0.08118481245022205 0.02571867318151348
+RT-VL50-5 -7.655163217822377 0.6698147893543129 -5.993109904828789 -8.808240331057672
+VL50-all 0.027897741019921613 0.02990191309034339
+RT-VL50-all -10.290808164873209 4.7200052056316215 -6.570101480496703 -19.58052058799632
+logs_data/28fetchv2/igabl/run_2023-09-30_02-24-42/run_0a6d0_00025_25_clip_discriminator=10,dr_cc=0.9000,seed=5_2023-09-30_02-24-45/results_IL/FetchPickPlaceWide/INFOGSDR_PPOBC/0_FetchPickPlaceWide_v0_type1-INFOGSDR_PPOBC-32-32-tanh_cr10_no1_es=n_sr0001_rc0.90_reg00_ds0.001_s5/09.30_14.02.01/models/ckpt_policy_T10000000.pt
+0_fetchpickplacewide_v0_type1-infogsdr_ppobc-32-32-tanh_cr10_no1_es=n_sr0001_rc0.90_reg00_ds0.001_s5
+v_data: 0
+Inferred from ckptpath name:
+il_method: infogsdr
+rl_method: ppobc
+activation: tanh
+hidden_size: [32, 32]
+norm_obs: 1
+info_loss_type: None
+encode_sampling: normal
+normalize_code: 0
+tl_emb: 0
+TRAINED C_DATA: 1
+ARG C_DATA: 1
+Using (32, 32) tanh networks.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+args.encode_dim: 2
+Policy model is loaded from logs_data/28fetchv2/igabl/run_2023-09-30_02-24-42/run_0a6d0_00025_25_clip_discriminator=10,dr_cc=0.9000,seed=5_2023-09-30_02-24-45/results_IL/FetchPickPlaceWide/INFOGSDR_PPOBC/0_FetchPickPlaceWide_v0_type1-INFOGSDR_PPOBC-32-32-tanh_cr10_no1_es=n_sr0001_rc0.90_reg00_ds0.001_s5/09.30_14.02.01/models/ckpt_policy_T10000000.pt
+***** Max Ep Steps: 1000 args.seed 1 test_seed 2 *****
+*** budgets = [10, 20, 30, 40, 50] NPARALLEL = 50 n_test_episodes = 1 ***
+***** num zs = 1500 *****
+***** args.encode_sampling = normal *****
+obj_pos_y [0.43 0.59 0.75 0.91 1.07]
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+zvs shape 1500
+RT -9.424972691013515 0.9539559260162447 -7.7474019638878975 -25.830268357253743
+LR -0.013817417492046163 0.017105461692368155 -3.7808365604963257e-05 -0.28917329812089787
+VL-std-all 0.0 0.0
+*** budget = 10
+VL10-1 0.11573985345545168 0.0265292001402302
+RT-VL10-1 -8.840565762171556 0.4479821054899717 -7.7474019638878975 -9.996232214886446
+VL10-2 0.012907555912553065 0.011095100299744481
+RT-VL10-2 -9.33283125267561 0.39104300399470726 -8.355048258910232 -9.996232214886446
+VL10-3 0.01762310088731382 0.01564271296228312
+RT-VL10-3 -9.827185111345646 1.2107047220598113 -8.92275734355248 -24.207013688633893
+VL10-4 0.032572614879185766 0.03795271743159845
+RT-VL10-4 -9.29065508919925 0.40379405774691757 -8.66217338218542 -10.83488053029551
+VL10-5 0.14260196550518728 0.05875895005743388
+RT-VL10-5 -9.362616822073166 0.47064113945696434 -8.613923487061406 -10.83488053029551
+VL10-all 0.06428901812793833 0.0540440540839564
+RT-VL10-all -9.330770807493046 0.3128436774049685 -8.840565762171556 -9.827185111345646
+*** budget = 20
+VL20-1 0.10075995639265017 0.01958950047494473
+RT-VL20-1 -8.68994351769147 0.38954232250883564 -7.7474019638878975 -9.677141998457698
+VL20-2 0.006807728281570789 0.006060258755636896
+RT-VL20-2 -9.366521812887518 0.3568716764057788 -8.443410497535565 -9.96843158516214
+VL20-3 0.009364535619091622 0.009040404749321971
+RT-VL20-3 -9.771230141692207 0.22563263044136872 -9.112894997507183 -10.216747836718483
+VL20-4 0.013248331542354776 0.011267669828824135
+RT-VL20-4 -9.2185110181394 0.3506723373367107 -8.66217338218542 -10.321111752416364
+VL20-5 0.11008987592390299 0.024143221214980047
+RT-VL20-5 -9.386048867430816 0.5022528278533881 -8.630300346973886 -10.778602346756442
+VL20-all 0.04805408555191407 0.04698070217101661
+RT-VL20-all -9.286451071568283 0.3497939119190962 -8.68994351769147 -9.771230141692207
+*** budget = 30
+VL30-1 0.09321728892063515 0.01680782351407579
+RT-VL30-1 -8.609215859794682 0.3466107877138845 -7.7474019638878975 -9.31581168707283
+VL30-2 0.004425209429934134 0.0037137241767389553
+RT-VL30-2 -9.414620532263275 0.36579056656437986 -8.443410497535565 -9.96843158516214
+VL30-3 0.006133858362729445 0.005383282943343247
+RT-VL30-3 -9.787357366049584 0.2119696813416781 -9.376609695249808 -10.216747836718483
+VL30-4 0.00962132212271296 0.00864410966726834
+RT-VL30-4 -9.2165791074391 0.31917769937189094 -8.666350305549855 -10.289830919544318
+VL30-5 0.10355518000990982 0.02218662012448356
+RT-VL30-5 -9.452250033149806 0.5193232409361412 -8.630300346973886 -10.708467164878023
+VL30-all 0.0433905717691843 0.04505375945382613
+RT-VL30-all -9.29600457973929 0.38933201718142313 -8.609215859794682 -9.787357366049584
+*** budget = 40
+VL40-1 0.0882170672983293 0.014176734201016292
+RT-VL40-1 -8.547104877586372 0.33020404010529425 -7.7474019638878975 -9.31581168707283
+VL40-2 0.0032055379075132838 0.0027994680998009924
+RT-VL40-2 -9.424026762627728 0.31331136661854064 -8.683395916376968 -9.96843158516214
+VL40-3 0.005531278685273003 0.005087436757753979
+RT-VL40-3 -9.800614010736444 0.22770429500882078 -9.376609695249808 -10.228535426608966
+VL40-4 0.007942687221472277 0.007277313228072771
+RT-VL40-4 -9.232517274145048 0.37576106111088675 -8.67493464736387 -10.321111752416364
+VL40-5 0.0980094926149619 0.02119542329970989
+RT-VL40-5 -9.535609860301301 0.5550384375364675 -8.67699712705007 -10.778602346756442
+VL40-all 0.04058121274550995 0.04302997621042181
+RT-VL40-all -9.307974557079378 0.42251533645649514 -8.547104877586372 -9.800614010736444
+*** budget = 50
+VL50-1 0.08615257747648446 0.013582745395099897
+RT-VL50-1 -8.535778448565114 0.36998597249290477 -7.7474019638878975 -9.31581168707283
+VL50-2 0.002960382628274864 0.0025554989999595394
+RT-VL50-2 -9.426457249842485 0.3539822769748495 -8.529238897590563 -9.96843158516214
+VL50-3 0.004665554789716715 0.00462068062550656
+RT-VL50-3 -9.76868243787875 0.20288463147494898 -9.376609695249808 -10.216747836718483
+VL50-4 0.007225938330785057 0.007263701378891332
+RT-VL50-4 -9.177107601383625 0.2951418315813608 -8.67493464736387 -9.968851996138893
+VL50-5 0.09392029990225524 0.017238916425463817
+RT-VL50-5 -9.613776804510076 0.5700701066651491 -8.70314212578684 -10.778602346756442
+VL50-all 0.038984950625503265 0.04177775224869939
+RT-VL50-all -9.304360508436009 0.4320075457230752 -8.535778448565114 -9.76868243787875
+logs_data/28fetchv2/gregsweep/sn/run_2023-10-02_13-17-55/run_a074c_00000_0_dl_scale=5.0000,dr_cc=0.9000,seed=1_2023-10-02_13-17-55/results_IL/FetchPickPlaceWide/INFOGSDR_PPOBC/0_FetchPickPlaceWide_v0_type1-INFOGSDR_PPOBC-32-32-tanh_cr10_no1_es=n_sr0001_rc0.90_reg10_ds5.000_s1/10.02_13.18.27/models/ckpt_policy_T10000000.pt
+0_fetchpickplacewide_v0_type1-infogsdr_ppobc-32-32-tanh_cr10_no1_es=n_sr0001_rc0.90_reg10_ds5.000_s1
+v_data: 0
+Inferred from ckptpath name:
+il_method: infogsdr
+rl_method: ppobc
+activation: tanh
+hidden_size: [32, 32]
+norm_obs: 1
+info_loss_type: None
+encode_sampling: normal
+normalize_code: 0
+tl_emb: 0
+TRAINED C_DATA: 1
+ARG C_DATA: 1
+Using (32, 32) tanh networks.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+args.encode_dim: 2
+Policy model is loaded from logs_data/28fetchv2/gregsweep/sn/run_2023-10-02_13-17-55/run_a074c_00000_0_dl_scale=5.0000,dr_cc=0.9000,seed=1_2023-10-02_13-17-55/results_IL/FetchPickPlaceWide/INFOGSDR_PPOBC/0_FetchPickPlaceWide_v0_type1-INFOGSDR_PPOBC-32-32-tanh_cr10_no1_es=n_sr0001_rc0.90_reg10_ds5.000_s1/10.02_13.18.27/models/ckpt_policy_T10000000.pt
+***** Max Ep Steps: 1000 args.seed 1 test_seed 2 *****
+*** budgets = [10, 20, 30, 40, 50] NPARALLEL = 50 n_test_episodes = 1 ***
+***** num zs = 1500 *****
+***** args.encode_sampling = normal *****
+obj_pos_y [0.43 0.59 0.75 0.91 1.07]
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+zvs shape 1500
+RT -9.777418631323714 4.341114443400415 -3.981263888391328 -25.05856827925856
+LR -0.04263594279465301 0.06656690711381857 -9.187672531463242e-05 -0.404926921942683
+VL-std-all 0.0 0.0
+*** budget = 10
+VL10-1 0.1097355924732713 0.03660746086481546
+RT-VL10-1 -7.725440528357997 0.7257125828671022 -6.7216954219981595 -11.267747641033429
+VL10-2 0.02017584593100194 0.01764945798061383
+RT-VL10-2 -7.98804746184981 0.809926709551414 -6.589965499864391 -12.17908347045615
+VL10-3 0.00754721948947474 0.019760202354287805
+RT-VL10-3 -17.559826911155053 4.879413849374301 -7.072996614131878 -25.05856827925856
+VL10-4 0.027293868859130845 0.022884159428390158
+RT-VL10-4 -8.922158202849792 2.1335979986018376 -6.610652538480506 -20.000024138165212
+VL10-5 0.09648208606074896 0.05818793901227916
+RT-VL10-5 -7.827110553653511 2.272615728760726 -5.2201358240805655 -20.000024138165212
+VL10-all 0.05224692256272556 0.042216037611480565
+RT-VL10-all -10.004516731573233 3.8014640920002627 -7.725440528357997 -17.559826911155053
+*** budget = 20
+VL20-1 0.0918951220763773 0.023590575136024142
+RT-VL20-1 -7.621211036646003 0.5979380150427211 -6.7216954219981595 -10.791917833696475
+VL20-2 0.0102926966746304 0.00940885729444044
+RT-VL20-2 -8.013658295008012 0.8538321433432255 -6.589965499864391 -12.17908347045615
+VL20-3 0.001724650822443284 0.0067206342115389535
+RT-VL20-3 -19.213271745015124 2.9471592123661647 -7.611469918893727 -20.000024138165212
+VL20-4 0.015356824882288778 0.012921098264310375
+RT-VL20-4 -8.605693149548504 1.1790205364453759 -6.770503125457568 -15.294854603938802
+VL20-5 0.06342292237890473 0.039689035801685604
+RT-VL20-5 -7.274835703588518 1.9194883372368243 -5.2201358240805655 -19.88017615903944
+VL20-all 0.036538443366928894 0.03503323399825399
+RT-VL20-all -10.14573398596123 4.555282353729358 -7.274835703588518 -19.213271745015124
+*** budget = 30
+VL30-1 0.08256770008982711 0.019028490697182817
+RT-VL30-1 -7.739419887336336 0.6726790918934078 -6.828625305061904 -10.791917833696475
+VL30-2 0.006420931291920302 0.0063236633911460905
+RT-VL30-2 -8.136616366499412 0.9163083707922233 -7.272822132696629 -12.17908347045615
+VL30-3 0.0010098914660268377 0.0007777190896809794
+RT-VL30-3 -18.834424910018114 3.499861156691459 -7.823829763642966 -20.000024138165212
+VL30-4 0.012123684120970668 0.011314146280513766
+RT-VL30-4 -8.968965392787341 1.6704545101575052 -7.219944252351864 -16.111731906363904
+VL30-5 0.0475576350267267 0.032297586859722255
+RT-VL30-5 -7.1705560200259235 2.1430600450507034 -5.2201358240805655 -19.88017615903944
+VL30-all 0.029935968399094327 0.030943738247325256
+RT-VL30-all -10.169996515333427 4.371584976254518 -7.1705560200259235 -18.834424910018114
+*** budget = 40
+VL40-1 0.0797536093433135 0.01921945468831421
+RT-VL40-1 -7.650346071831227 0.516758202609116 -6.9735118263775036 -9.281705812587106
+VL40-2 0.004903274842462999 0.005180986883459986
+RT-VL40-2 -8.22925711112059 1.0159875755002254 -7.272822132696629 -12.17908347045615
+VL40-3 0.0008562619439512273 0.0001625192844052852
+RT-VL40-3 -19.055646982409584 3.1837965065583225 -7.823829763642966 -20.000024138165212
+VL40-4 0.008206348700301107 0.008702012331456833
+RT-VL40-4 -8.535605821109248 0.6240819680095216 -7.449402412169013 -10.41799247606632
+VL40-5 0.040253302729013105 0.032457163295958984
+RT-VL40-5 -6.935132749042621 2.259057730510893 -5.2201358240805655 -19.88017615903944
+VL40-all 0.02679455951180839 0.029944428311151825
+RT-VL40-all -10.081197747102655 4.520310662713066 -6.935132749042621 -19.055646982409584
+*** budget = 50
+VL50-1 0.07397498303774247 0.009873638030799542
+RT-VL50-1 -7.7699118017274325 0.5550292465842463 -7.135378303497071 -9.281705812587106
+VL50-2 0.003679316704015756 0.00403357920654658
+RT-VL50-2 -8.24218034738427 1.0771234238418925 -7.315704099819798 -12.17908347045615
+VL50-3 0.0008460623516507671 0.00017895685756891798
+RT-VL50-3 -18.835292312733266 3.499300426855648 -7.823829763642966 -20.000024138165212
+VL50-4 0.00733992469033277 0.008234264308031963
+RT-VL50-4 -8.686246677698081 0.9618106222048668 -7.449402412169013 -12.68951987964143
+VL50-5 0.0329735438032768 0.02519741368451668
+RT-VL50-5 -6.6012714252623255 0.6460290874681838 -5.485665460717458 -8.726198210418664
+VL50-all 0.023762766117403713 0.027583818176604328
+RT-VL50-all -10.026980512961075 4.458683158306714 -6.6012714252623255 -18.835292312733266
+logs_data/28fetchv2/gregsweep/sn/run_2023-10-02_13-17-55/run_a074c_00012_12_dl_scale=5.0000,dr_cc=0.9000,seed=2_2023-10-02_13-17-55/results_IL/FetchPickPlaceWide/INFOGSDR_PPOBC/0_FetchPickPlaceWide_v0_type1-INFOGSDR_PPOBC-32-32-tanh_cr10_no1_es=n_sr0001_rc0.90_reg10_ds5.000_s2/10.02_13.18.32/models/ckpt_policy_T10000000.pt
+0_fetchpickplacewide_v0_type1-infogsdr_ppobc-32-32-tanh_cr10_no1_es=n_sr0001_rc0.90_reg10_ds5.000_s2
+v_data: 0
+Inferred from ckptpath name:
+il_method: infogsdr
+rl_method: ppobc
+activation: tanh
+hidden_size: [32, 32]
+norm_obs: 1
+info_loss_type: None
+encode_sampling: normal
+normalize_code: 0
+tl_emb: 0
+TRAINED C_DATA: 1
+ARG C_DATA: 1
+Using (32, 32) tanh networks.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+args.encode_dim: 2
+Policy model is loaded from logs_data/28fetchv2/gregsweep/sn/run_2023-10-02_13-17-55/run_a074c_00012_12_dl_scale=5.0000,dr_cc=0.9000,seed=2_2023-10-02_13-17-55/results_IL/FetchPickPlaceWide/INFOGSDR_PPOBC/0_FetchPickPlaceWide_v0_type1-INFOGSDR_PPOBC-32-32-tanh_cr10_no1_es=n_sr0001_rc0.90_reg10_ds5.000_s2/10.02_13.18.32/models/ckpt_policy_T10000000.pt
+***** Max Ep Steps: 1000 args.seed 1 test_seed 2 *****
+*** budgets = [10, 20, 30, 40, 50] NPARALLEL = 50 n_test_episodes = 1 ***
+***** num zs = 1500 *****
+***** args.encode_sampling = normal *****
+obj_pos_y [0.43 0.59 0.75 0.91 1.07]
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+zvs shape 1500
+RT -10.53324583149569 5.529561670555658 -5.638282518206337 -34.25569812105072
+LR -0.056138896147188394 0.0823785622815547 -3.2606389607892083e-05 -0.3828480887262784
+VL-std-all 0.0 0.0
+*** budget = 10
+VL10-1 0.10048170785584307 0.043621830418810945
+RT-VL10-1 -7.845167607911012 1.4888674824867938 -6.793295192695323 -24.74251672667404
+VL10-2 0.020385956597743993 0.01887205765748978
+RT-VL10-2 -8.17064493279307 3.0336837223713564 -6.747574481556222 -24.74251672667404
+VL10-3 0.004680651716200483 0.013479225563159723
+RT-VL10-3 -18.60347660980395 4.38446549444839 -6.527840625384037 -34.25569812105072
+VL10-4 0.04253173678554544 0.041551878460359556
+RT-VL10-4 -8.048610813747427 3.193984052512354 -5.951994123066438 -34.25569812105072
+VL10-5 0.09562184207107426 0.07735286119367304
+RT-VL10-5 -7.690239232613603 3.305270194105241 -5.638282518206337 -34.25569812105072
+VL10-all 0.052740379005281446 0.03893280562065157
+RT-VL10-all -10.071627839373813 4.26911967968267 -7.690239232613603 -18.60347660980395
+*** budget = 20
+VL20-1 0.07660882602503986 0.030196617902970752
+RT-VL20-1 -7.908132771810568 0.5108839466226 -7.00692013157695 -9.612895295638598
+VL20-2 0.010681246217466755 0.010508299715120977
+RT-VL20-2 -7.5927016807073064 1.4058220235189 -6.747574481556222 -15.740974156921702
+VL20-3 0.0009598486538055025 0.0006109783508259565
+RT-VL20-3 -19.49394667381374 2.4805704005000715 -6.844974952761511 -20.000024138165212
+VL20-4 0.0206037557494285 0.01951546777344957
+RT-VL20-4 -7.483693177500995 0.564719044282519 -6.508367219673591 -9.298064289005723
+VL20-5 0.05740995181961189 0.04124804127879627
+RT-VL20-5 -6.9545674349147095 0.9160493998858177 -5.638282518206337 -12.715013996855763
+VL20-all 0.03325272569307051 0.028898515684894602
+RT-VL20-all -9.886608347749464 4.8134849816551375 -6.9545674349147095 -19.49394667381374
+*** budget = 30
+VL30-1 0.06623273694711516 0.02292528404733804
+RT-VL30-1 -8.016779783078123 0.5524397358370254 -7.162708525372138 -9.84322610896078
+VL30-2 0.006529057917240819 0.0072204043955590436
+RT-VL30-2 -7.752235873881733 1.593811885483545 -6.784828034089795 -15.740974156921702
+VL30-3 0.000989785739517368 0.0007464938917795974
+RT-VL30-3 -19.240907941638007 3.0062864913065614 -6.844974952761511 -20.000024138165212
+VL30-4 0.015708920134783307 0.01696144020812296
+RT-VL30-4 -7.5547717370577425 0.5073907568438408 -6.508367219673591 -8.434377294620582
+VL30-5 0.0493568139977019 0.0432969178189956
+RT-VL30-5 -6.953913404277566 1.0323119691354614 -5.737997309600043 -12.715013996855763
+VL30-all 0.02776346294727171 0.02553115587780815
+RT-VL30-all -9.903721747986634 4.68169676247358 -6.953913404277566 -19.240907941638007
+*** budget = 40
+VL40-1 0.059634604499176076 0.018968178551532613
+RT-VL40-1 -8.013764994433908 0.45289446869433425 -7.19789770852738 -9.510402800716879
+VL40-2 0.003947009230419354 0.00576279603732266
+RT-VL40-2 -7.670347332438237 1.6295426577227068 -6.793528225960624 -15.740974156921702
+VL40-3 0.0008784671535576394 9.057135470863235e-05
+RT-VL40-3 -19.31557682431059 2.8655397275493573 -6.844974952761511 -20.000024138165212
+VL40-4 0.010576148456617198 0.00971261502950392
+RT-VL40-4 -7.619289724643434 0.47306367021891327 -6.716522636311385 -8.434377294620582
+VL40-5 0.03488778438730932 0.019883884098901333
+RT-VL40-5 -6.894136182479593 0.6012006744497255 -5.819263271204085 -8.027387138671354
+VL40-all 0.021984802745415914 0.02229345777144318
+RT-VL40-all -9.902623011661152 4.720575022120237 -6.894136182479593 -19.31557682431059
+*** budget = 50
+VL50-1 0.05596676178440486 0.018142111255159438
+RT-VL50-1 -8.052638726715246 0.4689290320553365 -7.19789770852738 -9.510402800716879
+VL50-2 0.0035222115406498074 0.004217534635223535
+RT-VL50-2 -7.730776955456291 1.7946272320075196 -6.784828034089795 -15.740974156921702
+VL50-3 0.0008734487768320087 9.99206053771609e-05
+RT-VL50-3 -19.155872451077844 3.161088008545291 -6.844974952761511 -20.000024138165212
+VL50-4 0.010475302675163748 0.009809108117143271
+RT-VL50-4 -7.610572138521664 0.47182171582114313 -6.589949349992358 -8.434377294620582
+VL50-5 0.03481216130760699 0.021846110156919025
+RT-VL50-5 -6.902582383434935 0.5967294474499707 -5.819263271204085 -8.027387138671354
+VL50-all 0.02112997721693148 0.021140890078887788
+RT-VL50-all -9.890488531041195 4.647902474932808 -6.902582383434935 -19.155872451077844
+logs_data/28fetchv2/gregsweep/sn/run_2023-10-02_13-17-55/run_a074c_00024_24_dl_scale=5.0000,dr_cc=0.9000,seed=3_2023-10-02_13-17-56/results_IL/FetchPickPlaceWide/INFOGSDR_PPOBC/0_FetchPickPlaceWide_v0_type1-INFOGSDR_PPOBC-32-32-tanh_cr10_no1_es=n_sr0001_rc0.90_reg10_ds5.000_s3/10.02_13.18.31/models/ckpt_policy_T10000000.pt
+0_fetchpickplacewide_v0_type1-infogsdr_ppobc-32-32-tanh_cr10_no1_es=n_sr0001_rc0.90_reg10_ds5.000_s3
+v_data: 0
+Inferred from ckptpath name:
+il_method: infogsdr
+rl_method: ppobc
+activation: tanh
+hidden_size: [32, 32]
+norm_obs: 1
+info_loss_type: None
+encode_sampling: normal
+normalize_code: 0
+tl_emb: 0
+TRAINED C_DATA: 1
+ARG C_DATA: 1
+Using (32, 32) tanh networks.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+args.encode_dim: 2
+Policy model is loaded from logs_data/28fetchv2/gregsweep/sn/run_2023-10-02_13-17-55/run_a074c_00024_24_dl_scale=5.0000,dr_cc=0.9000,seed=3_2023-10-02_13-17-56/results_IL/FetchPickPlaceWide/INFOGSDR_PPOBC/0_FetchPickPlaceWide_v0_type1-INFOGSDR_PPOBC-32-32-tanh_cr10_no1_es=n_sr0001_rc0.90_reg10_ds5.000_s3/10.02_13.18.31/models/ckpt_policy_T10000000.pt
+***** Max Ep Steps: 1000 args.seed 1 test_seed 2 *****
+*** budgets = [10, 20, 30, 40, 50] NPARALLEL = 50 n_test_episodes = 1 ***
+***** num zs = 1500 *****
+***** args.encode_sampling = normal *****
+obj_pos_y [0.43 0.59 0.75 0.91 1.07]
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+zvs shape 1500
+RT -12.030762370979552 7.2753735505493005 -4.806041592794154 -87.92479630973624
+LR -0.08146669036469836 0.09963632696241027 -9.628626955149322e-05 -1.0153607395566613
+VL-std-all 0.0 0.0
+*** budget = 10
+VL10-1 0.04861816410607181 0.04582735397005421
+RT-VL10-1 -9.080607526480394 8.025890246460934 -4.897367583165991 -87.92479630973624
+VL10-2 0.02959258293792889 0.028630691506636885
+RT-VL10-2 -8.92852743592129 7.058644923309018 -5.372369734647042 -65.93233015915138
+VL10-3 0.0020080339351732346 0.006005210945507649
+RT-VL10-3 -19.669891731986052 2.3022069696576497 -5.78915632358823 -27.072313764359965
+VL10-4 0.06034412772999654 0.051151252293900724
+RT-VL10-4 -10.184169250199293 5.851672340169104 -5.7617513396329105 -36.19635720888665
+VL10-5 0.1641892469532284 0.08781308159646253
+RT-VL10-5 -10.156866846156436 6.242191866431304 -5.7617513396329105 -40.888561263480184
+VL10-all 0.060950431132479777 0.0552597979306014
+RT-VL10-all -11.60401255814869 4.066801843486318 -8.92852743592129 -19.669891731986052
+*** budget = 20
+VL20-1 0.024982840965035145 0.02249661698108829
+RT-VL20-1 -10.009482960896555 10.969668647908593 -5.218730162317543 -87.92479630973624
+VL20-2 0.014634837857163614 0.014504193339034615
+RT-VL20-2 -8.696076736339071 6.222431550645093 -5.372369734647042 -50.60526187374236
+VL20-3 0.0008661816086407933 0.00014645084418034264
+RT-VL20-3 -19.407335073615865 2.540793243016984 -5.78915632358823 -20.068727395570463
+VL20-4 0.03283327374485851 0.03358196090349544
+RT-VL20-4 -9.073240157178905 5.556337047502614 -5.7617513396329105 -36.19635720888665
+VL20-5 0.11723733511626615 0.06615401727681246
+RT-VL20-5 -8.64998897066453 5.256676905966353 -5.789498436374579 -36.19635720888665
+VL20-all 0.03811089385839284 0.040986550352302
+RT-VL20-all -11.167224779738985 4.148918031119832 -8.64998897066453 -19.407335073615865
+*** budget = 30
+VL30-1 0.01832891332135609 0.018366667685505166
+RT-VL30-1 -9.198766773853697 7.2375110968266085 -5.218730162317543 -43.87830805454571
+VL30-2 0.00877772889748317 0.008690342899713136
+RT-VL30-2 -8.306773278197278 4.412550636116657 -5.373350960622305 -28.134345472590113
+VL30-3 0.0008492851717703042 0.00017696131188750622
+RT-VL30-3 -19.1109905413412 3.069199441257258 -5.78915632358823 -20.068727395570463
+VL30-4 0.02364642801190364 0.023330874896680905
+RT-VL30-4 -8.01000880647783 1.6518610278191928 -5.7617513396329105 -13.924302986885401
+VL30-5 0.0908696901713108 0.043210687628057735
+RT-VL30-5 -7.3521719449533975 1.166732625441002 -5.789498436374579 -11.528391752028709
+VL30-all 0.0284944091147648 0.03215747586175472
+RT-VL30-all -10.395742268964678 4.397889009528947 -7.3521719449533975 -19.1109905413412
+*** budget = 40
+VL40-1 0.016406427028047673 0.018790803868937667
+RT-VL40-1 -9.402591495822648 8.15279092778007 -5.3551312564709646 -43.87830805454571
+VL40-2 0.007226236945246882 0.007950968273517316
+RT-VL40-2 -9.854009807462706 8.423721446672054 -5.373350960622305 -50.60526187374236
+VL40-3 0.0008316856697284088 0.0002027933773494862
+RT-VL40-3 -18.7967705409056 3.5142346291880804 -5.78915632358823 -20.000024138165212
+VL40-4 0.014961221064587374 0.014738139281394044
+RT-VL40-4 -8.114114104593416 1.7684150981746891 -5.7617513396329105 -13.924302986885401
+VL40-5 0.07658500391419362 0.03210143392406194
+RT-VL40-5 -7.186942612753495 1.168477374866165 -5.789498436374579 -11.57481059356098
+VL40-all 0.023202114924360792 0.02727449843620598
+RT-VL40-all -10.670885712307575 4.170870443590128 -7.186942612753495 -18.7967705409056
+*** budget = 50
+VL50-1 0.01082700068200387 0.009398261185732053
+RT-VL50-1 -9.011435176984438 6.569573303954755 -5.3551312564709646 -38.07420074592741
+VL50-2 0.005500376645357793 0.007097564570788312
+RT-VL50-2 -9.005024544075331 5.459582101160658 -5.373350960622305 -28.134345472590113
+VL50-3 0.0008154922980293263 0.0002221199692037193
+RT-VL50-3 -18.51830147679186 3.849905782258249 -5.78915632358823 -20.068727395570463
+VL50-4 0.011804258408480121 0.01291990165732491
+RT-VL50-4 -7.991117008497111 1.744589582095817 -5.7617513396329105 -13.924302986885401
+VL50-5 0.07307605960051028 0.03421850536927048
+RT-VL50-5 -7.204831795959982 1.171301215729618 -5.789498436374579 -11.31585460778334
+VL50-all 0.02040463752687628 0.026630238282796197
+RT-VL50-all -10.346142000461743 4.1419367778062055 -7.204831795959982 -18.51830147679186
+logs_data/28fetchv2/gregsweep/sn/run_2023-10-02_13-17-55/run_a074c_00036_36_dl_scale=5.0000,dr_cc=0.9000,seed=4_2023-10-02_13-17-59/results_IL/FetchPickPlaceWide/INFOGSDR_PPOBC/0_FetchPickPlaceWide_v0_type1-INFOGSDR_PPOBC-32-32-tanh_cr10_no1_es=n_sr0001_rc0.90_reg10_ds5.000_s4/10.03_00.01.57/models/ckpt_policy_T10000000.pt
+0_fetchpickplacewide_v0_type1-infogsdr_ppobc-32-32-tanh_cr10_no1_es=n_sr0001_rc0.90_reg10_ds5.000_s4
+v_data: 0
+Inferred from ckptpath name:
+il_method: infogsdr
+rl_method: ppobc
+activation: tanh
+hidden_size: [32, 32]
+norm_obs: 1
+info_loss_type: None
+encode_sampling: normal
+normalize_code: 0
+tl_emb: 0
+TRAINED C_DATA: 1
+ARG C_DATA: 1
+Using (32, 32) tanh networks.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+args.encode_dim: 2
+Policy model is loaded from logs_data/28fetchv2/gregsweep/sn/run_2023-10-02_13-17-55/run_a074c_00036_36_dl_scale=5.0000,dr_cc=0.9000,seed=4_2023-10-02_13-17-59/results_IL/FetchPickPlaceWide/INFOGSDR_PPOBC/0_FetchPickPlaceWide_v0_type1-INFOGSDR_PPOBC-32-32-tanh_cr10_no1_es=n_sr0001_rc0.90_reg10_ds5.000_s4/10.03_00.01.57/models/ckpt_policy_T10000000.pt
+***** Max Ep Steps: 1000 args.seed 1 test_seed 2 *****
+*** budgets = [10, 20, 30, 40, 50] NPARALLEL = 50 n_test_episodes = 1 ***
+***** num zs = 1500 *****
+***** args.encode_sampling = normal *****
+obj_pos_y [0.43 0.59 0.75 0.91 1.07]
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+zvs shape 1500
+RT -9.601329151666983 4.316152591165247 -6.4559122301165 -30.49045149368979
+LR -0.04380445620481185 0.06734296905427467 -1.3345110193574428e-05 -0.38482842335398093
+VL-std-all 0.0 0.0
+*** budget = 10
+VL10-1 0.0678942102555831 0.02409442220955629
+RT-VL10-1 -8.230527927426165 1.87056310465794 -6.601944975203875 -26.582233014760504
+VL10-2 0.021125182487589184 0.0172815938698715
+RT-VL10-2 -7.997924295645447 0.9738668229065152 -6.539957101536391 -13.99216448145961
+VL10-3 0.009747568813090473 0.024458380536673964
+RT-VL10-3 -16.87056134387873 5.299380273715556 -6.651939482756958 -24.31581966791429
+VL10-4 0.05070445554931369 0.04702870666767361
+RT-VL10-4 -8.880173545837438 3.435960859880666 -6.9987874188657475 -30.49045149368979
+VL10-5 0.11968501042495396 0.08122372147202855
+RT-VL10-5 -8.754769855203381 3.4500135352341053 -6.865167719497446 -30.49045149368979
+VL10-all 0.05383128550610607 0.038877549449273
+RT-VL10-all -10.146791393598232 3.3775974465991707 -7.997924295645447 -16.87056134387873
+*** budget = 20
+VL20-1 0.05526332084175031 0.01681978862271587
+RT-VL20-1 -8.688729822118132 2.4196589489106266 -6.965702393765113 -26.582233014760504
+VL20-2 0.01270077804298125 0.011164778295272399
+RT-VL20-2 -8.165839007377821 1.1455537881371678 -6.539957101536391 -13.99216448145961
+VL20-3 0.0017556361302338308 0.004008786124156344
+RT-VL20-3 -18.577934600168103 3.830978509805129 -6.951363917786106 -20.000024138165212
+VL20-4 0.02408125479892883 0.025993695542471718
+RT-VL20-4 -8.011498317594482 0.7444398498708367 -7.057687564257151 -11.111831520457692
+VL20-5 0.075706158969253 0.046813207712225635
+RT-VL20-5 -7.934691517238137 0.7780503381546386 -6.865167719497446 -10.797603988539073
+VL20-all 0.03390142975662945 0.0275071674020697
+RT-VL20-all -10.275738652899333 4.159423447484139 -7.934691517238137 -18.577934600168103
+*** budget = 30
+VL30-1 0.048804929771028197 0.014956689760314204
+RT-VL30-1 -9.10324691359223 2.8349039488025833 -6.657931034353462 -26.582233014760504
+VL30-2 0.009192489862171593 0.009395637488498016
+RT-VL30-2 -8.11824952782044 1.1959950117554738 -6.743171184367355 -13.99216448145961
+VL30-3 0.0010726402785782429 0.0013342689665833908
+RT-VL30-3 -19.289188211481754 2.724467068820925 -6.951363917786106 -20.000024138165212
+VL30-4 0.015748769732469175 0.021416301232893082
+RT-VL30-4 -8.416584329497118 3.209492415355511 -7.159217826413089 -30.49045149368979
+VL30-5 0.06625763060361191 0.04690497634412344
+RT-VL30-5 -7.962638969664023 0.8054124240854864 -6.865167719497446 -10.797603988539073
+VL30-all 0.02821529204957183 0.025000629716334034
+RT-VL30-all -10.577981590411113 4.3731430373386235 -7.962638969664023 -19.289188211481754
+*** budget = 40
+VL40-1 0.045275077089192914 0.013239150003468182
+RT-VL40-1 -9.034297857730767 3.038295697623494 -6.657931034353462 -26.582233014760504
+VL40-2 0.005513364365404394 0.004247089961226614
+RT-VL40-2 -8.189362896350069 1.2549814742272545 -6.8194982443644205 -13.99216448145961
+VL40-3 0.0008767117366467751 9.699294610455582e-05
+RT-VL40-3 -19.08501490911844 3.1304016938200183 -6.951363917786106 -20.000024138165212
+VL40-4 0.00958232226701877 0.010155948049763625
+RT-VL40-4 -8.066001282221292 0.5737295826528169 -7.159217826413089 -9.358408123555146
+VL40-5 0.053606111092211625 0.03278521297021422
+RT-VL40-5 -8.109170805655223 0.8883528238612282 -6.865167719497446 -10.797603988539073
+VL40-all 0.022970717310094896 0.02194613949324718
+RT-VL40-all -10.49676955021516 4.308832078418765 -8.066001282221292 -19.08501490911844
+*** budget = 50
+VL50-1 0.04275483949495615 0.012807852492834218
+RT-VL50-1 -9.275095160098155 3.304570341887748 -6.657931034353462 -26.582233014760504
+VL50-2 0.004697134485365999 0.0035403883663404478
+RT-VL50-2 -8.126509084480226 1.3560528987898928 -6.743171184367355 -13.99216448145961
+VL50-3 0.0008712837626419427 0.00010699071525942415
+RT-VL50-3 -18.871512755674186 3.441657342920658 -6.951363917786106 -20.000024138165212
+VL50-4 0.011143335129618423 0.011725027020653306
+RT-VL50-4 -8.054648686727031 0.644314618037596 -7.057687564257151 -9.78219063586179
+VL50-5 0.05111169878966594 0.030039152920109273
+RT-VL50-5 -8.07983622213862 0.909335052942074 -7.049642174254581 -10.797603988539073
+VL50-all 0.02211565833244969 0.020697180781915153
+RT-VL50-all -10.481520381823646 4.220220493927867 -8.054648686727031 -18.871512755674186
+logs_data/28fetchv2/gregsweep/sn/run_2023-10-02_13-17-55/run_a074c_00048_48_dl_scale=5.0000,dr_cc=0.9000,seed=5_2023-10-02_13-18-00/results_IL/FetchPickPlaceWide/INFOGSDR_PPOBC/0_FetchPickPlaceWide_v0_type1-INFOGSDR_PPOBC-32-32-tanh_cr10_no1_es=n_sr0001_rc0.90_reg10_ds5.000_s5/10.03_00.26.10/models/ckpt_policy_T10000000.pt
+0_fetchpickplacewide_v0_type1-infogsdr_ppobc-32-32-tanh_cr10_no1_es=n_sr0001_rc0.90_reg10_ds5.000_s5
+v_data: 0
+Inferred from ckptpath name:
+il_method: infogsdr
+rl_method: ppobc
+activation: tanh
+hidden_size: [32, 32]
+norm_obs: 1
+info_loss_type: None
+encode_sampling: normal
+normalize_code: 0
+tl_emb: 0
+TRAINED C_DATA: 1
+ARG C_DATA: 1
+Using (32, 32) tanh networks.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+args.encode_dim: 2
+Policy model is loaded from logs_data/28fetchv2/gregsweep/sn/run_2023-10-02_13-17-55/run_a074c_00048_48_dl_scale=5.0000,dr_cc=0.9000,seed=5_2023-10-02_13-18-00/results_IL/FetchPickPlaceWide/INFOGSDR_PPOBC/0_FetchPickPlaceWide_v0_type1-INFOGSDR_PPOBC-32-32-tanh_cr10_no1_es=n_sr0001_rc0.90_reg10_ds5.000_s5/10.03_00.26.10/models/ckpt_policy_T10000000.pt
+***** Max Ep Steps: 1000 args.seed 1 test_seed 2 *****
+*** budgets = [10, 20, 30, 40, 50] NPARALLEL = 50 n_test_episodes = 1 ***
+***** num zs = 1500 *****
+***** args.encode_sampling = normal *****
+obj_pos_y [0.43 0.59 0.75 0.91 1.07]
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+zvs shape 1500
+RT -9.712324166551502 5.086760000814161 -4.465526302875324 -46.841470367788084
+LR -0.04501047754665592 0.07131745314585261 -1.5500450471384042e-05 -0.5959010609178734
+VL-std-all 0.0 0.0
+*** budget = 10
+VL10-1 0.14672369226205215 0.06616470885816822
+RT-VL10-1 -9.135665930643372 2.8432807575927077 -5.232106006197521 -28.542255927130874
+VL10-2 0.0388137824647726 0.03921550066287269
+RT-VL10-2 -9.438140094909597 2.689067158646993 -5.232106006197521 -20.000024138165212
+VL10-3 0.005896996922591494 0.011894904037209397
+RT-VL10-3 -16.023485673334395 5.813381066440917 -5.316947920032963 -31.285217673640666
+VL10-4 0.02617057963137077 0.02270435875720831
+RT-VL10-4 -7.301193502835265 1.3592978552893746 -4.5583734723260445 -12.694476227357377
+VL10-5 0.06144605385805847 0.04781309942275026
+RT-VL10-5 -6.814978058889498 3.0381370705879616 -4.720408980056646 -39.58210708364616
+VL10-all 0.05581022102776909 0.04889936414732664
+RT-VL10-all -9.742692652122424 3.2997583399818367 -6.814978058889498 -16.023485673334395
+*** budget = 20
+VL20-1 0.10733489202818483 0.031413521604096085
+RT-VL20-1 -8.689532342831997 2.5303617240545417 -6.186505849489153 -28.542255927130874
+VL20-2 0.015324227439026738 0.013391278297710418
+RT-VL20-2 -9.081475003212772 2.101742107624045 -6.139311455021854 -19.117679635693456
+VL20-3 0.001691046219242726 0.003512652822404211
+RT-VL20-3 -17.853127315455126 5.030579543435241 -5.406575047701902 -31.285217673640666
+VL20-4 0.015123917287174429 0.014255633418432636
+RT-VL20-4 -7.538332878226332 1.2614787108539394 -5.3406223751502395 -12.694476227357377
+VL20-5 0.037417493281957516 0.0295633472372861
+RT-VL20-5 -6.632879514989554 1.1221821503078426 -5.04339115946633 -12.384765454418982
+VL20-all 0.035378315251117246 0.037760154549996705
+RT-VL20-all -9.959069410943156 4.04033540925378 -6.632879514989554 -17.853127315455126
+*** budget = 30
+VL30-1 0.09485202628709465 0.022376073818927155
+RT-VL30-1 -8.687576702978722 2.985306028779526 -6.186505849489153 -28.542255927130874
+VL30-2 0.010747209825350408 0.00961549676360805
+RT-VL30-2 -8.71401304192759 1.3316201763269795 -6.884273804442298 -11.892395866999214
+VL30-3 0.0010289109734158753 0.001210601514977856
+RT-VL30-3 -17.086215367739047 5.374900038925392 -5.406575047701902 -20.011318970144305
+VL30-4 0.008852350104926111 0.007940985270034557
+RT-VL30-4 -7.754740834000456 1.3953647185237994 -5.3406223751502395 -12.694476227357377
+VL30-5 0.026750426184073927 0.020707882351292773
+RT-VL30-5 -6.825681605213927 1.2536188552321634 -4.720408980056646 -12.384765454418982
+VL30-all 0.028446184674972192 0.034238838643229935
+RT-VL30-all -9.81364551037195 3.702283393254415 -6.825681605213927 -17.086215367739047
+*** budget = 40
+VL40-1 0.09079783520870435 0.021075540056030215
+RT-VL40-1 -8.774108608442935 3.435761964681441 -6.474625032146657 -28.542255927130874
+VL40-2 0.009181980388192151 0.009102785497327275
+RT-VL40-2 -8.64275970570039 1.3126805487522084 -6.230032203689495 -11.892395866999214
+VL40-3 0.0007601252570851133 0.00022921599579118191
+RT-VL40-3 -16.792685148806466 5.509763692146551 -5.406575047701902 -20.011318970144305
+VL40-4 0.007658791374239662 0.008213322966851717
+RT-VL40-4 -7.738177800374379 1.5098015875407966 -5.3406223751502395 -12.694476227357377
+VL40-5 0.01862579409551239 0.012541333267844103
+RT-VL40-5 -6.909131074789038 1.3419907225881438 -5.4612750443235525 -12.384765454418982
+VL40-all 0.025404905264746737 0.033189349696224564
+RT-VL40-all -9.771372467622642 3.5747290829915874 -6.909131074789038 -16.792685148806466
+*** budget = 50
+VL50-1 0.0851874558583012 0.016329878523450077
+RT-VL50-1 -8.855193319361346 3.752260297683347 -6.601802029352425 -28.542255927130874
+VL50-2 0.005652724897360894 0.006117093477412737
+RT-VL50-2 -8.537870580880211 1.1972645398055992 -7.35167209342093 -11.892395866999214
+VL50-3 0.0007353423333532061 0.0002448853837976809
+RT-VL50-3 -16.044297436027396 5.8720070478597375 -5.406575047701902 -20.011318970144305
+VL50-4 0.005457579128918703 0.005201855572695225
+RT-VL50-4 -7.538180358388413 1.2937183946944764 -5.3406223751502395 -11.257139049525298
+VL50-5 0.018152739207866694 0.013001462120352079
+RT-VL50-5 -6.8433740893295525 1.3859449104096628 -5.473214241244692 -12.384765454418982
+VL50-all 0.02303716828516014 0.0316074300139248
+RT-VL50-all -9.563783156797383 3.3182933470605085 -6.8433740893295525 -16.044297436027396
+logs_data/28fetchv2/greg/rr/run_2023-09-30_02-29-17/run_ae92b_00006_6_dl_scale=0.1000,dr_cc=0.8000,seed=1_2023-09-30_02-29-17/results_IL/FetchPickPlaceWide/INFOGSDR_PPOBC/0_FetchPickPlaceWide_v0_type1-INFOGSDR_PPOBC-32-32-tanh_cr10_no1_es=n_sr0001_rc0.80_reg01_ds0.100_s1/09.30_02.30.16/models/ckpt_policy_T10000000.pt
+0_fetchpickplacewide_v0_type1-infogsdr_ppobc-32-32-tanh_cr10_no1_es=n_sr0001_rc0.80_reg01_ds0.100_s1
+v_data: 0
+Inferred from ckptpath name:
+il_method: infogsdr
+rl_method: ppobc
+activation: tanh
+hidden_size: [32, 32]
+norm_obs: 1
+info_loss_type: None
+encode_sampling: normal
+normalize_code: 0
+tl_emb: 0
+TRAINED C_DATA: 1
+ARG C_DATA: 1
+Using (32, 32) tanh networks.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+args.encode_dim: 2
+Policy model is loaded from logs_data/28fetchv2/greg/rr/run_2023-09-30_02-29-17/run_ae92b_00006_6_dl_scale=0.1000,dr_cc=0.8000,seed=1_2023-09-30_02-29-17/results_IL/FetchPickPlaceWide/INFOGSDR_PPOBC/0_FetchPickPlaceWide_v0_type1-INFOGSDR_PPOBC-32-32-tanh_cr10_no1_es=n_sr0001_rc0.80_reg01_ds0.100_s1/09.30_02.30.16/models/ckpt_policy_T10000000.pt
+***** Max Ep Steps: 1000 args.seed 1 test_seed 2 *****
+*** budgets = [10, 20, 30, 40, 50] NPARALLEL = 50 n_test_episodes = 1 ***
+***** num zs = 1500 *****
+***** args.encode_sampling = normal *****
+obj_pos_y [0.43 0.59 0.75 0.91 1.07]
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+zvs shape 1500
+RT -8.466890948324743 2.463650464741593 -5.431336811328348 -27.178289513644188
+LR -0.02521477362273446 0.037117825947184234 -1.4655658764128887e-05 -0.2914786764909487
+VL-std-all 0.0 0.0
+*** budget = 10
+VL10-1 0.0896764322840972 0.03243462320441529
+RT-VL10-1 -7.448511983494543 0.8245689588394343 -5.619937027983843 -13.064630608722135
+VL10-2 0.020921103333304714 0.0156359978951162
+RT-VL10-2 -8.460827864703882 1.1285996123295903 -6.949745891752718 -17.70986324564241
+VL10-3 0.03442490077342099 0.0375848699630666
+RT-VL10-3 -10.748970470076923 5.22205475275235 -6.331225648263735 -22.47629593011164
+VL10-4 0.022263407843732833 0.02250044882823486
+RT-VL10-4 -8.401515473077088 1.1366174080597005 -6.511933105162892 -15.470575870005787
+VL10-5 0.0723928999375102 0.041147104330622845
+RT-VL10-5 -8.267969457387316 1.267713474827839 -6.081138366775233 -14.717305796271342
+VL10-all 0.047935748834413185 0.027970842224523694
+RT-VL10-all -8.665559049747952 1.103767915849831 -7.448511983494543 -10.748970470076923
+*** budget = 20
+VL20-1 0.07468811588743106 0.02597126740578058
+RT-VL20-1 -7.235634563640715 0.6493574263439197 -5.619937027983843 -9.072362196403777
+VL20-2 0.013110631652737096 0.010433740714700964
+RT-VL20-2 -8.456013573941 0.6841892430318208 -7.049565216346753 -11.608254381686773
+VL20-3 0.016898834076610303 0.024193386867812784
+RT-VL20-3 -12.165468623450302 5.9420566569098385 -6.91889131501906 -21.50762788731335
+VL20-4 0.009877841836304434 0.008779774708618675
+RT-VL20-4 -8.512718660349266 1.0132925006384315 -6.824590806869344 -15.470575870005787
+VL20-5 0.05144950080575283 0.024843740552346616
+RT-VL20-5 -8.43652503495287 1.125034087929873 -6.503190722223674 -12.169360273331446
+VL20-all 0.03320498485176714 0.02556380921447611
+RT-VL20-all -8.961272091266832 1.6719178279112008 -7.235634563640715 -12.165468623450302
+*** budget = 30
+VL30-1 0.06470705640507751 0.02226349808054395
+RT-VL30-1 -7.161853513326747 0.6543123849436202 -5.619937027983843 -8.6823235777237
+VL30-2 0.008311237156624171 0.006906030214124758
+RT-VL30-2 -8.558113084341224 0.6565727298889299 -7.049565216346753 -11.608254381686773
+VL30-3 0.010638798018490235 0.0223558346213502
+RT-VL30-3 -13.117152743940194 6.151606699551506 -6.995443014611096 -21.197613265537694
+VL30-4 0.006860615343447116 0.005443901176357322
+RT-VL30-4 -8.673133512695424 1.0686963936894043 -7.321958376070675 -15.470575870005787
+VL30-5 0.04348612394123033 0.022847811257922523
+RT-VL30-5 -8.490463677501635 0.9352548119667651 -6.503190722223674 -11.217856427837033
+VL30-all 0.02680076617297387 0.02330652061545202
+RT-VL30-all -9.200143306361046 2.0342652491106588 -7.161853513326747 -13.117152743940194
+*** budget = 40
+VL40-1 0.058180654736726616 0.019377638061569846
+RT-VL40-1 -7.108673411330195 0.6983259531024779 -5.619937027983843 -8.736342466165977
+VL40-2 0.006695534087859089 0.006521109660721312
+RT-VL40-2 -8.603419879071655 0.7169261472088486 -7.049565216346753 -11.608254381686773
+VL40-3 0.006257655054945943 0.010086131102139684
+RT-VL40-3 -13.99362202505213 6.250804036976403 -7.080757513996889 -21.197613265537694
+VL40-4 0.005067317593595397 0.0037412593396896647
+RT-VL40-4 -8.736043547104776 1.2040096345761997 -7.591201838610728 -15.470575870005787
+VL40-5 0.038041614138021894 0.01952370070904191
+RT-VL40-5 -8.630520589076061 1.1373006674844723 -6.503190722223674 -12.169360273331446
+VL40-all 0.022848555122229785 0.02159415090738789
+RT-VL40-all -9.414455890326964 2.3671912726012985 -7.108673411330195 -13.99362202505213
+*** budget = 50
+VL50-1 0.056789527178250525 0.02224548289404928
+RT-VL50-1 -7.060171392615213 0.7824025221016552 -5.619937027983843 -9.072362196403777
+VL50-2 0.006207045780135808 0.005126979846863985
+RT-VL50-2 -8.638788375397041 0.7692484407199147 -7.049565216346753 -11.608254381686773
+VL50-3 0.003652917786779893 0.006117275219752528
+RT-VL50-3 -14.281485453046498 6.131449927952297 -7.097179270095731 -20.000024138165212
+VL50-4 0.004609347131750774 0.003918148449225559
+RT-VL50-4 -8.723685981061797 1.3196616109582555 -7.591201838610728 -15.470575870005787
+VL50-5 0.033024737557585136 0.016977009367663744
+RT-VL50-5 -8.55829907744768 0.9012632757495406 -6.503190722223674 -11.217856427837033
+VL50-all 0.02085671508690043 0.02104180683045343
+RT-VL50-all -9.452486055913646 2.491394326178913 -7.060171392615213 -14.281485453046498
+logs_data/28fetchv2/greg/rr/run_2023-09-30_02-29-17/run_ae92b_00018_18_dl_scale=0.1000,dr_cc=0.8000,seed=2_2023-09-30_02-29-17/results_IL/FetchPickPlaceWide/INFOGSDR_PPOBC/0_FetchPickPlaceWide_v0_type1-INFOGSDR_PPOBC-32-32-tanh_cr10_no1_es=n_sr0001_rc0.80_reg01_ds0.100_s2/09.30_02.30.01/models/ckpt_policy_T10000000.pt
+0_fetchpickplacewide_v0_type1-infogsdr_ppobc-32-32-tanh_cr10_no1_es=n_sr0001_rc0.80_reg01_ds0.100_s2
+v_data: 0
+Inferred from ckptpath name:
+il_method: infogsdr
+rl_method: ppobc
+activation: tanh
+hidden_size: [32, 32]
+norm_obs: 1
+info_loss_type: None
+encode_sampling: normal
+normalize_code: 0
+tl_emb: 0
+TRAINED C_DATA: 1
+ARG C_DATA: 1
+Using (32, 32) tanh networks.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+args.encode_dim: 2
+Policy model is loaded from logs_data/28fetchv2/greg/rr/run_2023-09-30_02-29-17/run_ae92b_00018_18_dl_scale=0.1000,dr_cc=0.8000,seed=2_2023-09-30_02-29-17/results_IL/FetchPickPlaceWide/INFOGSDR_PPOBC/0_FetchPickPlaceWide_v0_type1-INFOGSDR_PPOBC-32-32-tanh_cr10_no1_es=n_sr0001_rc0.80_reg01_ds0.100_s2/09.30_02.30.01/models/ckpt_policy_T10000000.pt
+***** Max Ep Steps: 1000 args.seed 1 test_seed 2 *****
+*** budgets = [10, 20, 30, 40, 50] NPARALLEL = 50 n_test_episodes = 1 ***
+***** num zs = 1500 *****
+***** args.encode_sampling = normal *****
+obj_pos_y [0.43 0.59 0.75 0.91 1.07]
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+zvs shape 1500
+RT -9.255417498473474 4.012984733415025 -5.309313965386621 -38.835717262629466
+LR -0.03692938754055236 0.05931097789509368 -3.0613393302569847e-06 -0.5088650079217965
+VL-std-all 0.0 0.0
+*** budget = 10
+VL10-1 0.07379405746016512 0.01859105565683908
+RT-VL10-1 -8.55316471403522 1.0841526564454957 -6.868042626774374 -11.760380453080083
+VL10-2 0.020882873236660514 0.01656334853711832
+RT-VL10-2 -8.56211457711397 1.3516863725575496 -7.090265819271069 -15.660880425742455
+VL10-3 0.028759063933723763 0.04044623360255076
+RT-VL10-3 -14.65578302544529 5.941611848748802 -7.003383167279374 -25.29705248547928
+VL10-4 0.03975602024311571 0.04005977963029134
+RT-VL10-4 -7.692088639364568 1.5386591177928943 -5.6467927191639955 -20.000024138165212
+VL10-5 0.07786985988085188 0.0639527899563587
+RT-VL10-5 -6.913001477658945 1.6701659746629556 -5.309313965386621 -20.000024138165212
+VL10-all 0.0482123749509034 0.023370202398775405
+RT-VL10-all -9.275230486723599 2.75922898298408 -6.913001477658945 -14.65578302544529
+*** budget = 20
+VL20-1 0.06419711965257693 0.014297084470823427
+RT-VL20-1 -8.7260799694655 1.0668697686603608 -6.940210655690201 -11.760380453080083
+VL20-2 0.012831922148509584 0.01316509371138848
+RT-VL20-2 -8.507710599320253 1.1418383606350295 -7.449562699767026 -15.660880425742455
+VL20-3 0.0086425203335752 0.017557889244232554
+RT-VL20-3 -17.076692697528927 5.140878777258349 -7.473450305231541 -23.801108681916467
+VL20-4 0.019753245567149007 0.02223836652520694
+RT-VL20-4 -7.65958805681583 0.4578210945897241 -6.64273103441046 -9.359235346301755
+VL20-5 0.05444252846609838 0.039376742733451556
+RT-VL20-5 -6.565877164034535 0.6388201090888153 -5.309313965386621 -8.418080789268412
+VL20-all 0.03197346723358182 0.022817923380370635
+RT-VL20-all -9.707189697433007 3.762217903968059 -6.565877164034535 -17.076692697528927
+*** budget = 30
+VL30-1 0.06057901238443177 0.01282672985830765
+RT-VL30-1 -8.592028339476478 0.9838568682819862 -6.940210655690201 -10.350827643210158
+VL30-2 0.00866899809539302 0.009325423325965233
+RT-VL30-2 -8.718485243176943 1.4393784017608058 -7.637153025944685 -15.370239562624326
+VL30-3 0.004589384289454788 0.010789108793469141
+RT-VL30-3 -17.98918986002383 4.562842519910005 -7.589421023898526 -23.801108681916467
+VL30-4 0.011104638328145715 0.013225699860101596
+RT-VL30-4 -7.699484576992071 0.4365175132143761 -6.859080935073898 -9.359235346301755
+VL30-5 0.04096221650241397 0.021914581034498493
+RT-VL30-5 -6.378294470036959 0.621995217958926 -5.309313965386621 -8.308554872460647
+VL30-all 0.02518084991996785 0.021894615216245264
+RT-VL30-all -9.875496497941256 4.142063143783252 -6.378294470036959 -17.98918986002383
+*** budget = 40
+VL40-1 0.05785685689536018 0.01182276829943393
+RT-VL40-1 -8.882327653550721 1.0208796248852454 -6.940210655690201 -10.72560394188612
+VL40-2 0.006398675023550696 0.005449556935944371
+RT-VL40-2 -8.283660016543061 0.2977863123492635 -7.779959008327318 -9.230889210702687
+VL40-3 0.0025434440910757517 0.006163994623821063
+RT-VL40-3 -17.815714948598774 4.52532477560324 -7.589421023898526 -20.000024138165212
+VL40-4 0.007922524749869098 0.010869466226709052
+RT-VL40-4 -7.703693208415923 0.45927024653915965 -6.859080935073898 -9.359235346301755
+VL40-5 0.03609062792052777 0.01861954054391001
+RT-VL40-5 -6.404005368335503 0.6349557474699504 -5.309313965386621 -8.308554872460647
+VL40-all 0.022162425736076696 0.021467474417296132
+RT-VL40-all -9.817880239088797 4.082126377417632 -6.404005368335503 -17.815714948598774
+*** budget = 50
+VL50-1 0.05527589069330242 0.011709281290230538
+RT-VL50-1 -8.924367321270548 1.1473586623550756 -7.060630577906738 -11.760380453080083
+VL50-2 0.004628954577481003 0.004065157333152878
+RT-VL50-2 -8.408902962306255 0.7034116597745117 -7.779959008327318 -11.951070582770232
+VL50-3 0.00127428691189743 0.0022321976061425654
+RT-VL50-3 -18.44037526078855 3.9793550160392277 -7.589421023898526 -20.000024138165212
+VL50-4 0.007472952475152135 0.009495520035755997
+RT-VL50-4 -7.636666801105244 0.39704670416797433 -6.859080935073898 -8.308709002031549
+VL50-5 0.032820356781776264 0.017828706989819233
+RT-VL50-5 -6.275096227047474 0.6499232705979339 -5.309313965386621 -8.418080789268412
+VL50-all 0.02029448828792185 0.0207468777563667
+RT-VL50-all -9.937081714503615 4.344397964260295 -6.275096227047474 -18.44037526078855
+logs_data/28fetchv2/greg/rr/run_2023-09-30_02-29-17/run_ae92b_00030_30_dl_scale=0.1000,dr_cc=0.8000,seed=3_2023-09-30_02-29-21/results_IL/FetchPickPlaceWide/INFOGSDR_PPOBC/0_FetchPickPlaceWide_v0_type1-INFOGSDR_PPOBC-32-32-tanh_cr10_no1_es=n_sr0001_rc0.80_reg01_ds0.100_s3/09.30_15.27.10/models/ckpt_policy_T10000000.pt
+0_fetchpickplacewide_v0_type1-infogsdr_ppobc-32-32-tanh_cr10_no1_es=n_sr0001_rc0.80_reg01_ds0.100_s3
+v_data: 0
+Inferred from ckptpath name:
+il_method: infogsdr
+rl_method: ppobc
+activation: tanh
+hidden_size: [32, 32]
+norm_obs: 1
+info_loss_type: None
+encode_sampling: normal
+normalize_code: 0
+tl_emb: 0
+TRAINED C_DATA: 1
+ARG C_DATA: 1
+Using (32, 32) tanh networks.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+args.encode_dim: 2
+Policy model is loaded from logs_data/28fetchv2/greg/rr/run_2023-09-30_02-29-17/run_ae92b_00030_30_dl_scale=0.1000,dr_cc=0.8000,seed=3_2023-09-30_02-29-21/results_IL/FetchPickPlaceWide/INFOGSDR_PPOBC/0_FetchPickPlaceWide_v0_type1-INFOGSDR_PPOBC-32-32-tanh_cr10_no1_es=n_sr0001_rc0.80_reg01_ds0.100_s3/09.30_15.27.10/models/ckpt_policy_T10000000.pt
+***** Max Ep Steps: 1000 args.seed 1 test_seed 2 *****
+*** budgets = [10, 20, 30, 40, 50] NPARALLEL = 50 n_test_episodes = 1 ***
+***** num zs = 1500 *****
+***** args.encode_sampling = normal *****
+obj_pos_y [0.43 0.59 0.75 0.91 1.07]
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+zvs shape 1500
+RT -9.441358185534485 4.032242685446207 -5.8885811205524226 -53.568585060276355
+LR -0.0421062292427157 0.06245099591581709 -1.7194897759642558e-05 -0.666330373102888
+VL-std-all 0.0 0.0
+*** budget = 10
+VL10-1 0.06552033756287257 0.059612477496765154
+RT-VL10-1 -8.951724096367597 1.3546450763572573 -6.58445982122214 -13.037501283777063
+VL10-2 0.028772808688918912 0.034326009122297205
+RT-VL10-2 -8.834175875675646 0.7657252312555942 -6.58445982122214 -10.463740264056744
+VL10-3 0.034299098265562995 0.03509055365396704
+RT-VL10-3 -13.046277114897912 6.772631595019508 -7.314304032495713 -33.17904549020288
+VL10-4 0.016359048753378066 0.014997104079346067
+RT-VL10-4 -8.5746165901514 0.6400346069800563 -6.509473557639878 -11.525287441465867
+VL10-5 0.08503778023187053 0.030321714627667525
+RT-VL10-5 -7.833304665195785 0.8726212321096231 -6.521165272818594 -10.058902424794521
+VL10-all 0.04599781470052061 0.025366375589724297
+RT-VL10-all -9.448019668457666 1.8406905023186153 -7.833304665195785 -13.046277114897912
+*** budget = 20
+VL20-1 0.04020417096272478 0.03618964213241434
+RT-VL20-1 -9.29171811104037 1.468219911688984 -6.600329274517745 -13.037501283777063
+VL20-2 0.013192455820185712 0.013743563518884857
+RT-VL20-2 -8.946183815007357 0.6313997838947302 -7.30362310844838 -10.212339107586805
+VL20-3 0.016617530569372794 0.017367097289952935
+RT-VL20-3 -13.018938457706456 6.547905217332309 -7.587399167185378 -29.64015480545585
+VL20-4 0.008857534121779602 0.009368894749202801
+RT-VL20-4 -8.677598782199983 0.5887363449315941 -6.565018676379321 -11.525287441465867
+VL20-5 0.06928056583835279 0.019332785612854463
+RT-VL20-5 -7.785033143115473 0.9575737927458012 -6.521165272818594 -10.058902424794521
+VL20-all 0.02963045146248313 0.022605278232481787
+RT-VL20-all -9.543894461813926 1.8078076803418865 -7.785033143115473 -13.018938457706456
+*** budget = 30
+VL30-1 0.02580436990139483 0.024823398276090976
+RT-VL30-1 -9.56250158199892 1.2440860251596637 -6.637099450161283 -12.792484109981897
+VL30-2 0.00881885804867053 0.009528824592254941
+RT-VL30-2 -8.970025889673135 0.6482295176598055 -7.30362310844838 -10.212339107586805
+VL30-3 0.010956658077206112 0.010597045968223591
+RT-VL30-3 -13.811232714384124 6.703180207087094 -7.587399167185378 -29.64015480545585
+VL30-4 0.005342795360820065 0.0052172928860212105
+RT-VL30-4 -8.756195819408434 0.5844958491176854 -7.743024952541829 -11.525287441465867
+VL30-5 0.061364812793684304 0.015906670749665792
+RT-VL30-5 -7.941275974889892 1.0826506112569108 -6.521165272818594 -10.058902424794521
+VL30-all 0.022457498836355165 0.02066966647557948
+RT-VL30-all -9.808246396070901 2.067814912655989 -7.941275974889892 -13.811232714384124
+*** budget = 40
+VL40-1 0.020488407517173474 0.021671096649555282
+RT-VL40-1 -10.108466899267462 1.0916364165403096 -7.0267567897521985 -13.037501283777063
+VL40-2 0.006792289486388206 0.00742403616985247
+RT-VL40-2 -8.926176519725997 0.6949864029901968 -7.30362310844838 -10.212339107586805
+VL40-3 0.008367884476419712 0.008873064082620707
+RT-VL40-3 -15.314539653219308 7.008778192456581 -7.587399167185378 -29.64015480545585
+VL40-4 0.004071845292423692 0.004408648918483796
+RT-VL40-4 -8.688371704901916 0.42524923981591123 -7.743024952541829 -9.442024207347613
+VL40-5 0.05766391006435768 0.016313978161234807
+RT-VL40-5 -8.146081827100293 1.0604574588026436 -6.521165272818594 -10.058902424794521
+VL40-all 0.019476867367352553 0.019904251633437144
+RT-VL40-all -10.236727320842997 2.618639949088345 -8.146081827100293 -15.314539653219308
+*** budget = 50
+VL50-1 0.01627228430918595 0.01889634605161574
+RT-VL50-1 -10.005513934816243 0.9298944834336647 -6.798838842087818 -11.210484022203142
+VL50-2 0.0047498097053517265 0.005224599286591981
+RT-VL50-2 -9.104035064092702 0.6081490809022065 -7.939398502321832 -10.212339107586805
+VL50-3 0.00595041969451671 0.006520402850640342
+RT-VL50-3 -14.678492082432237 7.026966660501895 -7.587399167185378 -29.64015480545585
+VL50-4 0.003704988716532161 0.004158706291811894
+RT-VL50-4 -8.70264833814208 0.4152194220690928 -7.743024952541829 -9.442024207347613
+VL50-5 0.05332048933447209 0.012563648944668332
+RT-VL50-5 -8.361621919028428 1.0590633906867024 -6.521165272818594 -10.058902424794521
+VL50-all 0.016799598352011728 0.018806511764436977
+RT-VL50-all -10.170462267702337 2.320051244365785 -8.361621919028428 -14.678492082432237
+logs_data/28fetchv2/greg/rr/run_2023-09-30_02-29-17/run_ae92b_00042_42_dl_scale=0.1000,dr_cc=0.8000,seed=4_2023-09-30_02-29-22/results_IL/FetchPickPlaceWide/INFOGSDR_PPOBC/0_FetchPickPlaceWide_v0_type1-INFOGSDR_PPOBC-32-32-tanh_cr10_no1_es=n_sr0001_rc0.80_reg01_ds0.100_s4/09.30_15.28.21/models/ckpt_policy_T10000000.pt
+0_fetchpickplacewide_v0_type1-infogsdr_ppobc-32-32-tanh_cr10_no1_es=n_sr0001_rc0.80_reg01_ds0.100_s4
+v_data: 0
+Inferred from ckptpath name:
+il_method: infogsdr
+rl_method: ppobc
+activation: tanh
+hidden_size: [32, 32]
+norm_obs: 1
+info_loss_type: None
+encode_sampling: normal
+normalize_code: 0
+tl_emb: 0
+TRAINED C_DATA: 1
+ARG C_DATA: 1
+Using (32, 32) tanh networks.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+args.encode_dim: 2
+Policy model is loaded from logs_data/28fetchv2/greg/rr/run_2023-09-30_02-29-17/run_ae92b_00042_42_dl_scale=0.1000,dr_cc=0.8000,seed=4_2023-09-30_02-29-22/results_IL/FetchPickPlaceWide/INFOGSDR_PPOBC/0_FetchPickPlaceWide_v0_type1-INFOGSDR_PPOBC-32-32-tanh_cr10_no1_es=n_sr0001_rc0.80_reg01_ds0.100_s4/09.30_15.28.21/models/ckpt_policy_T10000000.pt
+***** Max Ep Steps: 1000 args.seed 1 test_seed 2 *****
+*** budgets = [10, 20, 30, 40, 50] NPARALLEL = 50 n_test_episodes = 1 ***
+***** num zs = 1500 *****
+***** args.encode_sampling = normal *****
+obj_pos_y [0.43 0.59 0.75 0.91 1.07]
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+zvs shape 1500
+RT -9.772872541297737 5.223283368192219 -5.076788994557077 -36.443826818866306
+LR -0.05783167491512497 0.07455316015288209 -1.9732634550795325e-05 -0.4093938666030845
+VL-std-all 0.0 0.0
+*** budget = 10
+VL10-1 0.05603344119661231 0.04907636915773768
+RT-VL10-1 -8.653931708888546 1.4335340057887909 -6.159159634202301 -14.334489171557003
+VL10-2 0.04487845483239935 0.0327599550337802
+RT-VL10-2 -7.504592726065599 1.4220592518071982 -6.029521062019851 -17.36447309742319
+VL10-3 0.007327324279529853 0.021330005396685708
+RT-VL10-3 -18.28057074197949 4.388789308097472 -5.200151593116409 -20.000024138165212
+VL10-4 0.041798353721638364 0.03282592252284747
+RT-VL10-4 -6.130383135542496 1.122660525649127 -5.076788994557077 -16.91296296538843
+VL10-5 0.04764775087425902 0.04909189811105827
+RT-VL10-5 -7.608519446579341 1.3566837882622456 -5.197167933294595 -13.901405613893852
+VL10-all 0.03953706498088778 0.01678704811618316
+RT-VL10-all -9.635599551811094 4.396270796981208 -6.130383135542496 -18.28057074197949
+*** budget = 20
+VL20-1 0.033994646750424136 0.026522291036274993
+RT-VL20-1 -8.732507110346512 1.3500340971757951 -6.178360172438186 -11.79755328796819
+VL20-2 0.02808845690236847 0.022394725042652056
+RT-VL20-2 -7.31488112306809 1.509796794124383 -6.029521062019851 -17.36447309742319
+VL20-3 0.000851535675551478 0.0001718613339336055
+RT-VL20-3 -19.812667258936134 1.4766737915987267 -7.1210522248554335 -20.000024138165212
+VL20-4 0.022681129008113726 0.01931318995155702
+RT-VL20-4 -5.984856871477609 0.3872846457678487 -5.200151593116409 -7.097082422533328
+VL20-5 0.029080842719433495 0.027784907092800373
+RT-VL20-5 -8.111423552130447 1.3017586563187977 -5.827392828580816 -13.901405613893852
+VL20-all 0.02293932221117826 0.011613690547478133
+RT-VL20-all -9.99126718319176 4.995849364716605 -5.984856871477609 -19.812667258936134
+*** budget = 30
+VL30-1 0.023571206359365035 0.0172466669340741
+RT-VL30-1 -9.036936838965758 1.4355429610506538 -6.178360172438186 -11.79755328796819
+VL30-2 0.022601945402876494 0.0192443627716796
+RT-VL30-2 -7.043612554747336 0.523995366174089 -6.037976134921707 -7.98600121415291
+VL30-3 0.0008302151182860706 0.00020197303189539053
+RT-VL30-3 -19.973778591482777 0.07644646973732351 -19.631845057776722 -20.000024138165212
+VL30-4 0.017064511777723872 0.016837145328664448
+RT-VL30-4 -5.98993593575064 0.4008806294926618 -5.200151593116409 -7.097082422533328
+VL30-5 0.020380528769193426 0.016551483545351624
+RT-VL30-5 -8.50126911104576 1.2317437274357887 -6.345895035177743 -13.901405613893852
+VL30-all 0.01688968148548898 0.008335415695580668
+RT-VL30-all -10.109106606398452 5.047994920552114 -5.98993593575064 -19.973778591482777
+*** budget = 40
+VL40-1 0.018574367660881202 0.014122169788755667
+RT-VL40-1 -9.240704560082696 1.3656987650857506 -6.178360172438186 -11.79755328796819
+VL40-2 0.015771970380556874 0.01634796301880829
+RT-VL40-2 -6.97844544329443 0.5582438303280941 -6.029521062019851 -8.115138708268322
+VL40-3 0.0008138365184303124 0.00022767474126114183
+RT-VL40-3 -19.96832700224979 0.0854265558781203 -19.631845057776722 -20.000024138165212
+VL40-4 0.012575944287074746 0.012233376755789742
+RT-VL40-4 -6.0338494258799305 0.38027179091994295 -5.340787449218823 -7.097082422533328
+VL40-5 0.017564229425102624 0.015453460617090645
+RT-VL40-5 -8.602989791736949 1.2710789314374864 -6.214349766497344 -13.901405613893852
+VL40-all 0.01306006965440915 0.006453742273822815
+RT-VL40-all -10.16486324464876 5.032294768381782 -6.0338494258799305 -19.96832700224979
+*** budget = 50
+VL50-1 0.01581436396685212 0.011986319779006686
+RT-VL50-1 -9.231169919254807 1.425512825708909 -6.178360172438186 -11.79755328796819
+VL50-2 0.01564322627634371 0.01635890144957433
+RT-VL50-2 -7.098213801640923 0.5384103628216879 -6.037976134921707 -8.115138708268322
+VL50-3 0.0008197544792915198 0.0002152680499309554
+RT-VL50-3 -19.9708475345026 0.08023858849259556 -19.631845057776722 -20.000024138165212
+VL50-4 0.008896495318390952 0.007323889877970905
+RT-VL50-4 -6.067763952166272 0.39951440444783337 -5.340787449218823 -7.097082422533328
+VL50-5 0.013924847365519502 0.014231966157710472
+RT-VL50-5 -8.611230948384808 0.8652066246637616 -6.764695822579553 -11.703245332850415
+VL50-all 0.011019737481279561 0.005680714140613997
+RT-VL50-all -10.195845231189882 5.012557160413246 -6.067763952166272 -19.9708475345026
+logs_data/28fetchv2/greg/rr/run_2023-09-30_02-29-17/run_ae92b_00054_54_dl_scale=0.1000,dr_cc=0.8000,seed=5_2023-09-30_14-10-46/results_IL/FetchPickPlaceWide/INFOGSDR_PPOBC/0_FetchPickPlaceWide_v0_type1-INFOGSDR_PPOBC-32-32-tanh_cr10_no1_es=n_sr0001_rc0.80_reg01_ds0.100_s5/09.30_15.29.20/models/ckpt_policy_T10000000.pt
+0_fetchpickplacewide_v0_type1-infogsdr_ppobc-32-32-tanh_cr10_no1_es=n_sr0001_rc0.80_reg01_ds0.100_s5
+v_data: 0
+Inferred from ckptpath name:
+il_method: infogsdr
+rl_method: ppobc
+activation: tanh
+hidden_size: [32, 32]
+norm_obs: 1
+info_loss_type: None
+encode_sampling: normal
+normalize_code: 0
+tl_emb: 0
+TRAINED C_DATA: 1
+ARG C_DATA: 1
+Using (32, 32) tanh networks.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+args.encode_dim: 2
+Policy model is loaded from logs_data/28fetchv2/greg/rr/run_2023-09-30_02-29-17/run_ae92b_00054_54_dl_scale=0.1000,dr_cc=0.8000,seed=5_2023-09-30_14-10-46/results_IL/FetchPickPlaceWide/INFOGSDR_PPOBC/0_FetchPickPlaceWide_v0_type1-INFOGSDR_PPOBC-32-32-tanh_cr10_no1_es=n_sr0001_rc0.80_reg01_ds0.100_s5/09.30_15.29.20/models/ckpt_policy_T10000000.pt
+***** Max Ep Steps: 1000 args.seed 1 test_seed 2 *****
+*** budgets = [10, 20, 30, 40, 50] NPARALLEL = 50 n_test_episodes = 1 ***
+***** num zs = 1500 *****
+***** args.encode_sampling = normal *****
+obj_pos_y [0.43 0.59 0.75 0.91 1.07]
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+State dim: 34, action dim: 4, action bound 1
+Use state-normalized environments.
+zvs shape 1500
+RT -8.792709782270821 3.589294524393689 -6.1832595049693255 -52.067097148487065
+LR -0.029509444604941856 0.05852609373167439 -8.4432672184942e-06 -0.668601686229476
+VL-std-all 0.0 0.0
+*** budget = 10
+VL10-1 0.09439638399849844 0.03687076344829209
+RT-VL10-1 -8.408913602618451 1.0567704487420646 -6.799683603956912 -12.304417261746888
+VL10-2 0.022582441355964527 0.018120302442073605
+RT-VL10-2 -8.222629677418956 0.6009236119116923 -6.702933786090237 -10.602608991388001
+VL10-3 0.024737199278289802 0.02650318729225354
+RT-VL10-3 -10.71888916483902 6.445602457576015 -6.286726257210169 -39.59661241940393
+VL10-4 0.030642848574724386 0.026285657894584834
+RT-VL10-4 -8.301508171626812 2.4119683050426275 -6.699592521259055 -36.805129474491146
+VL10-5 0.06003946429406458 0.045469161028229295
+RT-VL10-5 -9.413929862784917 4.659182139669342 -6.953344830703066 -52.067097148487065
+VL10-all 0.04647966750030834 0.02747543260630127
+RT-VL10-all -9.013174095857632 0.9556807720364752 -8.222629677418956 -10.71888916483902
+*** budget = 20
+VL20-1 0.07474420298519766 0.022163576583138663
+RT-VL20-1 -8.80185815676085 1.2047913165720536 -7.143394862203564 -12.304417261746888
+VL20-2 0.012339353633378755 0.010471519129139278
+RT-VL20-2 -8.298204752684056 0.446318893679371 -6.702933786090237 -9.167094885971988
+VL20-3 0.010881887530546709 0.011294622497083923
+RT-VL20-3 -11.438455059969693 6.558445166333713 -6.290320490863721 -39.59661241940393
+VL20-4 0.01613353574740724 0.012800551089115653
+RT-VL20-4 -8.617303492572324 3.313448961196355 -7.252564850298291 -36.805129474491146
+VL20-5 0.03723061440326539 0.022020424778279677
+RT-VL20-5 -10.061666965856691 5.07654374193311 -7.074426220792711 -52.067097148487065
+VL20-all 0.030265918859959152 0.024181196854493457
+RT-VL20-all -9.443497685568724 1.1634416372430443 -8.298204752684056 -11.438455059969693
+*** budget = 30
+VL30-1 0.06777059406298651 0.01941342558050751
+RT-VL30-1 -9.041168707723537 1.1243661756611643 -7.2073065711887665 -11.450887751542165
+VL30-2 0.0070642701464271405 0.005593031537276244
+RT-VL30-2 -8.378364725340619 0.38336194167891435 -6.872731625571647 -9.167094885971988
+VL30-3 0.006882050693054171 0.007723906216398658
+RT-VL30-3 -11.982409349872855 6.344809594472321 -6.499351954209951 -31.98188557910373
+VL30-4 0.01303478585809925 0.011338435428254993
+RT-VL30-4 -8.205430535350715 0.4466806498902461 -7.252564850298291 -9.599735393851878
+VL30-5 0.031137052603004242 0.018935003265201894
+RT-VL30-5 -10.71167381159854 6.062660230338364 -7.074426220792711 -52.067097148487065
+VL30-all 0.02517775067271426 0.023064891053614416
+RT-VL30-all -9.663809425977254 1.4588244520016498 -8.205430535350715 -11.982409349872855
+*** budget = 40
+VL40-1 0.06269074327243575 0.01613744082715745
+RT-VL40-1 -9.324525554838603 1.1327053621264884 -7.558693574727986 -11.450887751542165
+VL40-2 0.006334859327848515 0.005486352191798392
+RT-VL40-2 -8.394305919605946 0.3508603895406262 -7.002189157723821 -9.167094885971988
+VL40-3 0.004821849588069529 0.005486169370232055
+RT-VL40-3 -12.507095403851059 6.706612229563671 -6.499351954209951 -31.98188557910373
+VL40-4 0.009249588951972686 0.0077423652682981955
+RT-VL40-4 -8.143804170787474 0.40092932636718087 -7.252564850298291 -9.04576738998265
+VL40-5 0.02561614755831573 0.01654883543232686
+RT-VL40-5 -11.425273503203268 6.864669336510633 -7.692485334274458 -52.067097148487065
+VL40-all 0.02174263773972844 0.021778615200735728
+RT-VL40-all -9.959000910457272 1.719797049566741 -8.143804170787474 -12.507095403851059
+*** budget = 50
+VL50-1 0.05986853149820461 0.015913932316048766
+RT-VL50-1 -9.399193874165851 1.099587879073353 -7.785755916323643 -11.450887751542165
+VL50-2 0.005192308315484473 0.004274479194111589
+RT-VL50-2 -8.311790422406254 0.35433338545727155 -6.872731625571647 -8.714883449858702
+VL50-3 0.003764659914177267 0.0041297940390997495
+RT-VL50-3 -13.144329636896089 7.014916701488183 -6.499351954209951 -31.98188557910373
+VL50-4 0.008775931300408778 0.00824832824622768
+RT-VL50-4 -8.163505552752905 0.39443781227489266 -7.252564850298291 -9.016558501671797
+VL50-5 0.023775086660396523 0.015604263000688736
+RT-VL50-5 -11.798861668873194 7.56257707094467 -8.272526765163285 -52.067097148487065
+VL50-all 0.02027530353773433 0.02103428554444637
+RT-VL50-all -10.16353623101886 1.9785208165906962 -8.163505552752905 -13.144329636896089
