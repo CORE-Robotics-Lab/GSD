@@ -1,6 +1,6 @@
 # Guided Strategy Discovery
 
-Public implementation for the paper [Generalized Behavior Learning from Diverse Demonstrations](TODO), published at the [OOD Workshop](https://sites.google.com/stanford.edu/corl2023ood/home?authuser=0) at [CoRL 2023](https://www.corl2023.org/).
+Public implementation for the paper [Generalized Behavior Learning from Diverse Demonstrations](https://openreview.net/pdf?id=5uEkcZZCnk), published at the [OOD Workshop](https://sites.google.com/stanford.edu/corl2023ood/home?authuser=0) at [CoRL 2023](https://www.corl2023.org/).
 
 ## Setup
 
