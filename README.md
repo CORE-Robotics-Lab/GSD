@@ -149,6 +149,6 @@ If you use this work and/or this codebase in your research, please cite as shown
     author={Sreeramdass, Varshith and Paleja, Rohan R and Chen, Letian and Van Waveren, Sanne and Gombolay, Matthew},
     booktitle={First Workshop on Out-of-Distribution Generalization in Robotics at CoRL 2023},
     year={2023},
-    url={TODO}
+    url={https://openreview.net/pdf?id=5uEkcZZCnk}
 }
 ```
