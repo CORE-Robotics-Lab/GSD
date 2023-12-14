@@ -2,6 +2,8 @@
 
 Public implementation for the paper [Generalized Behavior Learning from Diverse Demonstrations](https://openreview.net/pdf?id=5uEkcZZCnk), published at the [OOD Workshop](https://sites.google.com/stanford.edu/corl2023ood/home?authuser=0) at [CoRL 2023](https://www.corl2023.org/).
 
+Update: [Poster](https://varshiths.github.io/res/gsd_corlw_post.pdf) presented at the workshop additionally visualizes characteristics of learned behaviors in FetchPickPlace. Check it out!
+
 ## Setup
 
 Our implementation uses pytorch. We recommend setting up a conda environment. `env.yaml` provides the environment file.
