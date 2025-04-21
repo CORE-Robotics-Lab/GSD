@@ -1,8 +1,8 @@
-# Guided Strategy Discovery
+# Guided Strategy Discovery 
 
-Public implementation for the paper [Generalized Behavior Learning from Diverse Demonstrations](https://openreview.net/pdf?id=5uEkcZZCnk), published at the [OOD Workshop](https://sites.google.com/stanford.edu/corl2023ood/home?authuser=0) at [CoRL 2023](https://www.corl2023.org/).
+Public implementation for the paper [Generalized Behavior Learning from Diverse Demonstrations](https://openreview.net/pdf?id=5uEkcZZCnk), published at the [OOD Workshop](https://sites.google.com/stanford.edu/corl2023ood/home?authuser=0) at [CoRL 2023](https://www.corl2023.org/). Poster presented at the workshop is linked [here](https://varshiths.github.io/res/gsd_corlw_post.pdf).
 
-Update: [Poster](https://varshiths.github.io/res/gsd_corlw_post.pdf) presented at the workshop additionally visualizes characteristics of learned behaviors in FetchPickPlace. Check it out!
+***NOTE: Followup work has been published at ICLR 2025! Paper can be found [here](https://openreview.net/pdf?id=Q7EjHroO1w). Code coming soon!***
 
 ## Setup
 
